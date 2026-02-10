@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{8448087AB29FFE14}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sapper_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6894FD7A258B3DC9}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6894FD7A256389C3}" {
+      m_sVariantPrefab "{8448087AB29FFE14}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sapper_1.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A250B2BA1}" {
+      m_sVariantPrefab "{E81C3C9A0E5B713A}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sapper_2.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A25303FE1}" {
+      m_sVariantPrefab "{0D80706302BEE651}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sapper_3.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A2522C0D6}" {
+      m_sVariantPrefab "{30B4555B77D26F66}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sapper_4.et"
+     }
+    }
+   }
+  }
+ }
+}

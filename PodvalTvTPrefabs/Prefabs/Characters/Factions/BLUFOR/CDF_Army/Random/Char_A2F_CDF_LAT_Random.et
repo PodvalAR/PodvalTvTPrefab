@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{603E4633CA477EA8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6894FD7A6E35D5D0}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6894FD7A6FA3D2ED}" {
+      m_sVariantPrefab "{603E4633CA477EA8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_1.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A6F435C48}" {
+      m_sVariantPrefab "{0C6A72D37683F186}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_2.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A6F1D2BF3}" {
+      m_sVariantPrefab "{E9F63E2A7A6666ED}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_3.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A6F0B98C0}" {
+      m_sVariantPrefab "{D4C21B120F0AEFDA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_4.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{7AB6CF75D8A31BEB}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Rifle_Random.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{F08FADA471F1C7BA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{6894FD7A33CC00CA}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{6894FD7A330C6962}" {
+      m_sVariantPrefab "{F08FADA471F1C7BA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_1.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A333B8137}" {
+      m_sVariantPrefab "{9CDB9944CD354894}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_2.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A3CDBBE3C}" {
+      m_sVariantPrefab "{7947D5BDC1D0DFFF}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_3.et"
+     }
+     SCR_EditableEntityVariant "{6894FD7A3CC35956}" {
+      m_sVariantPrefab "{4473F085B4BC56C8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_4.et"
+     }
+    }
+   }
+  }
+ }
+}

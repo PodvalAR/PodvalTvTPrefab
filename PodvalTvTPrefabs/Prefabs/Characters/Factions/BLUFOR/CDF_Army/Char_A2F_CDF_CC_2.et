@@ -1,0 +1,12 @@
+SCR_ChimeraCharacter : "{51892979952C7127}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_CC_1.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{FFFFA1E00D4DE9D1}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_TSh4_01_open_Balaclava.et"
+    }
+   }
+  }
+ }
+}
