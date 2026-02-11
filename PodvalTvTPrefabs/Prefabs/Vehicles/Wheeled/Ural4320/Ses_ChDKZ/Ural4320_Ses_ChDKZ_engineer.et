@@ -1,0 +1,42 @@
+Vehicle : "{6E9142CD2471741C}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_engineer.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6896B5415291E89B}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{095BB5C61810C99A}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_ChDKZ.emat"
+    }
+    MaterialAssignClass "{6896B5415291E890}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{CB626114BAC06602}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_ChDKZ.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{4CB796271714106F}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_Ses_ChDKZ_engineer.edds"
+    m_sFaction "Ses_ChDKZ"
+    m_aAutoLabels {
+     FACTION_Ses_ChDKZ SIZE_M VEHICLE_TRUCK
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_ChDKZ"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo EngineerBox {
+     Prefab "{AE9B35C2289F1C82}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ses_ChDKZ/Ural4320_Ses_ChDKZ_engineer_box.et"
+    }
+   }
+  }
+ }
+}

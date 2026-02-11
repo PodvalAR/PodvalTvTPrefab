@@ -1,0 +1,23 @@
+SCR_ChimeraCharacter : "{EDA2E05FF70132C0}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68968E26F5EA3309}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68968E26F54FB2DF}" {
+      m_sVariantPrefab "{EDA2E05FF70132C0}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter.et"
+     }
+     SCR_EditableEntityVariant "{6896B56021109D17}" {
+      m_sVariantPrefab "{5F241DA5F5E2925E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter_2.et"
+     }
+     SCR_EditableEntityVariant "{6896B5602ECC3CC0}" {
+      m_sVariantPrefab "{BAB8515CF9070535}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter_3.et"
+     }
+     SCR_EditableEntityVariant "{6896B5602F2C6310}" {
+      m_sVariantPrefab "{878C74648C6B8C02}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Sharpshooter_4.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{4C16F797CC7D1352}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68968E25325C4FC9}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68968E253313FBDC}" {
+      m_sVariantPrefab "{4C16F797CC7D1352}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic.et"
+     }
+     SCR_EditableEntityVariant "{6896B560998B2E7D}" {
+      m_sVariantPrefab "{1011734FAF2446C8}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic_2.et"
+     }
+     SCR_EditableEntityVariant "{6896B560991CCA33}" {
+      m_sVariantPrefab "{F58D3FB6A3C1D1A3}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic_3.et"
+     }
+    }
+   }
+  }
+ }
+}

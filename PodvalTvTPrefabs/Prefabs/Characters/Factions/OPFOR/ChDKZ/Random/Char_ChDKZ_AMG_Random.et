@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{4AC4082AE08DE945}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68968E257F7039D5}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68968E257C211F7A}" {
+      m_sVariantPrefab "{4AC4082AE08DE945}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AMG.et"
+     }
+     SCR_EditableEntityVariant "{6896B5613A05DFA7}" {
+      m_sVariantPrefab "{A33A69493D17C8CE}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AMG_2.et"
+     }
+     SCR_EditableEntityVariant "{6896B5613BDB9E16}" {
+      m_sVariantPrefab "{46A625B031F25FA5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AMG_3.et"
+     }
+    }
+   }
+  }
+ }
+}

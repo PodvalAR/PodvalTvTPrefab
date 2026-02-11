@@ -1,0 +1,20 @@
+SCR_ChimeraCharacter : "{012536103F5B2731}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Crew.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{68968E251D249611}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{68968E251AE5E7A5}" {
+      m_sVariantPrefab "{012536103F5B2731}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Crew.et"
+     }
+     SCR_EditableEntityVariant "{6896B560DC8BBAC9}" {
+      m_sVariantPrefab "{012536103F5B2731}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Crew.et"
+     }
+     SCR_EditableEntityVariant "{6896B560DC64195B}" {
+      m_sVariantPrefab "{586FB82D47D58DF9}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Crew_2.et"
+     }
+    }
+   }
+  }
+ }
+}

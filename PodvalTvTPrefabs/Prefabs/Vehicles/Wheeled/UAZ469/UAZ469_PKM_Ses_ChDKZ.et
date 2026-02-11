@@ -1,0 +1,47 @@
+Vehicle : "{22B327C6752EC4D4}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_PKM_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5EA6B7190FC26C4D}" {
+     SourceMaterial "UAZ469_Body"
+     AssignedMaterial "{5D1F8D0EB9BAF419}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Body_Ses_ChDKZ.emat"
+    }
+    MaterialAssignClass "{5EA6B7190FC26C3C}" {
+     SourceMaterial "UAZ469_Details"
+     AssignedMaterial "{67BEA12C8AFDB65C}Assets/Vehicles/Wheeled/UAZ469/Data/UAZ469_Details_FIA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "Ses_ChDKZ"
+    m_aAutoLabels {
+     FACTION_Ses_ChDKZ SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_ChDKZ"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Door_L01 {
+     Prefab "{57A92B0103C2FDE6}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_L01_bottom.et"
+    }
+    RegisteringComponentSlotInfo Door_R01 {
+     Prefab "{560618ABF492EEF6}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_R01_bottom.et"
+    }
+    RegisteringComponentSlotInfo Door_L02 {
+     Prefab "{7D8D0CA2F52C9BC9}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_L02_bottom.et"
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Prefab "{7C223F08027C88D9}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/ChDKZ/UAZ469_ChDKZ_door_R02_bottom.et"
+    }
+    RegisteringComponentSlotInfo FIA_CoatOfArms_decal {
+     Prefab "{B586B45880EE8BA6}Prefabs/Vehicles/Wheeled/UAZ469/VehParts/Doors/FIA/UAZ469_ChDKZ_CoatOfArms_decal.et"
+    }
+   }
+  }
+ }
+}

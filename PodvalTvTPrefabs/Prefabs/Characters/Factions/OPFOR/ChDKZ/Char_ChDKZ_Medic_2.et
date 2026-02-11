@@ -1,0 +1,24 @@
+SCR_ChimeraCharacter : "{4C16F797CC7D1352}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{6ED66E4BF74756C0}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_01_base.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{AE4A4446787BFB2D}Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6895089E4D87A991}" {
+     TargetStorage "Pants/Pants_M88_VSR.et"
+    }
+    ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
+    }
+   }
+  }
+ }
+}

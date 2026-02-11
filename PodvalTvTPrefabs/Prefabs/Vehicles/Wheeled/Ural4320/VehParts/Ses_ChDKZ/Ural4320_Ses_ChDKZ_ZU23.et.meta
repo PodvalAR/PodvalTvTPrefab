@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{AC2C58DA505FF2BA}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ses_ChDKZ/Ural4320_Ses_ChDKZ_ZU23.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

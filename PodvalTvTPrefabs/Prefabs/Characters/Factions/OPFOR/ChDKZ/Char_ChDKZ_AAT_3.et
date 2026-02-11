@@ -1,0 +1,22 @@
+SCR_ChimeraCharacter : "{C07BBFF1F74BE3FA}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{B4D5A70A1B7CAC15}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_Camonet_Balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{4E9265FECBCC99D8}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ_W_rolledup.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6896674CC7107619}" {
+     TargetStorage "Jacket/Jacket_M88_ChDKZ_W_rolledup.et"
+    }
+   }
+  }
+ }
+}
