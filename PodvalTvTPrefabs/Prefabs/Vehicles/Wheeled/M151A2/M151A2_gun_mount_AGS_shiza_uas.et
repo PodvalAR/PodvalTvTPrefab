@@ -65,6 +65,7 @@ Turret : "{FA592DE93894B876}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount.et"
   }
   SCR_TurretControllerComponent "{51ACD09C61C183E4}" {
    LimitsHoriz -45 45
+   LimitsVert -8 40
   }
   SCR_UniversalInventoryStorageComponent "{548680978A2448D1}" {
    Attributes SCR_ItemAttributeCollection "{5916ADF7BDCBDD9F}" {

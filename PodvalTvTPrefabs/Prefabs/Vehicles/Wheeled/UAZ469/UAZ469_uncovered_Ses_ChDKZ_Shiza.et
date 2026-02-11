@@ -21,6 +21,16 @@ Vehicle : "{E28501E93F8EFDC0}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_FIA_uncovere
     }
    }
   }
+  SCR_UniversalInventoryStorageComponent "{5AD4F813E67ECB5D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{68975898D82C240B}" {
+     SlotTemplate InventoryStorageSlot M2 {
+      Prefab "{CC7F787C3ECF678F}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4Ball_1Tracer.et"
+     }
+     NumSlots 5
+    }
+   }
+  }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
    "faction affiliation" "Ses_ChDKZ"
   }
