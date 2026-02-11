@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{6B01753E94EA0106}Prefabs/Characters/Factions/OPFOR/USSR_Army/Character_ChDKZ_Base.et"
+ Name "{BC2FC70C961278D0}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Base.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -9,7 +9,11 @@ MetaFileClass {
   }
   EntityTemplateResourceClass PS4 : PC {
   }
+  EntityTemplateResourceClass PS5 : PC {
+  }
   EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
