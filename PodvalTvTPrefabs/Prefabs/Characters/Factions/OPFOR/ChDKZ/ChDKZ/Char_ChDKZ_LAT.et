@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "Легкий гранатомет"
+    Icon "{008BB91082025119}UI/Icons/engineer-1.edds"
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{1F8C2FA53797C7AA}Prefabs/Characters/HeadGear/Helmet_SSh68_01/Helmet_SSh68_Net_Balaclava.et"
+    }
+    LoadoutSlotInfo Jacket {
+     Prefab "{EFC35FA4B1DFA562}Prefabs/Characters/Uniforms/ChDKZ/Jacket_M88_ChDKZ_W.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{AE4A4446787BFB2D}Prefabs/Characters/Uniforms/Pants_M88_VSR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6895089E4D87A991}" {
+    }
+    ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
+    }
+    ItemsInitConfigurationItem "{6896674CC7107619}" {
+     TargetStorage "Jacket/Jacket_M88_ChDKZ_W.et"
+    }
+   }
+  }
+ }
+}

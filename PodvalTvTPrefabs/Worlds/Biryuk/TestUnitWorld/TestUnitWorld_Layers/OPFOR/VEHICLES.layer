@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{4F449D668BC1F016}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_PL.et" {
+ coords 121.11 1 175.943
+}
+SCR_ChimeraCharacter : "{7962B9884187FB8E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_PL.et" {
+ coords 120.185 1 175.968
+}
+SCR_ChimeraCharacter : "{DA9F69A8160823DB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Officer.et" {
+ coords 120.157 1 177.634
+}

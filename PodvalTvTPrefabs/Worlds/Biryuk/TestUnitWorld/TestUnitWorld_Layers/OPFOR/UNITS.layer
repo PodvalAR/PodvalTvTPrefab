@@ -1,0 +1,62 @@
+$grp SCR_ChimeraCharacter {
+ {
+  coords 121.78 1 165.627
+ }
+ {
+  coords 122.173 1 167.403
+ }
+ {
+  coords 123.634 1 173.094
+ }
+}
+GenericEntity : "{07E67141E21E6193}Prefabs/Items/Equipment/Radios/Radio_RF10_ChDKZ.et" {
+ coords 127.235 1 172.007
+}
+GenericEntity : "{25503A55ED2D1295}Prefabs/Items/Equipment/Radios/Radio_R148_ChDKZ_Multi.et" {
+ coords 127.835 1 172.121
+}
+$grp SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_Rifleman.et" {
+ {
+  coords 123.464 1 167.436
+ }
+ {
+  coords 122.019 1 170.478
+ }
+}
+GenericEntity : "{633583A042F34007}Prefabs/Weapons/Magazines/AKM/Magazine_762x39_AK_30rnd_Last_5Tracer.et" {
+ coords 121.11 1 171.625
+}
+GenericEntity : "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" {
+ coords 121.171 1.053 171.914
+ angles 0 43.515 0
+}
+GenericEntity : "{6BF86A2FEA72C8F4}Prefabs/Items/Equipment/Radios/Radio_R148_ChDKZ_Singl.et" {
+ coords 127.49 1 172.058
+}
+SCR_AIGroup : "{7EC5F497ECBF9E36}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Base.et" {
+ coords 126.108 1 172.925
+ m_aUnitPrefabSlots +{
+  "{EDA2E05FF70132C0}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_Sharpshooter.et"
+  "{AB42C807F3B5FD1F}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_SR.et"
+  ""
+  ""
+  ""
+ }
+}
+SCR_ChimeraCharacter : "{BC2FC70C961278D0}Prefabs/Characters/Factions/OPFOR/ChDKZ/ChDKZ/Char_ChDKZ_Base.et" {
+ coords 120.785 1 167.165
+}
+$grp GenericEntity : "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et" {
+ {
+  coords 121.254 1 171.683
+ }
+ {
+  coords 120.96 1 171.681
+ }
+}
+SCR_ChimeraCharacter : "{E07C00115C60CA1E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_SL.et" {
+ coords 122.796 1 173.137
+}
+SCR_ChimeraCharacter : "{FC8129BEC88601E4}Prefabs/Characters/Factions/OPFOR/ChDKZ/Character_ChDKZ_Rifleman.et" {
+ coords 120.463 1 170.521
+}
