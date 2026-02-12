@@ -1,3 +1,31 @@
 Vehicle : "{6CC21EBAB10F2A8A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_ChDKZ.et" {
  ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo MortarAmmo1 {
+     Offset -0.4947 0.9243 -1.5138
+     Angles 90 90 0
+     Prefab "{7DF4266A58BF088F}Prefabs/Props/Military/AmmoBoxes/AmmoBox_82mm_mortar_3rnd.et"
+    }
+    RegisteringComponentSlotInfo MortarGUN {
+     Offset -0.0884 0.9075 -1.3165
+     Angles -2.3668 90 0
+     Prefab "{F62E5FBCD723FF73}Prefabs/Items/Equipment/Mortars/2B14/Part_2B14_Barrel.et"
+    }
+   }
+  }
+ }
 }
