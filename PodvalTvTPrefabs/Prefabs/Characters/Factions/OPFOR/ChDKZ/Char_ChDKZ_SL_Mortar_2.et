@@ -1,0 +1,28 @@
+SCR_ChimeraCharacter : "{0EA1BE46E8C8A843}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL_Mortar.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{D7402E3D0399FF54}Prefabs/Characters/Uniforms/Jacket_M88_VSR.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{5E17C1AE66A6FF00}Prefabs/Characters/Uniforms/Pants_KZS/Pants_KZS.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6895089E4D87A991}" {
+     TargetStorage "Pants/Pants_KZS.et"
+    }
+    ItemsInitConfigurationItem "{6895089E18DAFAEE}" {
+     TargetStorage "Pants/Pants_KZS.et"
+    }
+    ItemsInitConfigurationItem "{6896674CC7107619}" {
+     TargetStorage "Jacket/Jacket_M88_VSR.et"
+    }
+   }
+  }
+ }
+}

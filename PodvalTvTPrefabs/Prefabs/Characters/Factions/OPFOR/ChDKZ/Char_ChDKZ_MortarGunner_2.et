@@ -1,0 +1,18 @@
+SCR_ChimeraCharacter : "{E4357A9E1A2400F5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MortarGunner.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Jacket {
+     Prefab "{34B89390DAD5390B}Prefabs/Characters/Uniforms/Jacket_M88_VSR_rolledup.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6896674CC7107619}" {
+    }
+   }
+  }
+ }
+}
