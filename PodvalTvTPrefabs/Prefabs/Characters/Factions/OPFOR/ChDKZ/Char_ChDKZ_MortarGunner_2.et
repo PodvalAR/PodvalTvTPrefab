@@ -11,6 +11,7 @@ SCR_ChimeraCharacter : "{E4357A9E1A2400F5}Prefabs/Characters/Factions/OPFOR/ChDK
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6896674CC7107619}" {
+     TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
     }
    }
   }

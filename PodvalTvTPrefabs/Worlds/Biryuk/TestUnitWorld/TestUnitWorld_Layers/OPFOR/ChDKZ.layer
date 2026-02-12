@@ -65,15 +65,10 @@ GenericEntity : "{7DF4266A58BF088F}Prefabs/Props/Military/AmmoBoxes/AmmoBox_82mm
 SCR_ChimeraCharacter : "{7F664ED91B6B3638}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AmmoMortar_RANDOM.et" {
  coords 99.361 1 186.689
 }
+Turret : "{8094D99689ABE241}Prefabs/Weapons/Mortars/M252/Mortar_M252.et" {
+ coords 101.083 1 192.027
+}
 SCR_ChimeraCharacter : "{83EAE6369B68DC00}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MortarGunner_2.et" {
- components {
-  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
-   InitialInventoryItems {
-    ItemsInitConfigurationItem "{6896674CC7107619}" {
-    }
-   }
-  }
- }
  coords 101.972 1 191.068
 }
 SCR_ChimeraCharacter : "{85D1C547236D634C}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO_Mortar.et" {
