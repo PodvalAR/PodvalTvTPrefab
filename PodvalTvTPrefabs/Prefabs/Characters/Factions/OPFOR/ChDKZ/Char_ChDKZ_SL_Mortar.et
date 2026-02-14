@@ -1,0 +1,21 @@
+SCR_ChimeraCharacter : "{D65A24FF9626C186}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{00A7A4F3A999A517}Prefabs/Characters/HeadGear/Hat_M88_01/Hat_M88_ChDKZ.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6896674CC7107619}" {
+     PrefabsToSpawn + {
+      "{B41607EAB58A4252}Prefabs/Items/Equipment/BallisticTable/BallisticTable_USSR.et"
+     }
+    }
+   }
+  }
+ }
+}

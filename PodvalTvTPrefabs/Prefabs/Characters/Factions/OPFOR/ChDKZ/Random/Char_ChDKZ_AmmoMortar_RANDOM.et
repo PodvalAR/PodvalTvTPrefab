@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{11A99F8316938F68}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AmmoMortar.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{689878937AB794BE}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{689878937A6B3BC4}" {
+      m_sVariantPrefab "{11A99F8316938F68}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AmmoMortar.et"
+     }
+     SCR_EditableEntityVariant "{689878937BDCB7B3}" {
+      m_sVariantPrefab "{39D30814F9FFF07C}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AmmoMortar_2.et"
+     }
+    }
+   }
+  }
+ }
+}

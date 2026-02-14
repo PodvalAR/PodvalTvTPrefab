@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{E4CA9C82A37840EA}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_ChDKZ_Mortar.et"
+ Name "{E4357A9E1A2400F5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MortarGunner.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

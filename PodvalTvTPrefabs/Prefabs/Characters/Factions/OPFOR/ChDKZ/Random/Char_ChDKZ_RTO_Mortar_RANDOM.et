@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{85D1C547236D634C}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO_Mortar.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_VariantData SCR_EditableEntityVariantData "{689878935841ACCD}" {
+    m_aVariants {
+     SCR_EditableEntityVariant "{689878935904C74C}" {
+      m_sVariantPrefab "{EF9CB2DD71DD44FC}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO_Mortar_2.et"
+     }
+     SCR_EditableEntityVariant "{68987893597130D6}" {
+      m_sVariantPrefab "{EF9CB2DD71DD44FC}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO_Mortar_2.et"
+     }
+    }
+   }
+  }
+ }
+}

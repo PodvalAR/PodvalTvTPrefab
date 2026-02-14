@@ -3,14 +3,12 @@ Turret : "{89BB7489D53FBB6C}Prefabs/Weapons/Core/Mortar_Base.et" {
  components {
   ActionsManagerComponent "{51ACD09C7181BA0B}" {
    additionalActions {
-    SCR_DeployMultiPartInventoryItemAction "{61C6645A71D6D289}" {
+    SCR_DeployMultiPartInventoryItemAction "{65829B8F610A496B}" {
      m_eRequiredGadget NONE
     }
-    DisassembleWeaponAction "{653B30A4D420E472}" {
+    DisassembleWeaponAction "{653B2CE8B931E0FA}" {
      ParentContextList {
      }
-     VisibilityRange 0
-     Duration 0
     }
    }
   }
