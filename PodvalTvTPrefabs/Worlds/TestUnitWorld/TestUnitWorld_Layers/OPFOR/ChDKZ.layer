@@ -1,0 +1,15 @@
+SCR_AIGroup : "{45C4A9C03900631E}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Motorized.et" {
+ coords 20 1 42
+}
+SCR_AIGroup : "{68FC03D21BDA0859}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_RifleSquad.et" {
+ coords 20 1 40
+}
+SCR_AIGroup : "{717209E1202918AE}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_MortarSquad.et" {
+ coords 20 1 44
+}
+SCR_AIGroup : "{BBD03C84805699CA}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_CREW.et" {
+ coords 20 1 46
+}
+SCR_AIGroup : "{BF97ECB4D954314C}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_HQ_PL.et" {
+ coords 20 1 48
+}
