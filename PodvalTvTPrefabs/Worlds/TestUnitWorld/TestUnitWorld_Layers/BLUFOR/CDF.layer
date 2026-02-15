@@ -1,0 +1,15 @@
+SCR_AIGroup : "{3F29EA2D79388D65}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Motorized.et" {
+ coords 20 1 22
+}
+SCR_AIGroup : "{6449AAD99869C0D5}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Squad.et" {
+ coords 20 1 24
+}
+SCR_AIGroup : "{6BF534002C76924B}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Heli.et" {
+ coords 20 1 26
+}
+SCR_AIGroup : "{D9730178DE0EFF27}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_All.et" {
+ coords 20 1 20
+}
+SCR_AIGroup : "{F2ABAC37E4537895}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_PL.et" {
+ coords 20 1 28
+}
