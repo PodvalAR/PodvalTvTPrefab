@@ -461,5 +461,68 @@ StringTable {
    Author "123va"
    LastChanged "123va"
   }
+  CustomStringTableItem "{68A124C21AC02F8F}" {
+   Id "PDVL_Squad_Adeptus_Mechanicus"
+   Target_ru_ru "Инженерное отделение"
+   Modified 1755395480
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124CFDB747C36}" {
+   Id "PDVL_Squad_AGS"
+   Target_ru_ru "Гранатометный расчет"
+   Modified 1755395182
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124CFE251228F}" {
+   Id "PDVL_Squad_BigMG"
+   Target_ru_ru "Расчет крупнокалиберного пулемета"
+   Modified 1755395349
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124C08A3A5D18}" {
+   Id "PDVL_Squad_Crew"
+   Target_ru_ru "Экипаж боевой машины"
+   Modified 1755395427
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124C03245A1A4}" {
+   Id "PDVL_Squad_Medic"
+   Target_ru_ru "Медицинский отряд"
+   Modified 1755395095
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124C17041E2B8}" {
+   Id "PDVL_Squad_Mortar"
+   Target_ru_ru "Минометный расчет"
+   Modified 1755394729
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124C1C78C6B52}" {
+   Id "PDVL_Squad_Motorized"
+   Target_ru_ru "Мотострелковое отделение"
+   Modified 1755394288
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124C1647FE16A}" {
+   Id "PDVL_Squad_Pilot"
+   Target_ru_ru "Экипаж вертолета"
+   Modified 1755394752
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A124C18D0A5875}" {
+   Id "PDVL_Squad_PLHQ"
+   Target_ru_ru "Штаб взвода"
+   Modified 1755394771
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
  }
 }
