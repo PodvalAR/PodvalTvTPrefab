@@ -26,28 +26,23 @@ SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS
      TargetStorage "Pants/BDU_PANTS_OD.et"
     }
     ItemsInitConfigurationItem "{6674AB936384366B}" {
-     PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB936DC36034}" {
-     PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB93720B0C58}" {
-     PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB93D0D0C06A}" {
-     PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB93D11944BD}" {
-     PrefabsToSpawn {
-      "{03D467E505692C3F}Prefabs/Weapons/Magazines/AK103_magazine/Magazine_762x39_plastic_AK_30rnd_57N231.et"
+     PrefabsToSpawn +{
      }
     }
    }

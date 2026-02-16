@@ -52,8 +52,7 @@ SCR_ChimeraCharacter : "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS
     }
     ItemsInitConfigurationItem "{6674AB81F0AC56CE}" {
      TargetStorage "Back/Backpack_511_rush12_black.et"
-     PrefabsToSpawn {
-      "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{68CFC7B6DE0CC75F}Prefabs/Weapons/Magazines/Magazine_762x51_FAL_Commonwealth_20rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et" "{046AA0F20A54842A}Prefabs/Weapons/Magazines/Magazine_9x19_MP5_30rnd_Ball.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB891B478E9F}" {
@@ -66,8 +65,7 @@ SCR_ChimeraCharacter : "{64939E91A79CC168}Prefabs/Characters/Factions/INDFOR/RHS
     }
     ItemsInitConfigurationItem "{6674AB891E1F2396}" {
      TargetStorage "Back/Backpack_511_rush12_black.et"
-     PrefabsToSpawn {
-      "{0AD3E2DA8AC47BAF}Prefabs/Items/Equipment/RangeCard/RangeCard_L1A1.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB8975521805}" {

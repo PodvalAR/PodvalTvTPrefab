@@ -27,14 +27,12 @@ SCR_ChimeraCharacter : "{00F47F72680EB992}Prefabs/Characters/Factions/INDFOR/RHS
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6286835946BBC091}" {
      TargetStorage "Pants/Civi_Jeans_Blue_Ripped.et"
-     PrefabsToSpawn {
-      "{922F95F91943F69A}Prefabs/Items/Equipment/Maps/PaperMap_01_folded_US.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/Radio/Pouch_AVS_MBITR_Radio_Blk.et"
-     PrefabsToSpawn {
-      "{88184F34B71C4C03}Prefabs/Items/Equipment/Radios/drg_Radio_ANPRC152A_OLD_prv_PMC.et"
+     PrefabsToSpawn +{
      }
     }
    }

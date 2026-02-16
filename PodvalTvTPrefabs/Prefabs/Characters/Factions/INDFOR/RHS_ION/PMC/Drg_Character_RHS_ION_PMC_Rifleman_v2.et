@@ -10,7 +10,7 @@ SCR_ChimeraCharacter : "{DE2B5F2836908469}Prefabs/Characters/Factions/INDFOR/RHS
      Prefab "{75297D1CED46CE60}Prefabs/Characters/Uniforms/Pants_M88_vietnam_blk.et"
     }
     LoadoutSlotInfo Boots {
-     Prefab "{934C7275AC865817}Prefabs/Characters/Footwear/Boots_BCT/Footwear_BCT.et"
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
     }
    }
   }

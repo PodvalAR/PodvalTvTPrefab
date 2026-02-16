@@ -17,32 +17,27 @@ SCR_ChimeraCharacter : "{352765E58A0E08C8}Prefabs/Characters/Factions/INDFOR/RHS
     ItemsInitConfigurationItem "{6674AB81F0AC56CE}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/Pouch1/Pouch_avs_front_elastic_Blk.et"
      TargetPurpose 1
-     PrefabsToSpawn {
-      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB891B478E9F}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/flex2/Pouch_PCGEN3_takoPouch_MCBlk.et"
-     PrefabsToSpawn {
-      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB89183E1F62}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/tako/Pouch_PCGEN3_takoPouch_MCBlk.et"
-     PrefabsToSpawn {
-      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB891E1F2396}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/mbitr/Pouch_PCGEN3_takoPouch_MCBlk.et"
-     PrefabsToSpawn {
-      "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et" "{C632D04DD25D3ABF}Prefabs/Weapons/Magazines/Pmag/Magazine_556x45_PmagWindowed_30rnd_M855A1.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB8975521805}" {
      TargetStorage "Vest/drg_Vest_AVS_Blk_NoBelt_Light.et/raid/Pouch_Shaw_Raid_MCBlk.et"
-     PrefabsToSpawn {
-      "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+     PrefabsToSpawn +{
      }
     }
    }

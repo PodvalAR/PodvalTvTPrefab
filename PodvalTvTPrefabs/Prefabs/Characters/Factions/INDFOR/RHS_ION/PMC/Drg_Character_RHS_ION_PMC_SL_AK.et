@@ -1,4 +1,4 @@
-SCR_ChimeraCharacter : "{C93933F61E9BB845}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL_AK.et" {
+SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_Rifleman_AK_v1.et" {
  ID "520EC961A090B1EE"
  components {
   SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
@@ -25,6 +25,12 @@ SCR_ChimeraCharacter : "{C93933F61E9BB845}Prefabs/Characters/Factions/INDFOR/RHS
    Slots {
     LoadoutSlotInfo Jacket {
      Prefab "{EC0E9011A76BD495}Prefabs/Characters/Uniforms/Parka_Night/Night_parka_black1.et"
+    }
+    LoadoutSlotInfo Pants {
+     Prefab "{75297D1CED46CE60}Prefabs/Characters/Uniforms/Pants_M88_vietnam_blk.et"
+    }
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
     }
    }
   }

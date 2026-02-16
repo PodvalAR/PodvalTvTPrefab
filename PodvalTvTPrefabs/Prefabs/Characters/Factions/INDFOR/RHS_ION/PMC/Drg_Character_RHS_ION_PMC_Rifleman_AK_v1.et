@@ -17,6 +17,9 @@ SCR_ChimeraCharacter : "{352765E58A0E08C8}Prefabs/Characters/Factions/INDFOR/RHS
     LoadoutSlotInfo Pants {
      Prefab "{AEA8D05BF2DC8CF2}Prefabs/Characters/Uniforms/Gorka_pants/Gorka_pants_base.et"
     }
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{035BA1DCD911D216}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_preset_black_AK.et"
     }
@@ -32,56 +35,47 @@ SCR_ChimeraCharacter : "{352765E58A0E08C8}Prefabs/Characters/Factions/INDFOR/RHS
     }
     ItemsInitConfigurationItem "{6674AB936384366B}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch1/Pouch_Taktika_magpouch_morphed_BLK.et"
-     PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB936DC36034}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch2/Pouch_Taktika_magpouch_morphed_BLK.et"
-     PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB93720B0C58}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch3/Pouch_Taktika_magpouch_morphed_BLK.et"
-     PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB93D0D0C06A}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouch4/Pouch_Taktika_magpouch_open_BLK.et"
-     PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB93D11944BD}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouchvest/Pouch_ArsArma_magouch_morphed_Blk.et"
-     PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB93D15BA312}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pouchvest2/Pouch_ArsArma_magouch_morphed_Blk.et"
-     PrefabsToSpawn {
-      "{B39F57E7FB003434}Prefabs/Weapons/Magazines/AK12_magazine/Magazine_545x39_AK12_30rnd_Base.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB923A59375A}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/holster/Pouch_Taktika_holster_BLK.et"
-     PrefabsToSpawn {
-      "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB923A9BA522}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pistol1/Pouch_Taktika_magpouch_pistol_BLK.et"
-     PrefabsToSpawn {
-      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     PrefabsToSpawn +{
      }
     }
     ItemsInitConfigurationItem "{6674AB923AC98D01}" {
      TargetStorage "Vest/Vest_Taktika_preset_black_AK.et/pistol2/Pouch_Taktika_magpouch_pistol_BLK.et"
-     PrefabsToSpawn {
-      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     PrefabsToSpawn +{
      }
     }
    }

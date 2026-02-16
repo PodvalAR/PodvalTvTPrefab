@@ -9,5 +9,12 @@ SCR_ChimeraCharacter : "{C0DA7C2C2D87A2D2}Prefabs/Characters/Factions/INDFOR/RHS
   CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
    WeaponTemplate "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
   }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{21B331B5FA807997}Prefabs/Characters/Footwear/Boots_Rocky_SV2/Footwear_Rocky_SV2.et"
+    }
+   }
+  }
  }
 }
