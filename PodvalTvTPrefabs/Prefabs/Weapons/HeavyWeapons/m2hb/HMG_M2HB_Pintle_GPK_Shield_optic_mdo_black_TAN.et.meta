@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{68D613CCD6AFCD7E}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_Pintle_GPK_Shield_optic_mdo_black_TAN.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

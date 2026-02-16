@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{A9362C0695AF8DD2}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_Pintle_GPK_optic_pas13g.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

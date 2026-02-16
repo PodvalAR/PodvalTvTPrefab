@@ -1,6 +1,9 @@
 SCR_AIGroup : "{1128EBD3DDFF1D07}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Group_RHS_AFRF_Regular_Motorized.et" {
  coords 60 1 44
 }
+SCR_AIGroup : "{2F436E8AF9EBEAA2}Prefabs/Groups/OPFOR/RHS_AFRF/Recon/Group_RHS_AFRF_GRU.et" {
+ coords 60.003 1 55.994
+}
 SCR_AIGroup : "{496070641528229D}Prefabs/Groups/OPFOR/RHS_AFRF/Regular/Group_RHS_AFRF_Regular_PL.et" {
  coords 60 1 48
 }

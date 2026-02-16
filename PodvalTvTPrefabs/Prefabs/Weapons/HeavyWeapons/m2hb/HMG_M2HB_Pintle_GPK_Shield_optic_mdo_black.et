@@ -1,0 +1,94 @@
+GenericEntity : "{B69AE34A91795A6F}Prefabs/Weapons/HeavyWeapons/m2hb/HMG_M2HB_pintle_M1025_optic_base.et" {
+ ID "476AE74DE20E1061"
+ components {
+  TurretComponent "{6D6D283BE816D8C3}" {
+   components {
+    SCR_2DSightsComponent "{68A138C14EBB99CB}" {
+     SightsPosition PointInfo "{68A138C14EBB99B9}" {
+      PivotID "w_turret_vertical"
+      Offset 0 0.1882 -0.5024
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{68A138C14EBB99BB}" {
+      m_fBaseZoom 6
+      m_fZoomMax 0.1
+     }
+     SightsPointFront PointInfo "{68A138C14EBB99B5}" {
+      PivotID "w_turret_vertical"
+      Offset 0 0.1882 -0.2432
+     }
+     SightsPointRear PointInfo "{68A138C14EBB99B6}" {
+      PivotID "w_turret_vertical"
+      Offset 0 0.1882 -0.4919
+     }
+     CameraRecoilAmount -0.8
+     SightsPriority 1
+     m_sReticleTexture "{25974EBAE8D3FCF5}Assets/Weapons/Attachments/Optics/ta648mdo/data/rhs_mdo_reticle_UI.edds"
+     m_sReticleGlowTexture "{25974EBAE8D3FCF5}Assets/Weapons/Attachments/Optics/ta648mdo/data/rhs_mdo_reticle_UI.edds"
+     m_cReticleTextureIllumination 0.768 0 0 1
+     m_fVignetteScale 1
+     m_bShouldHideParentObject 0
+     m_fVignetteMoveSpeed 6
+     m_fObjectiveFov 3.3
+     m_fReticleAngularSize 2.813
+     m_fReticlePortion 0.61
+     m_fReticleBaseZoom 6
+     m_fMagnification 6
+    }
+   }
+  }
+  SlotManagerComponent "{62115282D57A9676}" {
+   Slots {
+    EntitySlotInfo Turret {
+     PivotID "w_turret_horizontal"
+     Offset -0.0024 -2.077 -0.3552
+     Prefab "{94CAC7D1F7A4D2BA}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Gun_Shield_GPK.et"
+    }
+   }
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{62115283DC65E23E}" {
+     AttachmentSlot InventoryStorageSlot optic {
+      Prefab "{6CC2AB2044189ED1}Prefabs/Weapons/Attachments/Optics/ta648mdo/Optic_TA648MDO_dummy.et"
+     }
+    }
+    AttachmentSlotComponent "{62115283F13D3CD1}" {
+     AttachmentSlot InventoryStorageSlot laser {
+      Prefab "{5AE8F3A22BDB534F}Prefabs/Weapons/Attachments/Lasers/anpeq15/Laser_ANPEQ15_black.et"
+     }
+    }
+    SCR_2DSightsComponent "{621152807183C9F9}" {
+     Enabled 0
+     SightsPosition PointInfo "{68A138C14EBB99AE}" {
+      PivotID "w_turret_vertical"
+      Offset 0 0.1882 -0.2444
+     }
+     SightsFOVInfo SCR_SightsZoomFOVInfo "{68A138C14EBB99AF}" {
+      m_fBaseZoom 6
+     }
+     SightsPointFront PointInfo "{68A138C14EBB99A8}" {
+      PivotID "w_turret_vertical"
+      Offset 0 0.1882 -0.2432
+     }
+     SightsPointRear PointInfo "{68A138C14EBB99A9}" {
+      PivotID "w_turret_vertical"
+      Offset 0 0.1882 -0.4919
+     }
+     CameraRecoilAmount -0.8
+     SightsPriority 1
+     m_sReticleTexture "{25974EBAE8D3FCF5}Assets/Weapons/Attachments/Optics/ta648mdo/data/rhs_mdo_reticle_UI.edds"
+     m_sReticleGlowTexture "{25974EBAE8D3FCF5}Assets/Weapons/Attachments/Optics/ta648mdo/data/rhs_mdo_reticle_UI.edds"
+     m_cReticleTextureIllumination 0.768 0 0 1
+     m_fVignetteScale 1
+     m_bShouldHideParentObject 0
+     m_fVignetteMoveSpeed 6
+     m_fObjectiveFov 3.3
+     m_fReticleAngularSize 2.813
+     m_fReticlePortion 0.61
+     m_fReticleBaseZoom 6
+     m_fMagnification 6
+    }
+   }
+  }
+ }
+}

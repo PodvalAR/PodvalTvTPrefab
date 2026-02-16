@@ -1,0 +1,12 @@
+GenericEntity : "{858504D2A45B440F}Assets/Weapons/HeavyWeapons/M2/HMG_M2HB_Pintle_GPK_Shield.et" {
+ ID "476AE74DE20E1061"
+ components {
+  SlotManagerComponent "{66DEA5ABF1BC81F9}" {
+   Slots {
+    EntitySlotInfo Shield {
+     Prefab "{D5FDCB0253D1555A}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/Gun_Shield_GPK_Tan.et"
+    }
+   }
+  }
+ }
+}

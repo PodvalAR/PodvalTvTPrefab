@@ -3,5 +3,5 @@ SCR_AIGroup : "{7EC5F497ECBF9E36}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Base
  m_aUnitPrefabSlots {
   "{0EA1BE46E8C8A843}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL_Mortar.et" "{11A99F8316938F68}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_AmmoMortar.et" "{E4357A9E1A2400F5}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_MortarGunner.et" "{85D1C547236D634C}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_RTO_Mortar.et"
  }
- m_sCustomNameSet "Минометный расчет"
+ m_sCustomNameSet "#PDVL_Squad_Mortar"
 }
