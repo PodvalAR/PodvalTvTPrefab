@@ -4,6 +4,8 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
   AIFormationComponent "{507E9DC12F541FE6}" {
    DefaultFormation ""
   }
+  PS_GroupCallsignAssigner "{68A0FE57278C3493}" {
+  }
  }
  m_faction "RHS_USAF"
 }
