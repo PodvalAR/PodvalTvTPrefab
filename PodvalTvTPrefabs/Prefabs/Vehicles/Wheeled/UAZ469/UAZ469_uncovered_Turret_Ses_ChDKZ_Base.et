@@ -1,0 +1,45 @@
+Vehicle : "{6CC21EBAB10F2A8A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Ses_ChDKZ.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Door_L02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Door_R02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_01 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_02 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_03 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SupplyStorage_04 {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo SeatsRear {
+     Enabled 0
+    }
+   }
+  }
+  ActionsManagerComponent "{C97BE5489221AE18}" {
+   ActionContexts {
+    UserActionContext "{5AD4F813E67EB6A7}" {
+     Position PointInfo "{5AD4F813E67EB6A4}" {
+      PivotID "v_damper_R02_piston_02"
+     }
+     Radius 0
+     VisibilityAngle 0
+    }
+    UserActionContext "{5AD4F813E67EB6A5}" {
+     Radius 0
+     VisibilityAngle 0
+    }
+   }
+  }
+ }
+}
