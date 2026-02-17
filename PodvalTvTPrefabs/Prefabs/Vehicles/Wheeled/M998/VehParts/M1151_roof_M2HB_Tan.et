@@ -1,0 +1,12 @@
+GenericEntity : "{14A29EF8CC9C7B70}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Tan_PAS13G.et" {
+ ID "66F2D698167A077C"
+ components {
+  SlotManagerComponent "{66F2D6986D44629B}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{7F74105B8736C8E5}Prefabs/Vehicles/Wheeled/M998/VehParts/Turrets/M1151_GPK_Tan_AP.et"
+    }
+   }
+  }
+ }
+}
