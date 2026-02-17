@@ -1,4 +1,4 @@
-GenericEntity : "{26B0336424942AF8}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_1p87_gp25.et" {
+GenericEntity : "{7DA4F10BD7618911}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_b10m_b19n_npz_rail_perst_1p87_gp25_supr.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {

@@ -1,4 +1,4 @@
-GenericEntity : "{BCEF9B6B525600EC}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_b19n_tgpa_SSO.et" {
+GenericEntity : "{754F4367B596B4FA}Prefabs/Weapons/Rifles/AK74M/variants/Rifle_AK74M_npz_b10m_b19n_aimpoint__SSO.et" {
  ID "CFBAA4B725411E45"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {

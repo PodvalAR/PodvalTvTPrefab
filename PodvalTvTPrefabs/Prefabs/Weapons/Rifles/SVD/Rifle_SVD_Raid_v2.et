@@ -1,4 +1,4 @@
-GenericEntity : "{7AF1C4F7220066F9}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_Raid.et" {
+GenericEntity : "{370F886F78B4337D}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_Raid_v2.et" {
  ID "0000000000000001"
  components {
   SCR_WeaponAttachmentsStorageComponent "{51F080D5CE45A1A2}" {
@@ -7,7 +7,7 @@ GenericEntity : "{7AF1C4F7220066F9}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_Raid.et"
      AimingModifierAttributes "{566C7D15A071B88E}" {
       DeploymentPoints {
        PivotPointInfoItem "{5A4C695B72BEBBD8}" {
-        "Point info" DeploymentPointInfo dp : BarrelPointInfo {
+        "Point info" DeploymentPointInfo dp {
          PivotID "Scene_Root"
          Offset 0 0.049 0.3587
         }
@@ -59,8 +59,6 @@ GenericEntity : "{7AF1C4F7220066F9}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_Raid.et"
      }
     }
    }
-  }
-  RHS_WeaponRplComponent "{65C2B15B2D1F0A8C}" {
   }
  }
 }
