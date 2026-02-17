@@ -17,6 +17,8 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
     m_Identity OPFOR
    }
   }
+  PS_GroupCallsignAssigner "{68A3601C92B4A58B}" {
+  }
  }
  coords 0 0 0
  m_faction "Ses_ChDKZ"
