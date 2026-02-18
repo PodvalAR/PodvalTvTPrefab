@@ -1,0 +1,14 @@
+GenericEntity : "{38BE8797791CE635}Prefabs/Weapons/Rifles/M107A1/Barret_M107A1.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{655F10EAC8619D8D}" {
+     AttachmentSlot InventoryStorageSlot Dovetail {
+      Prefab "{9793014B3640A504}Prefabs/Weapons/Attachments/Optics/Vortex/Optic_Vortex_GE.et"
+     }
+    }
+   }
+  }
+ }
+}
