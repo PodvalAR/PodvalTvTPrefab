@@ -39,6 +39,12 @@ Vehicle : "{6CC21EBAB10F2A8A}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Se
      Radius 0
      VisibilityAngle 0
     }
+    UserActionContext "{5AD4F813E67DFD13}" {
+     Radius 0.6
+    }
+    UserActionContext "{5AD4F813E67DFD0D}" {
+     Radius 0.4
+    }
    }
   }
  }

@@ -1,0 +1,53 @@
+Turret : "{C417972C14C5F123}Prefabs/Vehicles/Wheeled/M151A2/M151A2_gun_mount_KORD_UAZ.et" {
+ ID "6D6D283656DBA232"
+ components {
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      VisibilityRange -1
+      CanAggregate 1
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      CanAggregate 1
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       m_bExteriorOnly 0
+      }
+     }
+    }
+   }
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Radius 0.8
+    }
+    UserActionContext "{64DA8061CF9511D5}" {
+     Radius 0.8
+     Height 0
+     LineOfSightCheck 1
+    }
+    UserActionContext "{62BEB8B48A19EEE1}" {
+     Position PointInfo "{62BEB8B4F3710C5F}" {
+      Offset 0.0621 1.5258 -0.2849
+      Angles 0 0 0
+     }
+     Radius 0
+    }
+    UserActionContext "{62BEB8B4D80A0224}" {
+     Radius 0
+    }
+    UserActionContext "{68A4948A19F9D026}" {
+     ContextName "Test"
+     Position PointInfo "{68A494B5DB608FB8}" {
+      PivotID "gunner_idle"
+     }
+     Radius 0.6
+     LineOfSightCheck 1
+    }
+   }
+  }
+ }
+}

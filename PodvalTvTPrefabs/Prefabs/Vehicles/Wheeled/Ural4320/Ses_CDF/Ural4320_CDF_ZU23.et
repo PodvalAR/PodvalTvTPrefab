@@ -1,0 +1,24 @@
+Vehicle : "{89ACA856D113A305}Prefabs/Vehicles/Wheeled/Ural4320/Ses_ChDKZ/Ural4320_ChDKZ_ZU23.et" {
+ ID "0000000000000001"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{68971AD183616D02}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{8E3AE82EEA0525F5}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_CDF.emat"
+    }
+    MaterialAssignClass "{68971AD183616EF3}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{48D010D2764000A0}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_Ses_CDF.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo ChDKZ_CoatOfArms_decal {
+     Prefab "{5FD972638DBB8760}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/CoatOfArms/Ural4320_CDF_CoatOfArms_decal.et"
+    }
+   }
+  }
+ }
+}

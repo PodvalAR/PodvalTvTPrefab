@@ -1,0 +1,176 @@
+GenericEntity : "{E0DDD854DF1DE9E2}Prefabs/Items/Core/DeployablePart_Main_Base.et" {
+ ID "508AB2013EEE1E00"
+ components {
+  MeshObject "{618CCE7DA704C856}" {
+   Object "{13AFBB0D97F4666E}Assets/Weapons/Tripods/6T7/Tripod_6T7.xob"
+   Materials {
+    MaterialAssignClass "{68A36013FA79E4A4}" {
+     SourceMaterial "AK74_Grip"
+     AssignedMaterial "{5181653560412560}Assets/Weapons/Mounts/Mount_6U16/Data/KORD_Grip.emat"
+    }
+    MaterialAssignClass "{68A36013FA79E438}" {
+     SourceMaterial "Tripod_6T7_WoodStock"
+     AssignedMaterial "{DD2CD623975C7C7C}Assets/Weapons/Tripods/6T7/Data/Tripod_6T7_PlasticStock.emat"
+    }
+   }
+  }
+  SCR_DeployableInventoryItemInventoryComponent "{5222EB4D0C73006B}" {
+   Attributes SCR_ItemAttributeCollection "{5222EB4D0A2B466B}" {
+    ItemDisplayName SCR_ItemHintUIInfo "{5222EB4D07D865FA}" {
+     Name "#AR-Item_6T7_Tripod_Name"
+     Description "#TF-EditableEntity_Tripod_6T7_KORD_fix"
+     m_aItemHints {
+      SCR_DeployableHintUIInfo "{6550AB11AF606194}" : "{65CE7844B4359CE0}Configs/Inventory/ItemHints/DeployableItem_MainPart_ItemHint.conf" {
+       Description "#AR-Weapon_NSV_Name,#TF-Vehicle-Weapons-KORD"
+      }
+      SCR_InventoryItemHintUIInfo "{65568825DF1BC290}" : "{CD2C954E8E9D618B}Configs/Inventory/ItemHints/DeployableItem_WearableBackslot_ItemHint.conf" {
+      }
+      SCR_CombiningInventoryItemHintUIInfo "{6594A14747211C42}" : "{81214984C3168F53}Configs/Inventory/ItemHints/DeployableItem_ToolRequirement_ItemHint.conf" {
+       Description "#TF-Weapon-ATGM-assam-name"
+       Icon "{6EAF838A9284890D}UI/Imagesets/Tutorial-Waypoints/Tutorial-Waypoints.imageset"
+       IconSetName "PICKUP"
+      }
+     }
+    }
+    ItemPhysAttributes ItemPhysicalAttributes PhysicalAttributes {
+     Weight 16
+     RestingAdditiveRotationLS 0 0 0
+     RestingAdditiveOffsetLS 0 0 0
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{618CE8B9D3EA28BE}" {
+      CameraDistanceToItem 0.8
+     }
+    }
+   }
+   WbPlacementFromAttributes 0
+   m_vAdditionalDropOffset 0 0 -1
+   m_vAdditionalDropRotation 180 0 0
+  }
+  SCR_MultiPartDeployableItemComponent "{61B46B9C8F38F759}" {
+   m_aVariants {
+    SCR_DeployableVariantContainer "{68A36013FA79E432}" {
+     m_sReplacementPrefab "{F12983FA2F0A61A0}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV.et"
+     m_sPreviewObject "{C1DD26CBDC2FD74B}Prefabs/Items/Equipment/Tripods/6T7/DeployablePreview_Tripod_6T7_NSV.et"
+     m_aRequiredElements {
+      SCR_RequiredDeployablePart "{68A36013FA79E42C}" {
+       m_sPrefab "{184DFCEFE574E775}Prefabs/Items/Equipment/Tripods/6T7/Part_NSV_Gun.et"
+       m_sPartName "#AR-Weapon_NSV_Name"
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.55 0.05 -1.55
+     m_vReplacementPrefabBoundingBoxMaxs 0.55 0.8 0.8
+     m_fMaxAllowedTilt 25
+    }
+    SCR_DeployableVariantContainer "{68A36013FA79E42E}" {
+     m_iVariantId 1
+     m_sReplacementPrefab "{66B35D82EB9B4E28}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_NSV_SPP.et"
+     m_sPreviewObject "{710697B3C5BE9AB8}Prefabs/Items/Equipment/Tripods/6T7/DeployablePreview_Tripod_6T7_NSV_Optic.et"
+     m_aRequiredElements {
+      SCR_AlternativeRequirementsDeployablePart "{68A36013FA79E42F}" {
+       m_sPrefab "{DE6458E8239A3A4A}Prefabs/Items/Equipment/Tripods/6T7/Part_NSV_Gun_Optic.et"
+       m_sPartName "#AR-Weapon_NSV_Name + #AR-Item_SPP_Name"
+       m_AlternativeRequirement SCR_ComboRequiredDeployableParts "{68A36013FA79E428}" {
+        m_sPrefab "{184DFCEFE574E775}Prefabs/Items/Equipment/Tripods/6T7/Part_NSV_Gun.et"
+        m_sPartName "#AR-Weapon_NSV_Name"
+        m_sOtherPrefab "{B623482E2704B69A}Prefabs/Weapons/Attachments/Optics/Optic_SPP/Optic_SPP.et"
+        m_sOtherPartName "#AR-Item_SPP_Name"
+       }
+       m_bCanMix 0
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.55 0.05 -1.55
+     m_vReplacementPrefabBoundingBoxMaxs 0.55 0.8 0.8
+     m_fMaxAllowedTilt 25
+    }
+    SCR_DeployableVariantContainer "{68A36013FA79E42B}" {
+     m_iVariantId 2
+     m_sReplacementPrefab "{72E37D5D152864A1}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_KORD.et"
+     m_sPreviewObject "{EA90CD6CBBCAEAAE}Prefabs/Items/Equipment/Tripods/6T7/DeployablePreview_Tripod_KORD.et"
+     m_aRequiredElements {
+      SCR_RequiredDeployablePart "{68A36013FA79821E}" {
+       m_sPrefab "{2D14F4E40E9F21A9}Prefabs/Items/Equipment/Tripods/6T7/Part_KORD.et"
+       m_sPartName "#TF-Vehicle-Weapons-KORD"
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.55 0.05 -1.55
+     m_vReplacementPrefabBoundingBoxMaxs 0.55 0.8 0.8
+     m_fMaxAllowedTilt 25
+    }
+    SCR_DeployableVariantContainer "{68A36013FA798211}" {
+     m_iVariantId 3
+     m_sReplacementPrefab "{CB76594700021AD3}Prefabs/Weapons/Tripods/6T7/Deployable_Tripod_6T7_KORD_SPP.et"
+     m_sPreviewObject "{921EFADC19DE6568}Prefabs/Items/Equipment/Tripods/6T7/DeployablePreview_Tripod_KORD_Optic.et"
+     m_aRequiredElements {
+      SCR_AlternativeRequirementsDeployablePart "{68A36013FA798213}" {
+       m_sPrefab "{61F16B252582BDF4}Prefabs/Items/Equipment/Tripods/6T7/Part_KORD_Gun_Optic.et"
+       m_sPartName "#TF-Vehicle-Weapons-KORD + #AR-Item_SPP_Name"
+       m_AlternativeRequirement SCR_ComboRequiredDeployableParts "{68A36013FA798212}" {
+        m_sPrefab "{2D14F4E40E9F21A9}Prefabs/Items/Equipment/Tripods/6T7/Part_KORD.et"
+        m_sPartName "#TF-Vehicle-Weapons-KORD"
+        m_sOtherPrefab "{B623482E2704B69A}Prefabs/Weapons/Attachments/Optics/Optic_SPP/Optic_SPP.et"
+        m_sOtherPartName "#AR-Item_SPP_Name"
+       }
+       m_bCanMix 0
+      }
+     }
+     m_vReplacementPrefabBoundingBoxMins -0.55 0.05 -1.55
+     m_vReplacementPrefabBoundingBoxMaxs 0.55 0.8 0.8
+     m_fMaxAllowedTilt 25
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{618CCE7DB8D53A4E}" {
+   WornModel "{0E51B2B42FDA7DFD}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Backpack_TeamWeaponBag.xob"
+   WornMaterialsOverride {
+    "{2DF900A321780E41}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Data/Backpack_TeamWeaponBag_Soviet.emat"
+   }
+   ItemModel "{13AFBB0D97F4666E}Assets/Weapons/Tripods/6T7/Tripod_6T7.xob"
+   ItemMaterialsOverride {
+    "" "{DD2CD623975C7C7C}Assets/Weapons/Tripods/6T7/Data/Tripod_6T7_PlasticStock.emat" "{5181653560412560}Assets/Weapons/Mounts/Mount_6U16/Data/KORD_Grip.emat"
+   }
+   DeflatedModel "{1478285B39FB7CD0}Assets/Items/Equipment/Backpacks/Backpack_TeamWeaponBag/Backpack_TeamWeaponBag_Inflated.xob"
+  }
+  ActionsManagerComponent "{508AB5952B584B2E}" {
+   ActionContexts {
+    UserActionContext "{508AC2ABEC97066C}" {
+     Position PointInfo "{508AC2ABEAC4A0F5}" {
+      Offset 0 0.3586 -0.0515
+      Angles -90 0 180
+     }
+     Radius 0.5
+    }
+   }
+   additionalActions {
+    SCR_DeployMultiPartInventoryItemAction "{61B48E9F0815DDEA}" : "{879ED506E4BB0048}Prefabs/Weapons/Core/Configs/Actions/DeployMultipartInventoryItemAction.conf" {
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Description "#AR-Weapon_NSV_Name"
+     }
+     m_eRequiredGadget NONE
+    }
+    SCR_DeployMultiPartInventoryItemAction "{65568823F9963E85}" : "{879ED506E4BB0048}Prefabs/Weapons/Core/Configs/Actions/DeployMultipartInventoryItemAction.conf" {
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Description "#AR-Weapon_NSV_Name + #AR-Item_SPP_Name"
+     }
+     m_iVariantId 1
+     m_eRequiredGadget NONE
+    }
+    SCR_DeployMultiPartInventoryItemAction "{66C95BCCDDD1BCF9}" : "{879ED506E4BB0048}Prefabs/Weapons/Core/Configs/Actions/DeployMultipartInventoryItemAction.conf" {
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Description "#TF-Vehicle-Weapons-KORD"
+     }
+     m_iVariantId 2
+     m_eRequiredGadget NONE
+    }
+    SCR_DeployMultiPartInventoryItemAction "{66C95BCCD379BD02}" : "{879ED506E4BB0048}Prefabs/Weapons/Core/Configs/Actions/DeployMultipartInventoryItemAction.conf" {
+     UIInfo SCR_ActionContextUIInfo "{61B48E9F567C096C}" {
+      Description "#TF-Vehicle-Weapons-KORD + #AR-Item_SPP_Name"
+     }
+     m_iVariantId 3
+     m_eRequiredGadget NONE
+    }
+   }
+  }
+ }
+ coords 703.393 0.894 16.763
+}
