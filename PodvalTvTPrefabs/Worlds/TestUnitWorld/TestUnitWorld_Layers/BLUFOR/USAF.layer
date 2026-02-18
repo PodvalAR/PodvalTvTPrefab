@@ -1,3 +1,9 @@
+SCR_AIGroup : "{2D64524850E962FC}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/Group_RHS_USAF_Regular_MG.et" {
+ coords 64 1 28
+}
+SCR_AIGroup : "{3CB180F292A52F34}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/Group_RHS_USAF_Regular_Sniper.et" {
+ coords 60 1 28
+}
 SCR_AIGroup : "{3EECAF1E0650D775}Prefabs/Groups/BLUFOR/RHS_USAF/Recon/Group_RHS_USAF_Recon_Squad.et" {
  coords 60 1 32
 }

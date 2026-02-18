@@ -326,17 +326,60 @@ StringTable {
   }
   CustomStringTableItem "{68A3601B068EBD30}" {
    Id "PDVL_Role_NSV_1"
+   Target_en_us "Gunner"
+   Target_fr_fr "Tireur"
+   Target_it_it "Servente"
+   Target_de_de "Richtschütze"
+   Target_es_es "Artillero"
+   Target_cs_cz "Střelec"
+   Target_pl_pl "Celowniczy"
    Target_ru_ru "Первый номер"
+   Target_ja_jp "砲手"
+   Target_ko_kr "포수"
+   Target_pt_br "Atirador"
+   Target_zh_cn "炮手"
+   Target_uk_ua "Навідник"
    Modified 1755538332
    Author "Biryuk"
    LastChanged "Biryuk"
   }
   CustomStringTableItem "{68A3601B07598473}" {
    Id "PDVL_Role_NSV_2"
+   Target_en_us "Ammo Bearer"
+   Target_fr_fr "Porteur de munitions"
+   Target_it_it "Portamunizioni"
+   Target_de_de "Munitionsträger"
+   Target_es_es "Portador de munición"
+   Target_cs_cz "Nosič munice"
+   Target_pl_pl "Nosiciel amunicji"
    Target_ru_ru "Второй номер"
+   Target_ja_jp "弾薬手"
+   Target_ko_kr "탄약수"
+   Target_pt_br "Carregador de munição"
+   Target_zh_cn "弹药手"
+   Target_uk_ua "Підношувач боєприпасів"
    Modified 1755538342
    Author "Biryuk"
    LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68A53B5B0C2956C1}" {
+   Id "PDVL_Role_Observer"
+   Target_en_us "Observer"
+   Target_fr_fr "Observateur"
+   Target_it_it "Osservatore"
+   Target_de_de "Beobachter"
+   Target_es_es "Observador"
+   Target_cs_cz "Pozorovatel"
+   Target_pl_pl "Obserwator"
+   Target_ru_ru "Наблюдатель"
+   Target_ja_jp "観測手"
+   Target_ko_kr "관측수"
+   Target_pt_br "Observador"
+   Target_zh_cn "观察员"
+   Target_uk_ua "Спостерігач"
+   Modified 1755667060
+   Author "Gubastus"
+   LastChanged "Gubastus"
   }
   CustomStringTableItem "{68A00A6FAD323DCA}" {
    Id "PDVL_Role_Officer"
@@ -663,7 +706,19 @@ StringTable {
   }
   CustomStringTableItem "{68A3601B7591E053}" {
    Id "PDVL_Squad_NSV"
+   Target_en_us "Heavy Machine Gun Crew"
+   Target_fr_fr "Équipe de mitrailleuse lourde"
+   Target_it_it "Equipaggio mitragliatrice pesante"
+   Target_de_de "Schweres Maschinengewehrteam"
+   Target_es_es "Equipo de ametralladora pesada"
+   Target_cs_cz "Obsluha těžkého kulometu"
+   Target_pl_pl "Załowa ciężkiego karabinu maszynowego"
    Target_ru_ru "Расчет крупнокалиберного пулемета"
+   Target_ja_jp "重機関銃班"
+   Target_ko_kr "중기관총 팀"
+   Target_pt_br "Equipe de metralhadora pesada"
+   Target_zh_cn "重机枪小组"
+   Target_uk_ua "Розрахунок великокаліберного кулемета"
    Modified 1755538212
    Author "Biryuk"
    LastChanged "Biryuk"
@@ -708,7 +763,19 @@ StringTable {
   }
   CustomStringTableItem "{68A3366D833A618F}" {
    Id "PDVL_Squad_Rifle"
+   Target_en_us "Rifle Squad"
+   Target_fr_fr "Équipe de fusiliers"
+   Target_it_it "Squadra fucilieri"
+   Target_de_de "Schützengruppe"
+   Target_es_es "Escuadra de fusileros"
+   Target_cs_cz "Střelecké družstvo"
+   Target_pl_pl "Drużyna strzelecka"
    Target_ru_ru "Стрелковое отделение"
+   Target_ja_jp "小銃分隊"
+   Target_ko_kr "소총 분대"
+   Target_pt_br "Esquadra de fuzileiros"
+   Target_zh_cn "步枪班"
+   Target_uk_ua "Стрілецьке відділення"
    Modified 1755531806
    Author "Biryuk"
    LastChanged "Biryuk"
