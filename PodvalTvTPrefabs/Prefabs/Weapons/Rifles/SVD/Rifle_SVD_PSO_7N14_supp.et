@@ -1,4 +1,4 @@
-GenericEntity : "{DFB1E82103B08E7B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14_supp.et" {
+GenericEntity : "{C828F6D563E1A9BE}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO_7N14.et" {
  ID "525494E72B1E90FD"
  components {
   WeaponComponent "{CFBAA4B706BA66E8}" {
