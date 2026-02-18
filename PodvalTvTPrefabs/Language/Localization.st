@@ -324,6 +324,14 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68A4F0990133A957}" {
+   Id "PDVL_Role_Observer"
+   Target_en_us "Observer"
+   Target_ru_ru "Наблюдатель"
+   Modified 1755641933
+   Author "123va"
+   LastChanged "123va"
+  }
   CustomStringTableItem "{68A00A6FAD323DCA}" {
    Id "PDVL_Role_Officer"
    Target_en_us "Officer"
