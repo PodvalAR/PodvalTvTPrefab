@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{86E0D4D7466F22DD}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m80_m62.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

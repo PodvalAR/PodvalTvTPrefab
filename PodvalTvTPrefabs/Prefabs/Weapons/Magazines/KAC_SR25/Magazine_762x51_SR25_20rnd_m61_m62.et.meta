@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{9F39DD07E2860466}Prefabs/Weapons/Ammo/SmallArms/Ammo_762x51_AP_M61.et"
+ Name "{DB3F7C2152770651}Prefabs/Weapons/Magazines/KAC_SR25/Magazine_762x51_SR25_20rnd_m61_m62.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }

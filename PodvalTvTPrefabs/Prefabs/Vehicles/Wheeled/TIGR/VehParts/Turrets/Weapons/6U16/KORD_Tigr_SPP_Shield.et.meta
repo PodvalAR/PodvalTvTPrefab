@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{DC8C6A54E1F0A844}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/6U16/KORD_Tigr_SPP_Shield.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

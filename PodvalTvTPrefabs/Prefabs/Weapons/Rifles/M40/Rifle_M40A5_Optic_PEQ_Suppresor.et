@@ -1,0 +1,19 @@
+GenericEntity : "{56CE827F9AD5880E}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ.et" {
+ ID "5260C45AAAA407F4"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{CA6BE4D6B867541F}" {
+     components {
+      AttachmentSlotComponent "{6264E565462F948E}" {
+       AttachmentSlot InventoryStorageSlot Muzzle {
+        Prefab "{48414BA60F3B0DFA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_FA762SS.et"
+       }
+      }
+     }
+     MagazineTemplate "{EC9E0F22B90013F3}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_M80.et"
+    }
+   }
+  }
+ }
+}

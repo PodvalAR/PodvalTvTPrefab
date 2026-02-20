@@ -1,0 +1,82 @@
+GenericEntity : "{0181144BAFADF5A3}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic_PEQ_Suppresor.et" {
+ coords 65.455 1 13.962
+}
+GenericEntity : "{022D4D7C8DED3412}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC2_TAN.et" {
+ coords 65.099 1 14.916
+}
+GenericEntity : "{18B5482585A88240}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPV/Supressor_TGPV2.et" {
+ coords 64.493 1 15.07
+}
+$grp SCR_ChimeraCharacter : "{283076EBB65C44D9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_AM_Sniper.et" {
+ {
+  coords 61.48 1 14.899
+ }
+ {
+  coords 58.112 1 15.208
+ }
+}
+SCR_ChimeraCharacter : "{283076EBB65C44DA}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Sniper.et" {
+ coords 62.79 1 14.776
+}
+Projectile : "{422EC31DDF1DE583}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG17M.et" {
+ coords 20.878 1 51.976
+}
+GenericEntity : "{48414BA60F3B0DFA}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_FA762SS.et" {
+ coords 65.318 1 14.769
+}
+GenericEntity : "{496576D09C8BC5A6}Prefabs/Weapons/Rifles/M4A1/Rifle_M4A1_RAS_RCO_PEQ.et" {
+ coords 59.365 1 17.538
+}
+GenericEntity : "{6C607325B88CDA9A}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_RC3_TAN.et" {
+ coords 64.735 1 14.892
+}
+$grp GenericEntity : "{727AB5567E71B5C9}Prefabs/Weapons/Attachments/Muzzle/SUREFIRE/SF_FA762SS_TAN.et" {
+ {
+  coords 64.902 1 14.809
+ }
+ {
+  coords 65.056 1 14.49
+ }
+}
+SCR_ChimeraCharacter : "{88E3D251FBF082F9}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Marksman_m110.et" {
+ coords 59.159 1 15.12
+}
+GenericEntity : "{8909A91CFF369BB3}Prefabs/Weapons/Rifles/M40/Rifle_M40A5_Optic.et" {
+ coords 64.162 1.355 14.864
+}
+GenericEntity : "{94909AABD52A245E}Prefabs/Weapons/Attachments/Muzzle/SR3M_Supressor/Supressor_SR3M.et" {
+ coords 64.608 1 15.168
+}
+SCR_AIGroup : "{9A7C95D2382F21A2}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_Mortar.et" {
+ coords 20.077 1 43.918
+ m_aUnitPrefabSlots {
+  "{3A528B885BDFB79E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_SL_Mortar_RANDOM.et"
+  "{15F6255A50457DEB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_MortarGunner_RANDOM.et"
+  "{7F664ED91B6B3638}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_AmmoMortar_RANDOM.et"
+  "{001FAC267F597B6E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_RTO_Mortar_RANDOM.et"
+ }
+}
+SCR_ChimeraCharacter : "{9B278339B1208684}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_LAT_Opt.et" {
+ coords 57.959 1 17.556
+}
+SCR_ChimeraCharacter : "{AEC67AECA3B4E70F}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_Marksman_m27.et" {
+ coords 59.959 1 15.007
+}
+GenericEntity : "{AF0DB10F5FDBE3D6}Prefabs/Weapons/MachineGuns/M249/MG_M249_EXPS3.et" {
+ coords 54.746 1.163 17.293
+}
+GenericEntity : "{B591C94754DB4893}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered_Multicam.et" {
+ coords 64.947 1 15.381
+}
+GenericEntity : "{B9C41AAC90570E50}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS.et" {
+ coords 65.201 1 15.207
+}
+GenericEntity : "{EF8F44E10F9B7A9D}Prefabs/Weapons/Attachments/Muzzle/KAC_NT4_QDSS/KAC_NT4_QDSS_Covered.et" {
+ coords 65.093 1 15.315
+}
+GenericEntity : "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et" {
+ coords 64.598 1 15.259
+}
+SCR_ChimeraCharacter : "{FA7028117A1F69FF}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/Char_RHS_USAF_Regular_GL_Opt.et" {
+ coords 56.667 1 17.419
+}

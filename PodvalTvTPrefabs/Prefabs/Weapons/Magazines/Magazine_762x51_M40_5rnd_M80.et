@@ -1,0 +1,22 @@
+GenericEntity : "{0EC215F0EB3288A6}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_M40_Name (#RHS-Ammo_M80_Name)"
+     Description "#RHS-Magazine_M40_Description #RHS-Ammo_M80_Description"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "M80"
+    m_eAmmoTypeFlags FMJ
+   }
+   AmmoMapping {
+    0 0 0 0 0
+   }
+  }
+ }
+}

@@ -20,6 +20,14 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68A8822D88FCF076}" {
+   Id "PDVL_Role_AM_Sniper"
+   Target_en_us "Hard Target Interdiction Sniper"
+   Target_ru_ru "Снайпер Barret"
+   Modified 1755882860
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A005F788EF99AB}" {
    Id "PDVL_Role_AMG"
    Target_en_us "Assistant Machine Gunner"
@@ -257,15 +265,15 @@ StringTable {
    Target_es_es "Tirador designado"
    Target_cs_cz "Odstřelovač"
    Target_pl_pl "Strzelec wyborowy"
-   Target_ru_ru "Снайпер"
+   Target_ru_ru "Пехотный снайпер"
    Target_ja_jp "狙撃手"
    Target_ko_kr "지정사수"
    Target_pt_br "Atirador designado"
    Target_zh_cn "精确射手"
    Target_uk_ua "Снайпер"
-   Modified 1755322286
+   Modified 1755884211
    Author "Gubastus"
-   LastChanged "Gubastus"
+   LastChanged "Biryuk"
   }
   CustomStringTableItem "{68A005F7971F130D}" {
    Id "PDVL_Role_Medic"
@@ -466,15 +474,15 @@ StringTable {
    Target_es_es "Tirador selecto"
    Target_cs_cz "Odstřelovač"
    Target_pl_pl "Wyborowy"
-   Target_ru_ru "Снайпер"
+   Target_ru_ru "Пехотный снайпер"
    Target_ja_jp "狙撃手"
    Target_ko_kr "저격수"
    Target_pt_br "Atirador especial"
    Target_zh_cn "精确射手"
    Target_uk_ua "Снайпер"
-   Modified 1755318321
+   Modified 1755875685
    Author "Gubastus"
-   LastChanged "Gubastus"
+   LastChanged "Biryuk"
   }
   CustomStringTableItem "{68A005F7FD106CAB}" {
    Id "PDVL_Role_SL"

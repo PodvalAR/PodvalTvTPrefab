@@ -10,7 +10,7 @@ GenericEntity : "{597378E657C7290B}Prefabs/Weapons/Rifles/SR25/Rifle_M110_base.e
     }
     AttachmentSlotComponent "{68A54988357CD357}" {
      AttachmentSlot InventoryStorageSlot bipod {
-      Prefab "{23D34FB66BBC8BEE}Prefabs/Weapons/Attachments/Bipods/harris_bipod/rhs_lt706_harris.et"
+      Prefab ""
      }
     }
     MuzzleComponent "{CA6BE4D6B867541F}" {
