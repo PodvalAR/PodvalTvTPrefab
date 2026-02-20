@@ -54,7 +54,7 @@ SCR_ChimeraCharacter : "{379AE05E0647D8D3}Prefabs/Characters/Factions/OPFOR/ChDK
     ItemsInitConfigurationItem "{6896674CC7107619}" {
      TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
      PrefabsToSpawn {
-      "{540C08AD5F21A5FB}Prefabs/Items/Equipment/Radios/Radio_R148_FIA_Multi.et"
+      "{25503A55ED2D1295}Prefabs/Items/Equipment/Radios/Radio_R148_ChDKZ_Multi.et"
      }
     }
     ItemsInitConfigurationItem "{6896674DBC143BD1}" {
