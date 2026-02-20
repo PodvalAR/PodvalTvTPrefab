@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{B46B17CBE79C9A5E}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Identity Identity "{5584CBC6363C648B}" {
     VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
-     Head "{FEAFB8C6203A0B82}Prefabs/Characters/Heads/Head_White_02_Camo.et"
+     Head "{FEAFB8C6203A0B82}Prefabs/Characters/Heads/Head_White_02/Head_White_02_camo_USSR_01.et"
     }
    }
   }
@@ -42,57 +42,63 @@ SCR_ChimeraCharacter : "{B46B17CBE79C9A5E}Prefabs/Characters/Factions/OPFOR/RHS_
     }
     ItemsInitConfigurationItem "{65F74A085C0037CB}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/radio/Pouch_UP111_radioClosed_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{9BF41F7DE84B7219}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Singl.et"
      }
     }
     ItemsInitConfigurationItem "{65F74A087FB34C8F}" {
      TargetStorage "Jacket/Goblin_jacket_GRN.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A08B01C6603}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/triple/pouch_tv115_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
      }
     }
     ItemsInitConfigurationItem "{65F74A08E09112DB}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/pistol/Pouch_wartech_magpouch_mp103_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A08FA007338}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/sasarma1/Pouch_ArsArma_magouch_morphed_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
      }
     }
     ItemsInitConfigurationItem "{65F74A08C17FE158}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/sasarma2/Pouch_ArsArma_magouch_morphed_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
      }
     }
     ItemsInitConfigurationItem "{65F74A0B7477060F}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/grenade1/Pouch_GP106_RGD_Pouch_2_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{65F74A0B74A7F16A}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/grenade2/Pouch_GP106_RGD_Pouch_2_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
     ItemsInitConfigurationItem "{65F74A0B44339B5E}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/pistol2/Pouch_GP106_RGD_Pouch_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A0B4464C30C}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/up104/Pouch_UP108_utillong_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A0CE68A60E7}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/admin/Pouch_UP101_Admin_big_base.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
    }

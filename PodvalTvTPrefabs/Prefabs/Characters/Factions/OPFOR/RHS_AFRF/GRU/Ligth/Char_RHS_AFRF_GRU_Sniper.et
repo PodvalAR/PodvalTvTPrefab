@@ -36,34 +36,46 @@ SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65F74A08B01C6603}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      ""
      }
     }
     ItemsInitConfigurationItem "{65F74A08E09112DB}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" ""
      }
     }
     ItemsInitConfigurationItem "{65F74A08FA007338}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
+      "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65F74A08C17FE158}" {
+     PrefabsToSpawn {
+      "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et"
+     }
+    }
+    ItemsInitConfigurationItem "{65F74A0B44339B5E}" {
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A0B4464C30C}" {
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A0A538E2E6F}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/up103/Pouch_UP103_Medkit_OD.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A0D345B3084}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/admin/Pouch_UP101_Admin_big_base.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
     ItemsInitConfigurationItem "{65F74A0C4ED03A62}" {
      TargetStorage "Vest/drg_Vest_TV115_Rifleman_OD_radio.et/holster/Pouch_Taktika_magpouch_pistol_BLK.et"
-     PrefabsToSpawn +{
+     PrefabsToSpawn {
      }
     }
    }

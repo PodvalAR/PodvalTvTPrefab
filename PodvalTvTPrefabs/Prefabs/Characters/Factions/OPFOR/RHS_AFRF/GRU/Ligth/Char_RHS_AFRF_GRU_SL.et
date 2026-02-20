@@ -35,7 +35,7 @@ SCR_ChimeraCharacter : "{458F066DE1E8215E}Prefabs/Characters/Factions/OPFOR/RHS_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65F74A085C0037CB}" {
      PrefabsToSpawn {
-      "{48B06B12F3BD7E9B}Prefabs/Items/Equipment/Radios/Radio_R187P1_OLD_SL.et"
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
      }
     }
    }
