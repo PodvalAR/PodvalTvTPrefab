@@ -1,0 +1,8 @@
+GenericEntity : "{625D3164A790CC1A}Prefabs/Weapons/Magazines/AGS-17/Magazine_30mm_AGS17_29rnd_Base.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   AmmoConfig "{AF9841D4C5509002}Configs/Weapons/Ammo/Ammo_30mm_Vehicle_Grenade.conf"
+  }
+ }
+}
