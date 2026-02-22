@@ -108,7 +108,7 @@ $grp GenericEntity : "{28FD40D75A1B248D}Prefabs/Weapons/Attachments/Optics/RT6/O
  }
 }
 Vehicle APC_K17_Epoch_tan1 : "{295A6AAFBE74C040}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch_tan.et" {
- coords 39.029 1 20.106
+ coords 38.295 1 17.031
 }
 $grp GenericEntity : "{2F65F497A1DDD0E0}Prefabs/Weapons/Attachments/Muzzle/FlashHider_M110/FlashHider_AR10_M110.et" {
  {

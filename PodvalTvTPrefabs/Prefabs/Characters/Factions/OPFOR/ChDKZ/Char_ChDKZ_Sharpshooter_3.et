@@ -49,7 +49,7 @@ SCR_ChimeraCharacter : "{1A4739B5A312760B}Prefabs/Characters/Factions/OPFOR/ChDK
      TargetStorage "Pants/Pants_M88_ChDKZ.et"
     }
     ItemsInitConfigurationItem "{6896674CC7107619}" {
-     TargetStorage "Jacket/Jacket_M88_ChDKZ.et"
+     TargetStorage "Jacket/Jacket_M88_VSR_rolledup.et"
     }
     ItemsInitConfigurationItem "{6896B549EDD55974}" {
      TargetStorage "Vest/Vest_Type56.et"
