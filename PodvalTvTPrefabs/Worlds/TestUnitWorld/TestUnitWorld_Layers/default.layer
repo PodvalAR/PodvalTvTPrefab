@@ -15,6 +15,9 @@ $grp SCR_ChimeraCharacter : "{40CFB010D27A3366}Prefabs/Characters/Factions/BLUFO
 SCR_ChimeraCharacter : "{603E4633CA477EA8}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_1.et" {
  coords 30.563 1 15.609
 }
+SCR_ChimeraCharacter : "{6783771781A13CBF}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_MG.et" {
+ coords 56.134 1 39.85
+}
 SCR_ChimeraCharacter : "{68722916809B9AE1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_AMG_1.et" {
  coords 26.628 1 16.302
 }

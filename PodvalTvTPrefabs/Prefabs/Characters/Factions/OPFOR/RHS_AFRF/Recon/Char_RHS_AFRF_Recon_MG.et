@@ -18,28 +18,28 @@ SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_
      Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
     }
     LoadoutSlotInfo Vest {
-     Prefab "{DE9419051713E016}Prefabs/Characters/Vests/Vest_Ratnik_6B45/Variants/Vest_Ratin6B45_Drongo_PKM_2.et"
+     Prefab "{9217B5D545B811F6}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_MG_EMR_1.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A0E318CBB97EBB}" {
-     TargetStorage "Vest/Vest_Ratin6B45_Drongo_PKM_2.et/PKM1/Pouch_Mordor_PKM_EMR.et"
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/PKM2/Pouch_Mordor_PKM_EMR.et"
      PrefabsToSpawn {
-      "{E5E9C5897CF47F44}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_4Ball_1Tracer.et"
+      "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{68A0E318E18C6F4D}" {
-     TargetStorage "Vest/Vest_Ratin6B45_Drongo_PKM_2.et/PKM2/Pouch_Mordor_PKM_EMR.et"
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/PKM1/Pouch_Mordor_PKM_EMR.et"
      PrefabsToSpawn {
-      "{0EAB3482EA2FD181}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N13.et"
+      "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et"
      }
     }
     ItemsInitConfigurationItem "{68A0E318F296A309}" {
      TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
      PrefabsToSpawn {
-      "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{A6737DA00653A39C}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Ball.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
+      "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et" "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et" "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et" "{BEEA49E27174B224}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_Tracer.et"
      }
     }
     ItemsInitConfigurationItem "{68A0E318F2AFEB77}" {
@@ -47,7 +47,7 @@ SCR_ChimeraCharacter : "{DB642854D242CCDA}Prefabs/Characters/Factions/OPFOR/RHS_
      }
     }
     ItemsInitConfigurationItem "{68A0E31BFB84DF24}" {
-     TargetStorage "Vest/Vest_Ratin6B45_Drongo_PKM_2.et/Radio/Pouch_UP111_radioClosed_OD.et"
+     TargetStorage "Vest/Vest_TV102_MG_EMR_1.et/radio/Pouch_UP111_radioClosed_EMR.et"
     }
    }
   }
