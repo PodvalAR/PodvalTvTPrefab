@@ -700,6 +700,15 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68B10091B1C74383}" {
+   Id "PDVL_Squad_Motorized"
+   Target_en_us "Motorized infantry"
+   Target_fr_fr "Escouade de fusiliers motorisés"
+   Target_ru_ru "Мотострелковое отделение"
+   Modified 1756438555
+   Author "RamboKZ"
+   LastChanged "armen"
+  }
   CustomStringTableItem "{68A3601B7591E053}" {
    Id "PDVL_Squad_NSV"
    Target_en_us "Heavy Machine Gun Crew"
