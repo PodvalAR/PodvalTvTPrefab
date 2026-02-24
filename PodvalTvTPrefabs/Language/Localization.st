@@ -199,6 +199,12 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68B09B6AAE223F72}" {
+   Id "PDVL_Role_Engineer"
+   Modified 1756416571
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A005F7942E2F23}" {
    Id "PDVL_Role_GL"
    Target_en_us "Grenadier"
@@ -652,25 +658,6 @@ StringTable {
    Target_zh_cn "重机枪小组"
    Target_uk_ua "Розрахунок великокаліберного кулемета"
    Modified 1755395349
-   Author "Biryuk"
-   LastChanged "Biryuk"
-  }
-  CustomStringTableItem "{68A124C08A3A5D18}" {
-   Id "PDVL_Squad_Crew"
-   Target_en_us "Vehicle Crew"
-   Target_fr_fr "Équipage de véhicule"
-   Target_it_it "Equipaggio veicolo"
-   Target_de_de "Fahrzeugbesatzung"
-   Target_es_es "Tripulación de vehículo"
-   Target_cs_cz "Osádka vozidla"
-   Target_pl_pl "Załoga pojazdu"
-   Target_ru_ru "Экипаж боевой машины"
-   Target_ja_jp "車両搭乗員"
-   Target_ko_kr "장비 승무원"
-   Target_pt_br "Tripulação de veículo"
-   Target_zh_cn "载具车组"
-   Target_uk_ua "Екіпаж бойової машини"
-   Modified 1755395427
    Author "Biryuk"
    LastChanged "Biryuk"
   }
