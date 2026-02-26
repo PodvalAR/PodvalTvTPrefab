@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{7BAD8DF7468D7216}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_LT.et"
+ Name "{7BAD8DF7468D7216}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Recon/Char_RHS_AFRF_Recon_LAT.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
