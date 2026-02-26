@@ -16,9 +16,9 @@ StringTable {
    Target_pt_br "Assistente Antitanque"
    Target_zh_cn "反坦克助理"
    Target_uk_ua "Помічник гранатометника"
-   Modified 1755318169
+   Modified 1756688480
    Author "Gubastus"
-   LastChanged "Gubastus"
+   LastChanged "armen"
   }
   CustomStringTableItem "{68A8822D88FCF076}" {
    Id "PDVL_Role_AM_Sniper"
@@ -179,6 +179,29 @@ StringTable {
    Modified 1755395614
    Author "Gubastus"
    LastChanged "Gubastus"
+  }
+  CustomStringTableItem "{68B09B6AAE223F72}" {
+   Id "PDVL_Role_Engineer"
+   Target_ru_ru "Инженер"
+   Modified 1756421847
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68B4E6017D141403}" {
+   Id "PDVL_Role_Flamethrower"
+   Target_en_us "Flamethrower"
+   Target_fr_fr "Soldat lance-flammes"
+   Target_it_it "Lanciafiammista"
+   Target_de_de "Flammenwerferschütze"
+   Target_es_es "Soldado lanzallamas"
+   Target_pl_pl "Miotacz ognia"
+   Target_ru_ru "Огнемётчик"
+   Target_ja_jp "火炎放射器兵"
+   Target_zh_cn "喷火兵"
+   Target_uk_ua "Вогнеметник"
+   Modified 1756689344
+   Author "RamboKZ"
+   LastChanged "armen"
   }
   CustomStringTableItem "{68A005F7942E2F23}" {
    Id "PDVL_Role_GL"
@@ -636,25 +659,6 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
-  CustomStringTableItem "{68A124C08A3A5D18}" {
-   Id "PDVL_Squad_Crew"
-   Target_en_us "Vehicle Crew"
-   Target_fr_fr "Équipage de véhicule"
-   Target_it_it "Equipaggio veicolo"
-   Target_de_de "Fahrzeugbesatzung"
-   Target_es_es "Tripulación de vehículo"
-   Target_cs_cz "Osádka vozidla"
-   Target_pl_pl "Załoga pojazdu"
-   Target_ru_ru "Экипаж боевой машины"
-   Target_ja_jp "車両搭乗員"
-   Target_ko_kr "장비 승무원"
-   Target_pt_br "Tripulação de veículo"
-   Target_zh_cn "载具车组"
-   Target_uk_ua "Екіпаж бойової машини"
-   Modified 1755395427
-   Author "Biryuk"
-   LastChanged "Biryuk"
-  }
   CustomStringTableItem "{68A124C03245A1A4}" {
    Id "PDVL_Squad_Medic"
    Target_en_us "Medical Squad"
@@ -784,7 +788,7 @@ StringTable {
    Target_pt_br "Esquadra de fuzileiros"
    Target_zh_cn "步枪班"
    Target_uk_ua "Стрілецьке відділення"
-   Modified 1755531806
+   Modified 1756420893
    Author "Biryuk"
    LastChanged "Biryuk"
   }

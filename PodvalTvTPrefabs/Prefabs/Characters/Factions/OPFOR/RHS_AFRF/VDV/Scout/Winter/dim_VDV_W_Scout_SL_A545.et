@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{7B7F95A52C63B65A}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/Role_Character_AFRF_VDV_Recon_SL_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{8283724E1C1751BC}Prefabs/Weapons/Rifles/A545/dima_a545_reapir.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Boots {
+     Prefab "{24F6795DC36C79D7}Prefabs/Characters/Footwear/Boots_Luma/Footwear_Luma.et"
+    }
+   }
+  }
+ }
+ coords 179.722 1 89.134
+}

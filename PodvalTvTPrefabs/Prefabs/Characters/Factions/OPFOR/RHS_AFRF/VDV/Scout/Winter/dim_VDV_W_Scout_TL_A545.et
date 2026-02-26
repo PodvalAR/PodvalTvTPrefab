@@ -1,0 +1,9 @@
+SCR_ChimeraCharacter : "{52DDA5729C953DF6}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/VDV/Scout/Winter/Role_Character_AFRF_VDV_Recon_TL_Winter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{F5349E229B97D814}Prefabs/Weapons/Rifles/A545/dima_a545_gp.et"
+  }
+ }
+ coords 176.86 1 89.827
+}
