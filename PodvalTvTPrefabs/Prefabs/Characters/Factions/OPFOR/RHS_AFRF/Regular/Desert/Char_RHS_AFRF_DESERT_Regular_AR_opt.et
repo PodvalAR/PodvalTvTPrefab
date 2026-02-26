@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{A1B73F900291F014}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_AR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{1F72FE1AF334D0A9}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1p86.et"
+  }
+ }
+}
