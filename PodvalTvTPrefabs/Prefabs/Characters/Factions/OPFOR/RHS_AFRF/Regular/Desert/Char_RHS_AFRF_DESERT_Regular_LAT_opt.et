@@ -1,0 +1,8 @@
+SCR_ChimeraCharacter : "{1973BB8841693556}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Regular/Desert/Char_RHS_AFRF_DESERT_Regular_LAT.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{B13B5C6B439B210A}Prefabs/Weapons/Rifles/AK74M/variants/VKPO3/Rifle_AK74M_npz_rail_camo_VKPO3_1p86.et"
+  }
+ }
+}
