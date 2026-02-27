@@ -44,9 +44,6 @@ SCR_ChimeraCharacter {
 Turret {
  coords 44.033 1 223.507
 }
-Vehicle Ural4320_ZU1 {
- coords 125.665 1 62.864
-}
 GenericEntity : "{0570CF5F094A554F}Prefabs/Weapons/Launchers/RPG7/Launcher_RPG7_empty_PGO.et" {
  coords 1.74 1.122 80.501
  angles 0 88.34 0
@@ -67,8 +64,14 @@ $grp GenericEntity : "{07980FD6DC72C97F}Prefabs/Weapons/Rifles/A545/drg_A545_bas
 GenericEntity : "{07BC23F8D9223863}Prefabs/Items/Misc/Sandbags/Part_Sandbag_Burlap.et" {
  coords 46.393 1 72.771
 }
-GenericEntity : "{0EA15229DF07598A}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB_Tan_MBO.et" {
- coords 44.121 1 230.323
+GenericEntity : "{0A21DC21B1D23732}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Magazines/VehPart_BTR70_AmmoStorage_PKMT_KVPT.et" {
+ coords 106.03 1 132.228
+ {
+  GenericEntity {
+   ID "5EC4A118F3495EA7"
+   coords 106.131 1 134.844
+  }
+ }
 }
 SCR_AIGroup : "{0FF932BB77AEA2F6}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/MTVT/Group_RHS_USAF_Mortar.et" {
  coords 64.702 1 54.277

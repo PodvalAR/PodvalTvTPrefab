@@ -95,6 +95,15 @@ Vehicle GAZ_TIGR_v2_Arbalet1 : "{451D0A74C978CB20}Prefabs/Vehicles/Wheeled/TIGR/
  coords 82.514 1 200.344
 }
 Vehicle Ural1 : "{4597626AF36C0858}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320.et" {
+ components {
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo TireHolder {
+     Enabled 0
+    }
+   }
+  }
+ }
  coords 94.458 1 186.885
 }
 Vehicle M1151_armed_M2HB_2 : "{4855E8A2C75F03D5}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_PAS13G.et" {
@@ -119,7 +128,7 @@ Vehicle GAZ_TIGR_v2_KORD_SSP_ARMOR_CAMO1 : "{5C38170BFBE9F966}Prefabs/Vehicles/W
    }
   }
  }
- coords 58.493 1 194.384
+ coords 58.748 1 194.912
 }
 Vehicle M1240A1_MATV_Turret_Base1 : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_Turret_Base.et" {
  coords 67.519 1 189.208
@@ -226,7 +235,7 @@ GenericEntity : "{F3B9EB4DD5006E54}Prefabs/Weapons/Magazines/AGS30/Box_30mm_AGS3
  coords 66.076 2.163 140.484
 }
 GenericEntity : "{F6D80625B58CFE12}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/Weapons/Arbalet/HMG_KORD_Arbalet-DM.et" {
- coords 79.518 1 171.594
+ coords 79.518 2.154 171.594
 }
 Projectile : "{FA0B3B2CB7A9E5FB}Prefabs/Weapons/Ammo/Ammo_VOG30_Vehicle.et" {
  coords 64.555 1.471 139.893
@@ -234,20 +243,15 @@ Projectile : "{FA0B3B2CB7A9E5FB}Prefabs/Weapons/Ammo/Ammo_VOG30_Vehicle.et" {
 Vehicle UAZ469_uncovered_Turret_Ses_CDF_AGS_PAG1 : "{FF6B22224BA2B885}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_CDF_AGS_PAG.et" {
  coords 91.888 1 159.995
 }
-$grp GenericEntity : "{FFDA1E42195C57EA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB.et" {
- {
-  components {
-   SlotManagerComponent "{66F2D6986D44629B}" {
-    Slots {
-     RegisteringComponentSlotInfo Turret {
-      Offset 0 0.001 0
-     }
+GenericEntity : "{FFDA1E42195C57EA}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_M2HB.et" {
+ components {
+  SlotManagerComponent "{66F2D6986D44629B}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Offset 0 0.001 0
     }
    }
   }
-  coords 32.27 1 188.032
  }
- {
-  coords 81.987 1 177.107
- }
+ coords 32.27 1 188.032
 }

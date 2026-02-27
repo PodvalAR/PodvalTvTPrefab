@@ -1,4 +1,4 @@
-Vehicle : "{52441D784D145D52}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+Vehicle : "{C63F988320179F4F}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_NAPA.et" {
  ID "BBCBA43A9778AE21"
  components {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
