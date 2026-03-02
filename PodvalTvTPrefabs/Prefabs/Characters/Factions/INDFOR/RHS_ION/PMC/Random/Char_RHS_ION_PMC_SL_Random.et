@@ -5,16 +5,13 @@ SCR_ChimeraCharacter : "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS
    m_VariantData SCR_EditableEntityVariantData "{68C523715A8805C4}" {
     m_aVariants {
      SCR_EditableEntityVariant "{68C523715DA9C412}" {
-      m_sVariantPrefab "{95F147EA5C05015B}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR.et"
-     }
-     SCR_EditableEntityVariant "{68C523715DCD0B27}" {
-      m_sVariantPrefab "{F108117D0E205188}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_AK.et"
+      m_sVariantPrefab "{E8E9AB1239963DC2}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL.et"
      }
      SCR_EditableEntityVariant "{68C532234DB75F21}" {
-      m_sVariantPrefab "{2315395429AA6A46}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_v2.et"
+      m_sVariantPrefab "{63751BA2F50C1170}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL_v2.et"
      }
      SCR_EditableEntityVariant "{68C53223FEAC3CBD}" {
-      m_sVariantPrefab "{9E6D8A5178C83633}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SR_AK_v2.et"
+      m_sVariantPrefab "{C93933F61E9BB845}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_SL_AK.et"
      }
     }
    }
