@@ -16,8 +16,12 @@ SCR_ChimeraCharacter : "{08C7AA711B584E46}Prefabs/Characters/Factions/INDFOR/RHS
      SCR_EditableEntityVariant "{68C2CAC1E9791443}" {
       m_sVariantPrefab "{BC3BF750DE15DF34}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v4.et"
      }
+     SCR_EditableEntityVariant "{68C5322372DBB070}" {
+      m_sVariantPrefab "{59A7BBA9D2F0485F}Prefabs/Characters/Factions/INDFOR/RHS_ION/PMC/Drg_Character_RHS_ION_PMC_LAT_v5.et"
+     }
     }
    }
   }
  }
+ coords 5844.591 4.563 9800.217
 }
