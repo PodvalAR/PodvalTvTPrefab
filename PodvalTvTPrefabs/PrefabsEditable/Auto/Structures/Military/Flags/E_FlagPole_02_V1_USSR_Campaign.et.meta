@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F5EF4223ACA6169C}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_AFRF.et"
+ Name "{C92071B2E5B2B82F}PrefabsEditable/Auto/Structures/Military/Flags/E_FlagPole_02_V1_USSR_Campaign.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
@@ -12,8 +12,6 @@ MetaFileClass {
   EntityTemplateResourceClass PS5 : PC {
   }
   EntityTemplateResourceClass HEADLESS : PC {
-  }
-  EntityTemplateResourceClass Xbox : PC {
   }
  }
 }
