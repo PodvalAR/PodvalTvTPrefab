@@ -12,6 +12,15 @@ SCR_ChimeraCharacter : "{4EDE2A021B8C2355}Prefabs/Characters/Factions/BLUFOR/UK/
     }
    }
   }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_sName "Team Leader"
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_TL"
+    Icon "{FE2FFF1498C603D2}UI/Icons/dim/SAS_TL.edds"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
@@ -20,5 +29,5 @@ SCR_ChimeraCharacter : "{4EDE2A021B8C2355}Prefabs/Characters/Factions/BLUFOR/UK/
    }
   }
  }
- coords 102.667 1 77.565
+ coords 3081.31 62.542 4034.389
 }
