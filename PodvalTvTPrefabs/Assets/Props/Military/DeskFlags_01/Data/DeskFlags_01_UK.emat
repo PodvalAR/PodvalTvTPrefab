@@ -15,14 +15,14 @@ MatPBRMulti {
  }
  Metalness_4 0
  Enabled_3 1
- BCR_3 "{6D8DE49BABB2827A}Assets/Props/Military/DeskFlags_01/Data/DeskFlags_01_BCR.edds"
+ BCR_3 "{07268B56E84D7378}Assets/Props/Military/DeskFlags_01/Data/DeskFlag.edds"
  MaskSharpness_3 0.401
  MaskUVScale_3 0.001
  UVTransform_3 MatUVTransform "{65B4200E1FE558A5}" {
   OffsetV -0.264
  }
  Enabled_2 1
- BCR_2 "{6D8DE49BABB2827A}Assets/Props/Military/DeskFlags_01/Data/DeskFlags_01_BCR.edds"
+ BCR_2 "{07268B56E84D7378}Assets/Props/Military/DeskFlags_01/Data/DeskFlag.edds"
  MaskSharpness_2 2.943
  MaskOffset_2 0.13
  MaskUVScale_2 0.001
