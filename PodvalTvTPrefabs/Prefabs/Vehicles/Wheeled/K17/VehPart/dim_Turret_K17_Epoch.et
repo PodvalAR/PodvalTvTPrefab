@@ -305,7 +305,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_sRHSLayoutOverlayResource "{97A704055824A7A0}UI/layouts/Sights/Optic_Widgets_K17_Epoch.layout"
     }
     RHS_VehicleNightVisionComponent "{68CB279D0E898410}" {
-     Enabled 1
+     Enabled 0
      m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
      m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
      m_aBlemSet {
@@ -385,6 +385,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    WeaponSlotIndex 1
   }
   WeaponSlotComponent "{68CB279D0E8984FE}" {
+   Enabled 0
    AttachType InventoryStorageSlot Missiles {
     PivotID "v_Gun_02"
     MergePhysics 1
@@ -627,5 +628,5 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    DeactivationDelay 0
   }
  }
- coords 6152.548 56.937 6880.952
+ coords 45.4 1 81.775
 }
