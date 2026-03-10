@@ -335,7 +335,8 @@ StringTable {
    Modified 1755318264
    Author "Gubastus"
    LastChanged "Gubastus"
-  CustomStringTableItem "{68CEA55C3BBF0D18}" {
+  }
+  CustomStringTableItem "{68CEBA6980CCFE99}" {
    Id "PDVL_Role_MortarCommander"
    Target_en_us "Mortar Commander"
    Target_fr_fr "Commandant de mortier"
@@ -350,9 +351,9 @@ StringTable {
    Target_pt_br "Comandante de morteiro"
    Target_zh_cn "迫击炮指挥官"
    Target_uk_ua "Командир артилерії"
-   Modified 1758373457
+   Modified 1758378976
    Author "Gubastus"
-   LastChanged "Gubastus"
+   LastChanged "123va"
   }
   CustomStringTableItem "{68A00A6CCB1A988D}" {
    Id "PDVL_Role_MortarGunner"
@@ -373,7 +374,7 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
-  CustomStringTableItem "{68CEA55C39E03B10}" {
+  CustomStringTableItem "{68CEBA69831D5076}" {
    Id "PDVL_Role_MortarLoader"
    Target_en_us "Mortar Loader"
    Target_fr_fr "Chargeur de mortier"
@@ -388,9 +389,9 @@ StringTable {
    Target_pt_br "Carregador de morteiro"
    Target_zh_cn "迫击炮装填手"
    Target_uk_ua "Заряджаючий"
-   Modified 1758373451
+   Modified 1758378976
    Author "Gubastus"
-   LastChanged "Gubastus"
+   LastChanged "123va"
   }
   CustomStringTableItem "{68A3601B068EBD30}" {
    Id "PDVL_Role_NSV_1"
