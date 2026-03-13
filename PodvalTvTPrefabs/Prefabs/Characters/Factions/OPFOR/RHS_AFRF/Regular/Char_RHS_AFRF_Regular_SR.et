@@ -32,7 +32,7 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
    InitialInventoryItems {
     ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
      PrefabsToSpawn {
-      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
+      "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et"
      }
     }
     ItemsInitConfigurationItem "{689F357A814C8699}" {
@@ -51,6 +51,13 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
      TargetStorage "Vest/Vest_Ratnik_6B45_officer_GL.et/GL/Pouch_Ratnik_vog_pouches.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
+     }
+    }
+    ItemsInitConfigurationItem "{68DAB4EC5633E169}" {
+     TargetStorage "Vest/Vest_Ratnik_6B45_officer_GL.et/Radio/Pouch_Ratnik_azart_pouch.et"
+     TargetPurpose 64
+     PrefabsToSpawn {
+      "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
      }
     }
    }
