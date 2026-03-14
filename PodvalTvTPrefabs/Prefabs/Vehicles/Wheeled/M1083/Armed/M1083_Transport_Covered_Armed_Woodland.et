@@ -1,4 +1,4 @@
-Vehicle : "{E2751F78ABD079B3}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Covered_Armed.et" {
+Vehicle : "{659EF1F1BD0DD1F0}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Covered_Armed.et" {
  ID "BBCBA43A9778AE21"
  components {
   MeshObject "{51DAA09FEFBFC0E7}" {

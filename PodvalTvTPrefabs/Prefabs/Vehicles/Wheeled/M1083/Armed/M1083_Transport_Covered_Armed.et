@@ -6,6 +6,15 @@ Vehicle : "{BE134ED7F4CCB5B9}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transpor
     m_Image "{ED15BFA777516F6C}UI/Textures/EditablePreviews/Vehicles/Wheeled/M1083/Armed/M1083_Transport_Covered_Armed.edds"
    }
   }
+  SCR_UniversalInventoryStorageComponent "{65B6498665024F6E}" {
+   MultiSlots {
+    MultiSlotConfiguration "{668B7B34953252B3}" {
+     SlotTemplate InventoryStorageSlot Magazines {
+      Prefab "{C820846B0521423B}Prefabs/Weapons/Magazines/Box_127x99_M2_100rnd_4AP_1APIT.et"
+     }
+    }
+   }
+  }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Cargo {
@@ -14,5 +23,5 @@ Vehicle : "{BE134ED7F4CCB5B9}Prefabs/Vehicles/Wheeled/M1083/Armed/M1083_Transpor
    }
   }
  }
- coords 80.764 1 1259.285
+ coords 4538.561 19.753 2118.172
 }
