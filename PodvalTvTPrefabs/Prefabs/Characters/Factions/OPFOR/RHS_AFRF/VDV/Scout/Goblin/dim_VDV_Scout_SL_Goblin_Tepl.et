@@ -7,7 +7,7 @@ SCR_ChimeraCharacter : "{11797C4A3AA0D968}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
-   WeaponTemplate "{EB7B1B1550AD9EA2}Prefabs/Weapons/Rifles/A545/dima_a545_opt.et"
+   WeaponTemplate "{8283724E1C1751BC}Prefabs/Weapons/Rifles/A545/dima_a545_reapir.et"
   }
   SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
    Override 1
@@ -56,5 +56,5 @@ SCR_ChimeraCharacter : "{11797C4A3AA0D968}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 2856.359 10 3058.718
+ coords 2857.327 10 3057.551
 }
