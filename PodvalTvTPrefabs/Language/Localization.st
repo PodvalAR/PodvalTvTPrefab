@@ -735,6 +735,13 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68DAD2F1BCEC255C}" {
+   Id "PDVL_Squad_MG"
+   Target_ru_ru "Пулеметный расчет"
+   Modified 1759176821
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68A124C17041E2B8}" {
    Id "PDVL_Squad_Mortar"
    Target_en_us "Mortar Crew"
