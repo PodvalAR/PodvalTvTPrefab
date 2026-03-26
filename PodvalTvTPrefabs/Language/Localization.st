@@ -870,6 +870,13 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{68F46985AE6E5DEE}" {
+   Id "PDVL_Squad_PTRK"
+   Target_ru_ru "Расчет ПТРК"
+   Modified 1760848482
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68B96CA64240351D}" {
    Id "PDVL_Squad_Recon"
    Target_en_us "Recon Squad"
