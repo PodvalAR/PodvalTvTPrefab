@@ -16,6 +16,15 @@ SCR_ChimeraCharacter : "{67ACD9EE1E9B5CB7}Prefabs/Characters/Factions/INDFOR/RHS
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{6674AB8213BE28D6}" {
+     PrefabsToSpawn {
+      "{63BC48E166F723BF}Prefabs/Items/Equipment/Radios/Radio_ANPRC152A_ION_Multi.et"
+     }
+    }
+   }
+  }
  }
- coords 1267.289 39 2124.683
+ coords 41.023 1 43.855
 }
