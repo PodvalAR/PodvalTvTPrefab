@@ -974,5 +974,37 @@ StringTable {
    Author "Gubastus"
    LastChanged "Gubastus"
   }
+  CustomStringTableItem "{68F8CBA907B841C6}" {
+   Id "Pdvl_Vehicle_UAZ469_AGS"
+   Target_en_us "UAZ 469 AGS"
+   Target_ru_ru "УАЗ 469 АГС"
+   Modified 1761138933
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F8CBA90845739A}" {
+   Id "Pdvl_Vehicle_UAZ469_AGS_PAG"
+   Target_en_us "UAZ 469 AGS PAG 17"
+   Target_ru_ru "УАЗ 469 АГС ПАГ 17"
+   Modified 1761139085
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F8CBA925658368}" {
+   Id "Pdvl_Vehicle_UAZ469_KORD"
+   Target_en_us "UAZ 469 KORD"
+   Target_ru_ru "УАЗ 469 КОРД"
+   Modified 1761138995
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{68F8CBA8DEA85A0D}" {
+   Id "Pdvl_Vehicle_UAZ469_KORD_SPP"
+   Target_en_us "UAZ 469 KORD SPP"
+   Target_ru_ru "УАЗ 469 КОРД СПП"
+   Modified 1761139039
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
  }
 }
