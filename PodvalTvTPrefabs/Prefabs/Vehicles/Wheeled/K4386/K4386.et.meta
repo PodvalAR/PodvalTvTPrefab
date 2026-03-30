@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{DB665D65CFFA5B76}Prefabs/Vehicles/Wheeled/K4386/VehParts/Turret_K4386_Camo_3UBR11_NoTeplak.et"
+ Name "{A61E5C16E9A2161B}Prefabs/Vehicles/Wheeled/K4386/K4386.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
