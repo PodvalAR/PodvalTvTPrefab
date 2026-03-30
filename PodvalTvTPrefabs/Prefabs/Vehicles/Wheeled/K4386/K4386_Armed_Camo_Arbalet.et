@@ -3,11 +3,11 @@ Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
  components {
   MeshObject "{51DAA09FEFBFC0E7}" {
    Materials {
-    MaterialAssignClass "{68CA95EB65B64BB1}" {
+    MaterialAssignClass "{68FAA08A06C758AA}" {
      SourceMaterial "Hull_Mat"
      AssignedMaterial "{E4F83280955A4AD5}Assets/Vehicles/Wheeled/K4386/Data/Hull_Mat_Camo.emat"
     }
-    MaterialAssignClass "{68CA95EB65B64BA4}" {
+    MaterialAssignClass "{68FAA08A06C75875}" {
      SourceMaterial "Hull_Parts_Mat"
      AssignedMaterial "{3890DA741037ECB4}Assets/Vehicles/Wheeled/K4386/Data/Hull_Parts_Mat_Camo.emat"
     }
@@ -21,15 +21,8 @@ Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
-     Offset 0 0.1761 -0.5407
-     MergePhysics 0
+     Offset -0.0001 0.1712 -0.5527
      Prefab "{4492CA44D02A3C32}Prefabs/Vehicles/Wheeled/TIGR/VehParts/Turrets/TIGR_Gun_RWS_Arbalest-DM_SHIZA.et"
-     DisablePhysicsInteraction 1
-     RegisterLights 0
-    }
-    RegisteringComponentSlotInfo Seats {
-     Enabled 1
-     Prefab "{28CF1542984FB81E}Prefabs/Vehicles/Wheeled/K4386/VehParts/K4386_AdditionalSeats_shiza.et"
     }
     RegisteringComponentSlotInfo DriverDisplay {
     }
@@ -39,5 +32,5 @@ Vehicle : "{AB5DE68E3E654FCA}Prefabs/Vehicles/Wheeled/K4386/K4386_Armed.et" {
    }
   }
  }
- coords 159.275 1 124.353
+ coords 9035.312 8.426 6533.771
 }
