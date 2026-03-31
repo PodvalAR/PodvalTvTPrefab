@@ -1,0 +1,10 @@
+Turret : "{C202192584F0710E}Vehicles/Turret/t14_durka.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   WeaponTemplate "{784FD7B7E41E831F}Prefabs/Weapons/HeavyWeapons/2A82/Weapon_2A82_OnlyFrags.et"
+  }
+ }
+ coords 8516.764 111.531 6814.074
+ angles 0 -94.996 0
+}
