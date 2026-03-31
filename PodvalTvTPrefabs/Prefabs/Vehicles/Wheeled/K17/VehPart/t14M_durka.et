@@ -2,9 +2,9 @@ Turret : "{5907DC8DD895150E}Vehicles/Wiled/APC_K17_t14/Turret/t14_durka.et" {
  ID "51ACD0965653D003"
  components {
   WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
-   WeaponTemplate "{784FD7B7E41E831F}Prefabs/Weapons/HeavyWeapons/2A82/Weapon_2A82_OnlyFrags.et"
+   WeaponTemplate "{1F59EED49A3845A7}Prefabs/Weapons/HeavyWeapons/2A82/Weapon_2A82.et"
   }
  }
- coords 8516.764 111.531 6814.074
- angles 0 -94.996 0
+ coords 8543.424 111.531 6820.63
+ angles 0 -80.784 0
 }
