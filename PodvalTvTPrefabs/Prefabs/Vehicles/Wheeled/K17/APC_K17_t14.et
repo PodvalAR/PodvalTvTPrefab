@@ -19,5 +19,7 @@ Vehicle : "{F86AB1BD36B33407}Prefabs/Vehicles/Wheeled/K17/APC_K17_Epoch.et" {
    }
   }
  }
- coords 210.692 1 145.017
+ coords 8516.901 111.931 6805.686
+ angles 0 -87.754 0
+ m_sAttachmentGroupName ""
 }
