@@ -52,21 +52,27 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{6720F9CB5344D10E}" {
-     TargetStorage "Pants/Pants_TrousersV2_Tan.et"
+     TargetStorage "Pants/GD_USMC_Pants_In_Winter.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/Pants_TrousersV2_Tan.et"
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
     }
     ItemsInitConfigurationItem "{673857DA77281F31}" {
-     TargetStorage "Pants/Pants_TrousersV2_Tan.et"
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
     }
     ItemsInitConfigurationItem "{673857DA770AD78B}" {
+     TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
     }
     ItemsInitConfigurationItem "{673857DD24D28597}" {
      Enabled 0
+     TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch2/Pouch_Eagle_Ind_M4_2_MS_Closed_wm.et"
     }
     ItemsInitConfigurationItem "{673857DD242BD470}" {
      Enabled 0
+     TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
     }
     ItemsInitConfigurationItem "{673857DD2405DACE}" {
      TargetStorage "Vest/Ranger_Marksman.et/Mag_Pouch1/Pouch_Eagle_Ind_M4_2_MS_Opened_wm.et"
@@ -86,6 +92,9 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
       "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et" "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et"
      }
     }
+    ItemsInitConfigurationItem "{673857DD244DC698}" {
+     TargetStorage "Vest/Ranger_Marksman.et/Smoke_Pouch/Pouch_Eagle_Ind_M4_2_MS_Closed.et"
+    }
     ItemsInitConfigurationItem "{673857DD278A0EA0}" {
      TargetStorage "Vest/Ranger_Marksman.et/Holster/GD_Holster_SLS.et"
     }
@@ -96,7 +105,7 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
      }
     }
     ItemsInitConfigurationItem "{68E5627E29B5FC02}" {
-     TargetStorage "Jacket/Jacket_PCU_L5_Green.et"
+     TargetStorage "Vest/Ranger_Marksman.et/Uni_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
      PrefabsToSpawn {
       "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et" "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et"
      }
@@ -106,6 +115,9 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
      PrefabsToSpawn {
       "{E492E22BD825BBA9}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M20.et"
      }
+    }
+    ItemsInitConfigurationItem "{68E5627E48C4EC57}" {
+     TargetStorage "Vest/Ranger_Marksman.et/Uni_Pouch/Pouch_Pentagon_Tac_Keros_Utility.et"
     }
    }
   }

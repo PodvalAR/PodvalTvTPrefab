@@ -20,13 +20,18 @@ SCR_ChimeraCharacter : "{FBD41570B0C083C3}Prefabs/Characters/Factions/OPFOR/RHS_
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68A2CC320EE0CC0E}" {
-     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
     }
     ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
-     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
     }
     ItemsInitConfigurationItem "{68A2CC3209B3FFBE}" {
-     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+     TargetStorage "Jacket/GD_6SH122_Suit_Hood_Winter_Mask.et"
+    }
+    ItemsInitConfigurationItem "{68A2CC32CE7164D0}" {
     }
    }
   }

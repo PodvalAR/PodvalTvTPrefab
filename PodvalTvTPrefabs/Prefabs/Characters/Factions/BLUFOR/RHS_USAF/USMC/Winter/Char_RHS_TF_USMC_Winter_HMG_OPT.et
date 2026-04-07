@@ -14,5 +14,18 @@ SCR_ChimeraCharacter : "{8A42A66E76D0C092}Prefabs/Characters/Factions/BLUFOR/RHS
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
+     TargetStorage "Pants/GD_USMC_Pants_In_V2_Winter.et"
+    }
+    ItemsInitConfigurationItem "{68C52BCF25DE67D8}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+    ItemsInitConfigurationItem "{68DAB33492420C29}" {
+     TargetStorage "Jacket/Jacket_Gryphon_SNOW.et"
+    }
+   }
+  }
  }
 }

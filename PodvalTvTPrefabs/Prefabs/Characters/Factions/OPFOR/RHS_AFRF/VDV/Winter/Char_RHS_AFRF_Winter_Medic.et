@@ -15,6 +15,9 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Jacket {
      Prefab "{8497ED66028B6865}Prefabs/Characters/Uniforms/6SH122_Suit/GD_SH122_Suit_Klyaksa.et"
     }
+    LoadoutSlotInfo Pants {
+     Prefab ""
+    }
     LoadoutSlotInfo Back {
      Prefab "{45DC01791EBE2349}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_EMR.et"
     }
@@ -25,6 +28,15 @@ SCR_ChimeraCharacter : "{78410A549262E06D}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F35786861AA08}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
+    ItemsInitConfigurationItem "{689F3578E51BED3D}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
     ItemsInitConfigurationItem "{690D036B39C54907}" {
      TargetStorage "Back/Backpack_Wartech_BB102_EMR.et"
      PrefabsToSpawn {

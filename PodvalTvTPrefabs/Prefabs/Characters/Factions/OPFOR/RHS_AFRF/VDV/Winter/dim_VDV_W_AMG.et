@@ -25,6 +25,9 @@ SCR_ChimeraCharacter : "{082072AAD96B86C2}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{68A2CC320EF5FDA1}" {
      TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
     }
+    ItemsInitConfigurationItem "{68A2CC320ED36F78}" {
+     TargetStorage "Jacket/GD_SH122_Suit_Klyaksa.et"
+    }
     ItemsInitConfigurationItem "{68A2CC32C0493E3F}" {
      PrefabsToSpawn +{
      }
