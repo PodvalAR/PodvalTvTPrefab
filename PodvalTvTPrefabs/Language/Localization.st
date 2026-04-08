@@ -728,6 +728,14 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{69108811BC668555}" {
+   Id "PDVL_Squad_Dozor"
+   Target_en_us "Patrol group"
+   Target_ru_ru "Дозорная группа"
+   Modified 1762699145
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68F2ECBD80C6712F}" {
    Id "PDVL_Squad_KS"
    Target_ru_ru "Штаб роты"
