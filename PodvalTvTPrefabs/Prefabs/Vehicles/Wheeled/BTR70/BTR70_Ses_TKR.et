@@ -12,6 +12,7 @@ Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
     RegisteringComponentSlotInfo Turret {
+     Prefab "{E8A6C11CE6E9448B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_Old.et"
     }
     RegisteringComponentSlotInfo AmmoStorage {
      Offset 0 0.05 0
