@@ -1,0 +1,128 @@
+Turret : "{E1C7C7C4236757CA}Prefabs/Vehicles/Wheeled/LR_3Series/VehParts/WeapSystems/Mounted_gunner_base.et" {
+ ID "51ACD0965653D003"
+ components {
+  WeaponSoundComponent "{65CABE5F41495B50}" {
+   Filenames {
+    "{D10BFA0E62F81545}Sounds/Weapons/Machineguns/M60D/Weapons_Machineguns_M60D_Shot.acp" "{9654992A68125DDF}Sounds/Weapons/Machineguns/M60/Weapons_Machineguns_M60_Handling.acp"
+   }
+  }
+  MeshObject "{51ACD09C4E0B7D16}" {
+   Object "{9898D4A9DAFE612A}Assets/Weapons/Tripods/No11Mk1/No11Mk1_LR_Front_01.xob"
+  }
+  SCR_BaseCompartmentManagerComponent "{51ACFBB07A14CFA6}" {
+   DoorInfoList {
+    CompartmentDoorReference "{65CABE5F41495B45}" {
+     AnimDoorIndex 0
+     OpenCloseDoorAnimGraph "{32A973907EE6F4BA}Assets/Vehicles/Wheeled/Workspaces/3Series_LWB_Recce.agr"
+    }
+    CompartmentDoorReference "{65910641D6D0059C}" {
+     AnimDoorIndex 1
+     OpenCloseDoorAnimGraph "{32A973907EE6F4BA}Assets/Vehicles/Wheeled/Workspaces/3Series_LWB_Recce.agr"
+    }
+    CompartmentDoorReference "{6592D653CEDFD136}" {
+     AnimDoorIndex 2
+     OpenCloseDoorAnimGraph "{32A973907EE6F4BA}Assets/Vehicles/Wheeled/Workspaces/3Series_LWB_Recce.agr"
+    }
+   }
+   CompartmentSlots {
+    TurretCompartmentSlot TurretCompartment {
+     CompartmentUniqueName "LeftTurretCompartment"
+     CompartmentAction SCR_GetInUserAction "{5086CC2CFDD3A05A}" {
+      ParentContextList +{
+      }
+     }
+     GetOutAction SCR_GetOutAction "{509D56664FF79DDB}" {
+      ParentContextList +{
+      }
+     }
+     SwitchSeatAction SCR_SwitchSeatAction "{509D566648F37562}" {
+      ParentContextList +{
+      }
+     }
+     AdditionalActions {
+      SCR_RemoveCasualtyUserAction "{5D56867A46DBE769}" {
+       ParentContextList +{
+       }
+      }
+      SCR_RemoveCasualtyUserAction "{61089D59F48D7BD2}" {
+       ParentContextList +{
+       }
+      }
+     }
+     PassengerPositionInfo EntitySlotInfo "{B1CB25848A3D93A8}" {
+      PivotID "Scene_Root"
+     }
+     CharactersCanFallOutOnFlip 1
+     SeatType 1
+     DoorInfoList +{
+     }
+     BaseCoverage 0
+     m_fRandomEjectionChance 0.8
+    }
+   }
+  }
+  TurretControllerComponent "{51ACD09C61C183E4}" {
+   LimitsHoriz -30 30
+   LimitsVert -20 42.5
+   TurretUnconsciousPosition -20 0
+  }
+  TurretComponent "{65CABE5F41495B18}" {
+   components {
+    SightsComponent "{65CABE5F41495B19}" {
+     SightsPosition PointInfo "{65CABE5F41495B1B}" {
+      Offset 0 0.055 -0.5257
+      Angles 0 0 0
+     }
+    }
+   }
+   ikTargets {
+    AnimationIKTargetInfo "{65CABE5F41495B16}" {
+     PositionInfo PointInfo "{65CABE5F41495B17}" {
+      Offset -0.0988 -0.1349 -0.5105
+      Angles 8.2673 -89.5714 97.19438
+     }
+    }
+    AnimationIKTargetInfo "{65CABE5F41495B09}" {
+     PositionInfo PointInfo "{65CABE5F41495B0A}" {
+      Offset 0.1021 -0.1322 -0.5029
+      Angles -13.3029 -92.3035 -80.6547
+     }
+    }
+   }
+  }
+  SlotManagerComponent "{65CABE5F41495B0F}" {
+   Slots {
+    RegisteringComponentSlotInfo M60D_dummy_mag {
+     Prefab ""
+    }
+   }
+  }
+  WeaponSlotComponent "{51ACD09C6BFEEE6A}" {
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "pitch"
+    Offset 0 -0.1025 -0.2631
+   }
+   WeaponTemplate "{24830DBD81202905}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2_Mounted_SF.et"
+  }
+  ActionsManagerComponent "{51ACD09C7181BA0B}" {
+   ActionContexts {
+    UserActionContext "{51ACFBB064390C6E}" {
+     Position PointInfo "{51ACFBB061993925}" {
+      Offset -0.0115 0.2061 -0.2462
+     }
+    }
+    UserActionContext "{6048CB72E6432ED1}" {
+     Position PointInfo "{6048CB72E6429AB9}" {
+      Offset -0.0115 0.2135 -0.3934
+     }
+    }
+   }
+  }
+  BaseItemAnimationComponent "{5242E42C7B4B2CEE}" {
+   AnimInjection AnimationAttachmentInfo "{5242E42C74AC2BF7}" {
+    AnimGraph "{C124178193FECF2B}Assets/Vehicles/Wheeled/Workspaces/No11Mk1_Front.agr"
+    AnimInstance "{72ACA4D0C9889DCF}Assets/Vehicles/Wheeled/Workspaces/No11Mk1_player_Front.asi"
+   }
+  }
+ }
+}

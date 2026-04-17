@@ -58,7 +58,7 @@ SCR_ChimeraCharacter : "{BFF913F17ED45B32}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Pants/Pants_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Jacket/Shirt_FROG_Arid.et"
+     TargetStorage "Pants/Pants_FROG_Arid.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "Jacket/Shirt_FROG_Arid.et"

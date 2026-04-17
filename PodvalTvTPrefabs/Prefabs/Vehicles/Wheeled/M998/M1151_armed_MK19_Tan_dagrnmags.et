@@ -1,0 +1,48 @@
+Vehicle : "{A35A4AE2AD56643E}Prefabs/Vehicles/Wheeled/M998/M1151_armed_MK19.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{6923125000F31074}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{ECFB0A86053379D8}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Tan.emat"
+    }
+    MaterialAssignClass "{6923125000F3107F}" {
+     SourceMaterial "HMMWV_Body_Details"
+     AssignedMaterial "{EC160325F82DDD48}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Details_Tan.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{92F16DF059C7362C}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1151A1_Mk19_Tan.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_32rnd_Base.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{69231251F8FDC0EE}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{5E534CA9B3DC84E9}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_Tailgate_Tan.et"
+    }
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{D535EBD939BB9032}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_MK19_Tan.et"
+    }
+   }
+  }
+ }
+}
