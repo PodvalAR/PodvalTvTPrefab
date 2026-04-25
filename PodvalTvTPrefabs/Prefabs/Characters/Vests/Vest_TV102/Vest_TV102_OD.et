@@ -11,8 +11,10 @@ GenericEntity : "{8F5B0494E485F488}Prefabs/Characters/Vests/Vest_TV102/Vest_TV10
   BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
    Slots {
     LoadoutSlotInfo ArmorPlate_Left {
+     Prefab ""
     }
     LoadoutSlotInfo ArmorPlate_Right {
+     Prefab ""
     }
    }
    WornMaterialsOverride {
