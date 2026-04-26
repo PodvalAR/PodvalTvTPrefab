@@ -65,8 +65,26 @@ SCR_ChimeraCharacter : "{28F8E6EFDAADE3D9}Prefabs/Characters/Factions/OPFOR/RHS_
       "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
+    ItemsInitConfigurationItem "{69349C27BCE4BC03}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG.et/holster/Pouch_HP103_Holster_FG.et"
+     PrefabsToSpawn {
+      "{E998FA484B0C4BFF}Prefabs/Weapons/Handguns/Glock/Handgun_Glock17.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69349C27BF43ABE7}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG.et/pistol2/Pouch_MP111_PistolClosed2_FG.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69349C27BE92B973}" {
+     TargetStorage "Vest/Vest_TV102_MG_FG.et/pistol3/Pouch_MP111_PistolClosed_FG.et"
+     PrefabsToSpawn {
+      "{F20D1122BC5CD9F2}Prefabs/Weapons/Magazines/glock_magazine/Magazine_9x19_Glock_17rnd.et"
+     }
+    }
    }
   }
  }
- coords 994.753 112.551 2751.674
+ coords 73.104 1 54.874
 }

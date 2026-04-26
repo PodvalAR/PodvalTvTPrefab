@@ -9,6 +9,8 @@ GameEntity : "{6FA0C93CBFBA664B}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
     RHS_LoadoutSlotInfo BackVelcro {
      Prefab "{E98FDE86D12E6993}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_Full_FG.et"
     }
+    RHS_LoadoutSlotInfo Headset {
+    }
     RHS_LoadoutSlotInfo TopVelcro {
     }
    }

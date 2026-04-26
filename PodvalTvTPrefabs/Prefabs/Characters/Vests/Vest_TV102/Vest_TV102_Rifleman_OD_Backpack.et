@@ -1,0 +1,16 @@
+GenericEntity : "{7D4E41BAADDF4A04}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_Rifleman_OD.et" {
+ ID "6216975224AE5CFA"
+ components {
+  BaseLoadoutClothComponent "{6216975224AE5B4A}" {
+   Slots {
+    LoadoutSlotInfo Backpack {
+     PivotID "Spine5"
+     Offset 0.0089 0.1464 -0.2605
+     Angles -11.9521 0.4278 -0.363
+     Prefab "{50B958C01C53BF80}Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_OD.et"
+    }
+   }
+  }
+ }
+ coords 90.093 1 75.868
+}

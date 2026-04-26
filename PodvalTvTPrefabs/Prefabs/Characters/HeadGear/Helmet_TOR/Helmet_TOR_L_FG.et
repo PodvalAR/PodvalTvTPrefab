@@ -12,6 +12,9 @@ GameEntity : "{3F70EA42E26BA189}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
      Prefab "{52BE66B6E343D441}Prefabs/Characters/HeadGear/Headphones_Impact/Headphones_Impact.et"
     }
     RHS_LoadoutSlotInfo Rail_Right {
+     Offset -0.111 0.1235 -0.0178
+     Angles 0 180 -5
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
     }
     RHS_LoadoutSlotInfo RightVelcro {
      Offset -0.0842 0.1718 -0.0085
@@ -20,5 +23,5 @@ GameEntity : "{3F70EA42E26BA189}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TO
    }
   }
  }
- coords 107.935 1 53.823
+ coords 71.186 1.322 52.46
 }

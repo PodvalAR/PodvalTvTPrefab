@@ -1,0 +1,48 @@
+GenericEntity : "{1CA1579DAAFFBCA0}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_B51_1p86_7n14.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames + {
+    "{F4FBD551741C8C96}Sounds/Weapons/Rifles/AKM/Weapons_Rifles_AKM_Shot_Suppressed_SuperSonic.acp"
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{69349C3A05736878}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{69349C3AF7B41734}" {
+       AttachmentSlot InventoryStorageSlot Supressor {
+        PivotID "slot_barrel_muzzle"
+        Offset 0 0 0.0274
+        MergePhysics 1
+        ChildPivotID "snap_weapon"
+        Prefab "{0F09E96B94FD3BB8}Prefabs/Weapons/Attachments/Muzzle/Suppressor_A545_A762/Suppressor_762.et"
+        InspectionWidgetOffset 0 0.0939 0.7118
+       }
+       AttachmentType TF_AttachmentMuzzleA762 "{69349C378BBF01C3}" {
+       }
+       ShowInInspection 1
+      }
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       OverrideByAttachment 0
+      }
+      CaseEjectingEffectComponent "{5534BB9B9A3E36C0}" {
+       ParticleEffect "{40C8AD1204EC2629}Particles/Weapon/Smoke_PKM.ptc"
+       ResetOnFire 1
+       OverrideByAttachment 1
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ParticleEffect "{57A509D9293B172D}Particles/Weapon/Muzzle_PKM_flashHider.ptc"
+       ResetOnFire 0
+       OverrideByAttachment 1
+      }
+     }
+     MagazineTemplate "{339F11BA9F4358B6}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14.et"
+    }
+   }
+  }
+ }
+ coords 88.765 1.278 106.816
+}
