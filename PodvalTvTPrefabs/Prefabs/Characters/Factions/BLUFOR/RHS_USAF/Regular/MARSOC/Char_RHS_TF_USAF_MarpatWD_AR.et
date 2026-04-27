@@ -12,6 +12,9 @@ SCR_ChimeraCharacter : "{18F5BE808A4047C7}Prefabs/Characters/Factions/BLUFOR/RHS
   }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{48602F57998AB597}Prefabs/Items/Equipment/Backpacks/FILBE_Backpack.et"
+    }
     LoadoutSlotInfo Vest {
      Prefab "{EF06F43D51D1E7D7}Prefabs/Characters/Vests/Vest_JPC/variants/Vest_JPC_okinawa_Coy_MG.et"
     }
@@ -46,6 +49,12 @@ SCR_ChimeraCharacter : "{18F5BE808A4047C7}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Vest/Vest_JPC_okinawa_Coy_MG.et/M2402/Pouch_PCGEN3_MG.et"
      PrefabsToSpawn {
       "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{69374A4B912ACF31}" {
+     TargetStorage "Back/FILBE_Backpack.et"
+     PrefabsToSpawn {
+      "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et" "{BEE3897D2286992B}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_M855A1_4Ball_1Tracer.et"
      }
     }
    }
