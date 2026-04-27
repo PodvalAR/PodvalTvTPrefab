@@ -1,0 +1,30 @@
+GameEntity : "{1C87BC60297DE2F1}Prefabs/Characters/HeadGear/Helmet_LShZ/Helmet_LShZ_new_OD_6m2.et" {
+ ID "50D485E1435D6C72"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "RHS_AFRF"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{E2BA362EE4EBF3A0}Prefabs/Characters/HeadGear/Helmet_LShZ/Headgear_lshz_cover_EMR.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Offset -0.111 0.1235 -0.0178
+     Prefab "{0F6075686526F51D}Prefabs/Items/Equipment/Nightvision/ChargePro/ChargePro.et"
+    }
+    RHS_LoadoutSlotInfo TopVelcro {
+     Offset 0 0.2133 0
+     Angles 93.8862 0 0
+    }
+   }
+  }
+ }
+ coords 95.736 1.134 57.611
+}

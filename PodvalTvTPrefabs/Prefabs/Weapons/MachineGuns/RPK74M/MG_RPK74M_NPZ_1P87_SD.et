@@ -1,0 +1,44 @@
+GenericEntity : "{61026BA8B600A1C0}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1P87.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames + {
+    "{D335D51093EA8456}Sounds/Weapons/Rifles/AK74M/Suppressed/RHS_Weapons_Rifles_AK74M_Suppressed.acp"
+   }
+  }
+  SCR_WeaponStatsManagerComponent "{69349C286D5DAC91}" {
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E9087C1DD34883E}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS {
+      Prefab "{6FA34E6A13D58BF7}Prefabs/Weapons/Attachments/Optics/OKP7/OKP7_Ris.et"
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{69349C29AE8C989E}" {
+       AttachmentSlot InventoryStorageSlot "{69349C2991C4FAE3}" {
+        PivotID "slot_barrel_muzzle"
+        Offset 0 0 0.0139
+        MergePhysics 1
+        ChildPivotID "snap_weapon"
+        Prefab "{F3DD3F69F633AD36}Prefabs/Weapons/Attachments/Muzzle/Supressor_TGPA/Supressor_TGPA.et"
+        InspectionWidgetOffset -0.0015 0.0704 0.7762
+       }
+       AttachmentType AttachmentMuzzle545_39 "{69349C221D74DDED}" {
+       }
+       ShowInInspection 1
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ResetOnFire 0
+       OverrideByAttachment 1
+      }
+     }
+     MagazineTemplate "{59E9813D0D205384}Prefabs/Weapons/Magazines/Magazine_545x39_plastic_6l26_45_ball_7N22.et"
+    }
+   }
+  }
+ }
+ coords 88.508 1.254 107.893
+}

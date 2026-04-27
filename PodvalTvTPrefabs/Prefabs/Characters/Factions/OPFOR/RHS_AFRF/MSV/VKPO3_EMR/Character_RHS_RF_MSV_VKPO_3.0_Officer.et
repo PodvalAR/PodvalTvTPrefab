@@ -1,0 +1,79 @@
+SCR_ChimeraCharacter : "{5B236FF3A449A4E1}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO3_EMR/Character_RHS_RF_MSV_VKPO_3.0_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+       Prefab "{F2539FA5706E51E4}Prefabs/Items/Equipment/Binoculars/Binoculars_B12/Binoculars_B12.et"
+      }
+     }
+    }
+   }
+  }
+  PS_PlayableComponent "{5EFCC1946F475F15}" {
+   m_bIsPlayable 1
+  }
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Officer"
+    m_Image "{B48E514E8E7F84DE}UI/Textures/EditorPreviews/Characters/Factions/OPFOR/RHS_AFRF/MSV/VKPO_3_EMR/Character_RHS_RF_MSV_VKPO_3_EMR_Rifleman.edds"
+    m_aAuthoredLabels + {
+     ROLE_LEADER
+    }
+    m_aAutoLabels {
+     SIZE_M
+    }
+   }
+  }
+  SCR_ExtendedCharacterIdentityComponent "{5AEEA3C8B2AA118B}" {
+   m_iMinRandomAge 22
+   m_iMaxRandomAge 32
+   m_fChanceOfIdentityDocumentBeingValuable 1
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{94493910A15ECDC6}Prefabs/Characters/HeadGear/Hat_VKPO_Cap/Hat_VKPO_Cap.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{FAECE2A4CCD7FB96}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_EMR.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{7DF9924B501D7D53}Prefabs/Characters/Vests/Vest_TV102/variants/Vest_TV102_Officer_EMR_1.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{623A51059E4ED1CA}" {
+     TargetStorage "Vest/Vest_TV102_Officer_EMR_1.et/radio/Pouch_UP111_radioClosed_EMR.et"
+    }
+    ItemsInitConfigurationItem "{652EB75741251B5E}" {
+     TargetStorage "Vest/Vest_TV102_Officer_EMR_1.et/bayonet/Pouch_6x9Scabbard.et"
+     TargetPurpose 64
+    }
+    ItemsInitConfigurationItem "{693341BBFA1B96AF}" {
+     TargetStorage "Vest/Vest_TV102_Officer_EMR_1.et/holster/Pouch_HP103_Holster_EMR.et"
+     PrefabsToSpawn {
+      "{C0F7DD85A86B2900}Prefabs/Weapons/Handguns/PM/Handgun_PM.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341BBFA1B96A7}" {
+     TargetStorage "Vest/Vest_TV102_Officer_EMR_1.et/pistol/Pouch_MP111_PistolClosed_EMR.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693341BBFA1B96A5}" {
+     TargetStorage "Vest/Vest_TV102_Officer_EMR_1.et/pistol2/Pouch_MP111_PistolClosed2_EMR.et"
+     PrefabsToSpawn {
+      "{8B853CDD11BA916E}Prefabs/Weapons/Magazines/Magazine_9x18_PM_8rnd_Ball.et"
+     }
+    }
+   }
+  }
+ }
+ coords 79.809 1 68.347
+}

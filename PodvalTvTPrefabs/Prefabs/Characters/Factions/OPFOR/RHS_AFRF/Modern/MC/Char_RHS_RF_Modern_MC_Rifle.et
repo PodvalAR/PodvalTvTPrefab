@@ -3,8 +3,14 @@ SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_
  components {
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{5F30B56D1D2C49CD}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_MC.et"
+    }
     LoadoutSlotInfo Jacket {
      Prefab "{385BD8C6F68644CF}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Shirt.et"
+    }
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{8B12A60F8E0D3F01}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_base.et"
     }
     LoadoutSlotInfo Pants {
      Prefab "{BBD789333ED8052C}Prefabs/Characters/Uniforms/VKPO/Triada_Combat_Pants.et"
@@ -25,5 +31,5 @@ SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 70.978 1 96.809
+ coords 52.038 0.994 69.153
 }

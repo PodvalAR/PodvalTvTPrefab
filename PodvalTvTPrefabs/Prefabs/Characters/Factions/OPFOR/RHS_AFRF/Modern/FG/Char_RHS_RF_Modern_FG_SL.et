@@ -35,8 +35,7 @@ SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_
       "{A55A815F28739FEC}Prefabs/Items/Equipment/Navigation/Orion/Orion.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et" "{062E2F1D7F6739D6}Prefabs/Items/Equipment/Accessories/ETool_MPL50/ETool_MPL50_FreeRoamBuilding_Gadget.et" "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et"
      }
     }
-    ItemsInitConfigurationItem "{690A9D0D1356A568}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle.et/radio/Pouch_UP111_radioClosed_FG.et"
+    ItemsInitConfigurationItem "{6934E1DF935B9AAD}" {
      PrefabsToSpawn {
       "{D52C46C73D3EC927}Prefabs/Items/Equipment/Radios/Radio_R187P1_RF_Multi.et"
      }

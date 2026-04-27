@@ -1,0 +1,31 @@
+GameEntity : "{29C9A2C915989EFE}Prefabs/Characters/HeadGear/Helmet_TOR2/Helmet_TOR2M_olive.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo MeshCover {
+     Prefab "{3128AF01D21C4D28}Prefabs/Characters/HeadGear/Helmet_TOR/Headgear_tor_cover_emr.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{D425E23E81C53360}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_Full_EMR.et"
+    }
+    RHS_LoadoutSlotInfo Headset {
+     Prefab "{F8554F236521F974}Prefabs/Characters/HeadGear/Headphones_6M2/headphones_6m2.et"
+    }
+    RHS_LoadoutSlotInfo Rail_Right {
+     Offset -0.1087 0.1199 -0.023
+     Angles 0 180 -0.5564
+     Enabled 1
+     Prefab "{207687AEF9630E41}Prefabs/Items/Equipment/Nightvision/switch/Switch.et"
+    }
+    RHS_LoadoutSlotInfo TOR2faceshield {
+     Offset 0 0.0785 -0.0078
+    }
+   }
+  }
+ }
+ coords 98.174 1.182 58.888
+}
