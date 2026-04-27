@@ -1,0 +1,6 @@
+SCR_AIGroup : "{3C9E8DA2B50B5EE9}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Regular_Heli_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{338CA9AD8187BEA6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_HeliPilot.et" "{49954C9CE0EA8E4A}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/Char_RHS_TF_USAF_MarpatWD_CoPilot.et"
+ }
+}
