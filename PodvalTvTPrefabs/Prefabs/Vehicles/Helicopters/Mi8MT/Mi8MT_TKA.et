@@ -1,0 +1,36 @@
+Vehicle : "{DF5CCB7C0FF049F4}Prefabs/Vehicles/Helicopters/Mi8MT/Mi8MT_unarmed_transport.et" {
+ ID "5A7CEB06421662F8"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{693914376B54564C}" {
+     SourceMaterial "Exterier_35715EB3956D22B9"
+     AssignedMaterial "{D2D003D832D8BCB8}Assets/Vehicles/Helicopters/Mi8/Data/Mi8_Body_TKA.emat"
+    }
+    MaterialAssignClass "{693914376B54563B}" {
+     SourceMaterial "Flag_decals_01_0418C5226701B4E1"
+     AssignedMaterial "{F3441BDC2E6A04A6}Assets/Vehicles/Helicopters/Mi8/Data/MI8_Flag_decals_01_TKA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    m_Image "{E740B59F682956EE}UI/Textures/EditorPreviews/Vehicles/Helicopters/Mi8MT_TKA.edds"
+    m_sFaction "Ses_TKA"
+    m_aAutoLabels {
+     FACTION_Ses_TKA SIZE_L
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo door_rear {
+     Prefab "{96ECBB2EC3162B7A}Prefabs/Vehicles/Helicopters/Mi8MT/VehParts/Mi8MT_rear_door_TKA.et"
+    }
+   }
+  }
+ }
+}
