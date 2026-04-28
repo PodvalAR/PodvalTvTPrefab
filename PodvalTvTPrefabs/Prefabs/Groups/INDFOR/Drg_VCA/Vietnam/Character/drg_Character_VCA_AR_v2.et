@@ -1,6 +1,12 @@
-SCR_ChimeraCharacter : "{CDBDCBBF8056BFF5}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_AR.et" {
+SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg_VCA/drg_Character_VCA_Rifleman.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-SubmachineGunner"
+    Icon "{0284ABAAB8CCDEF1}UI/Icons/automatic_rifleman.edds"
+   }
+  }
   CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
    WeaponTemplate "{BFE79C383ABDE6D2}Prefabs/Weapons/Rifles/MP40/BC_MP40.et"
   }
@@ -12,6 +18,7 @@ SCR_ChimeraCharacter : "{CDBDCBBF8056BFF5}Prefabs/Characters/Factions/INDFOR/Drg
      }
     }
     ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
+     TargetStorage "Back/Backpack_Kolobok_vietnam.et"
      PrefabsToSpawn {
       "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et" "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et" "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et" "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et" "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et" "{EA76BE12E7C97CF1}Prefabs/Weapons/Magazines/MP40/BC_Magazine_9x19_MP40_32rnd_Ball.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
@@ -19,5 +26,4 @@ SCR_ChimeraCharacter : "{CDBDCBBF8056BFF5}Prefabs/Characters/Factions/INDFOR/Drg
    }
   }
  }
- coords -1.621 -0.189 -0.914
 }
