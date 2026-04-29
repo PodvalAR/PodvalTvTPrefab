@@ -15,6 +15,14 @@ SCR_ChimeraCharacter : "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{61B75C986066B4C1}" {
+     PrefabsToSpawn +{
+     }
+    }
+    ItemsInitConfigurationItem "{61B87867EA32507F}" {
+     PrefabsToSpawn +{
+     }
+    }
     ItemsInitConfigurationItem "{61B87867AD2AC1E7}" {
      PrefabsToSpawn {
       "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et" "{9C05543A503DB80E}Prefabs/Weapons/Magazines/Magazine_9x19_M9_15rnd_Ball.et"
@@ -33,4 +41,5 @@ SCR_ChimeraCharacter : "{2C3E11CA45CC467B}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
+ coords 2911.189 10.75 3405.667
 }

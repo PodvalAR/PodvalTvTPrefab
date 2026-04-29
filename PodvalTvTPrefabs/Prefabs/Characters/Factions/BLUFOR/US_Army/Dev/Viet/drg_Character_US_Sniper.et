@@ -31,7 +31,7 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
     ItemsInitConfigurationItem "{61B75C986066B4C1}" {
      TargetStorage "Jacket/Jacket_US_BDU_02.et"
      PrefabsToSpawn + {
-      "{BA2D0EE170E44DC7}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_rprv.et"
+      "{04D57339108FAD4D}Prefabs/Items/Equipment/Radios/Radio_ANPRC68_USA_Singl.et"
      }
     }
     ItemsInitConfigurationItem "{61B87867EA32507F}" {
@@ -55,5 +55,5 @@ SCR_ChimeraCharacter : "{903097F658A99BE3}Prefabs/Characters/Factions/BLUFOR/US_
    }
   }
  }
- coords -1.641 -0.757 -0.873
+ coords 2902.05 10.75 3408.443
 }
