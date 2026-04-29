@@ -1,0 +1,35 @@
+Vehicle : "{6F963B40DE04868A}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_TKA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{60E55E124C9A99C7}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{A4DB9B3C76B13CD4}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_Ses_CDF.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{9E8F6F0C63893390}UI/Textures/EditorPreviews/Vehicles/Wheeled/BTR70/BTR70_Ses_TKR.edds"
+    m_sFaction "Ses_TKR"
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKR"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{E8A6C11CE6E9448B}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_Old.et"
+    }
+    RegisteringComponentSlotInfo AmmoStorage {
+     Offset 0 0.05 0
+    }
+    RegisteringComponentSlotInfo TKA_CoatOfArms_decal {
+     Prefab ""
+    }
+   }
+  }
+ }
+}

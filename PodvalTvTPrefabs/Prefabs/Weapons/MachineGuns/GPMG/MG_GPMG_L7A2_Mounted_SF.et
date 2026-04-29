@@ -1,0 +1,65 @@
+GenericEntity : "{5B7A1B7951FBEB44}Prefabs/Weapons/MachineGuns/GPMG/MG_GPMG_L7A2_Mounted.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponSoundComponent "{5A8685198A9AEEDD}" {
+   Filenames {
+    "{D10BFA0E62F81545}Sounds/Weapons/Machineguns/M60D/Weapons_Machineguns_M60D_Shot.acp" "{9654992A68125DDF}Sounds/Weapons/Machineguns/M60/Weapons_Machineguns_M60_Handling.acp"
+   }
+  }
+  MeshObject "{CFBAA4B701F95D69}" {
+   Object "{4F370758AEC36C3E}Assets/Weapons/MachineGuns/GPMG/L7A2GPMG_SF.xob"
+  }
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    SightsComponent "{BB23A637957CFFF8}" {
+     Enabled 0
+     SightsRanges {
+      SightRangeInfo "{584CED31925C47AA}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{584CED31925F3C57}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{584CED3192A1EF9B}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{584CED3192A0DB02}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{584CED3192A3B7CF}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{584CED3192A2605B}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{584CED3192A55238}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{584CED3192A402C1}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{613D375321BFF6F8}" {
+       Range 0.2 200
+      }
+      SightRangeInfo "{613D375321BD51E5}" {
+       Range 0.2 200
+      }
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      CaseEjectingEffectComponent "{5122AAD190FCA21D}" {
+       Enabled 0
+      }
+      CaseEjectingEffectComponent "{56D2FD44F3B43E2B}" {
+       Enabled 0
+      }
+     }
+     MagazineWell MagazineWell_GPMGStatic "{5534C3B6F2351D28}" {
+     }
+     MagazineTemplate "{F90F352E1F49965F}Prefabs/Weapons/Magazines/H82_762x51_GPMG_200rnd_Base.et"
+    }
+   }
+  }
+ }
+}

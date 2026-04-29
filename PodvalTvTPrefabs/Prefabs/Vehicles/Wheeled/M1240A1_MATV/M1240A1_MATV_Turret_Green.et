@@ -6,5 +6,15 @@ Vehicle : "{62C3141D1B627DF2}Prefabs/Vehicles/Wheeled/M1240A1_MATV/M1240A1_MATV_
     m_Image "{63982F16063ABC8F}UI/Textures/EditorPreviews/Vehicles/Wheeled/MATV/MATV_Green.edds"
    }
   }
+  SCR_UniversalInventoryStorageComponent "{65AB02CD55B08A8C}" {
+   MultiSlots {
+    MultiSlotConfiguration "{6923125F9A9170CE}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
  }
 }

@@ -1,0 +1,6 @@
+SCR_AIGroup : "{5A5CD4FBBC910D15}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Recon_HeliRecon_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{D893B358E0F01925}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/4x/dim_USMC_FR_TL_4x.et.et" "{7015A051DE2535D8}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_Assist_TL.et" "{6BB1EF93AC30DDF2}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman.et" "{158BEA0313EA16E7}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/dim_Role_Character_USAF_USMC_FR_Grenadier.et" "{ED7D92378B4F0A8B}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/4x/dim_USMC_FR_Sapper_4x.et.et" "{E041F94507C9B7B6}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/USMC/Summer/Force_Recon/dim_USMC_FR_Rifleman_2.et" "{DD0FB453D60AFC0F}Worlds/Vanya/ChernarusMinus/TVT_SHTURM_V2_chernarus/dim_USMC_Sniper.et"
+ }
+}

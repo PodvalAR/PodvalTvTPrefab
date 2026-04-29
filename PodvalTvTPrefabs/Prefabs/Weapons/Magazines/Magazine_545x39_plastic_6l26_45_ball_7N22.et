@@ -1,0 +1,20 @@
+GenericEntity : "{DBDDFA7E6E392CBF}Prefabs/Weapons/Magazines/6l26/Magazine_545x39_plastic_6l26_45_ball.et" {
+ ID "CA6BE4D6BB2D1077"
+ components {
+  InventoryMagazineComponent "{51EED12B803954CC}" {
+   Attributes SCR_ItemAttributeCollection "{51EED12B86960275}" {
+    ItemDisplayName UIInfo "{51FEE38527BFEA5B}" {
+     Name "#RHS-Magazine_6L26_Plastic_Name (7N22)"
+     Description "#RHS-Magazine_6L26_Plastic_Description (7N22)"
+    }
+   }
+  }
+  MagazineComponent "{CA6BE4D6B4DAFD69}" {
+   UIInfo MagazineUIInfo "{57126733AA401586}" {
+    m_sAmmoType "7N22"
+   }
+   AmmoConfig "{EB468C1620DF4C36}Configs/Weapons/Ammo/Ammo_545x39_7N22.conf"
+  }
+ }
+ coords 73.285 1 73.861
+}

@@ -28,7 +28,7 @@ SCR_ChimeraCharacter : "{30113AEB06AE66D4}Prefabs/Characters/Factions/BLUFOR/RHS
      TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52FFCEB5}" {
-     TargetStorage "Pants/USMC_Frog_Pants_In_Summer.et"
+     TargetStorage "Pants/Pants_FROG_WD.et"
     }
     ItemsInitConfigurationItem "{6720F9CB52DA4A6E}" {
      TargetStorage "Jacket/USMC_Frog_Shirt_Turn_Summer.et"

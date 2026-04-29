@@ -23,9 +23,9 @@ SCR_ChimeraCharacter : "{AD11AF5C866B83E8}Prefabs/Characters/Factions/OPFOR/TKA/
      TargetStorage "Vest/Vest_SovietHarness_MG_NoUnusable.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
     }
     ItemsInitConfigurationItem "{689E8CBF6FA5001F}" {
-     TargetStorage "Vest/Vest_SovietHarness_MG_NoUnusable.et/Suspenders/Vest_SovietHarness_Suspenders.et"
+     TargetStorage "Vest/Vest_SovietHarness_MG_NoUnusable.et/GrenadePouch/Pouch_Soviet_100rnd_PKM.et"
      PrefabsToSpawn {
-      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
+      "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et" "{B1AD90C6D3335552}Prefabs/Weapons/Magazines/Box_762x54_PK_100rnd_7N14_4Ball_1Tracer.et"
      }
     }
    }

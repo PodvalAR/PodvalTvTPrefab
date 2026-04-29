@@ -1,0 +1,13 @@
+SCR_ChimeraCharacter : "{19FE53AE73F42294}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_SR.et" {
+ ID "520EC961A090B1EE"
+ components {
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Back {
+     Prefab "{B662AEE0CA82AFB8}Prefabs/Items/Equipment/Radios/Radio_R107M_RF.et"
+    }
+   }
+  }
+ }
+ coords 84.365 1 71.434
+}

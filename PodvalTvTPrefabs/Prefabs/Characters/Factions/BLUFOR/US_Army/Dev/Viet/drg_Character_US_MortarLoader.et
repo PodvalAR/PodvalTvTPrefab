@@ -1,0 +1,17 @@
+SCR_ChimeraCharacter : "{07A38C4AD008CF60}Prefabs/Characters/Factions/BLUFOR/US_Army/Dev/Viet/drg_Character_US_MortarGunner.et" {
+ ID "520EC961A090BBD5"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#DRG-Role-MortarLoader"
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693AC8845063F481}" {
+    }
+   }
+  }
+ }
+ coords 2896.169 10.75 3406.378
+}

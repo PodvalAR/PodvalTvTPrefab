@@ -1,0 +1,34 @@
+Vehicle : "{03708F7E58BB7A53}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#TF-Vehicle_M1151A1_M2_Name + GPK (Mk.19)"
+    m_Image "{CBF245116D2CF388}UI/Textures/EditorPreviews/Vehicles/Wheeled/M1151/M1151A1_Mk19_Green.edds"
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{66F2D69AD3FC9116}" {
+     SlotTemplate InventoryStorageSlot M2Ammo {
+      Prefab "{928CAC2A1FB43429}Prefabs/Weapons/Magazines/MK_19/Magazine_40mm_MK19_32rnd_Base.et"
+     }
+     NumSlots 6
+    }
+    MultiSlotConfiguration "{69231251F8FDC0EE}" {
+     SlotTemplate InventoryStorageSlot Bandages {
+      Prefab "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+     NumSlots 1
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Roof {
+     Prefab "{0AF154671011464F}Prefabs/Vehicles/Wheeled/M998/VehParts/M1151_roof_MK19.et"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+GameEntity : "{C11A1802356E1E54}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_EMR.et" {
+ ID "50D485E1435D6C72"
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo Goggles {
+     Prefab "{4CB556EEDA83FFFE}Prefabs/Characters/Eyewear/npp_strelok/Eyewear_npp_strelok_emr.et"
+    }
+    RHS_LoadoutSlotInfo Masks {
+     Prefab "{7621C7D9145AF8D5}Prefabs/Characters/HeadGear/Balaclavas/Balaclava_v1/Balaclava_v1_OD.et"
+    }
+    RHS_LoadoutSlotInfo BackVelcro {
+     Prefab "{D425E23E81C53360}Prefabs/Characters/HeadGear/Helmet_TOR/counterweight/TOR_counterweight_Full_EMR.et"
+    }
+    RHS_LoadoutSlotInfo NVG {
+     Prefab "{B0534A120633D08D}Prefabs/Items/Equipment/Nightvision/1PN138/NVG_1PN138.et"
+    }
+   }
+  }
+ }
+ coords 83.74 1 69.089
+}

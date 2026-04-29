@@ -1,0 +1,154 @@
+GenericEntity : "{00FE407E01BDD455}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_API.et" {
+ coords 62.536 1 65.755
+}
+GenericEntity : "{0D4DA75853FEBAA4}Prefabs/Weapons/Attachments/Suppressor_T5000.et" {
+ coords 59.564 1 66.197
+}
+GenericEntity : "{0EC215F0EB3288A6}Prefabs/Weapons/Magazines/Magazine_762x51_M40_5rnd_Base.et" {
+ coords 64.473 1 66.308
+}
+SCR_ChimeraCharacter : "{24663D8AC5E00E1C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_SL.et" {
+ coords 84.831 1 66.863
+}
+TracerProjectile : "{27E671E1F169ED18}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x108_APIT_BZT44.et" {
+ coords 63.97 1 65.242
+}
+SCR_AIGroup : "{2D446D097058483D}Prefabs/Groups/OPFOR/RHS_AFRF/Modern/EMR/Group_RHS_AFRF_Modern_EMR_ALL.et" {
+ coords 84.68 1.31 65.553
+}
+GameEntity : "{345332182E17C5E7}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_EMR_Recon.et" {
+ coords 125.355 1 54.962
+}
+$grp Projectile : "{3F79C0D280827543}Prefabs/Weapons/Ammo/Ammo_762x51_Ball_L2A2.et" {
+ {
+  coords 57.014 1 71.943
+ }
+ {
+  coords 63.69 1 65.424
+ }
+}
+Projectile : "{44E9A6AA8158FEE9}Prefabs/Weapons/Ammo/338LM_Ammo.et" {
+ coords 63.625 1 64.776
+}
+GenericEntity : "{4C4E8046C60B8C88}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1P86_SD.et" {
+ coords 72.476 1 74.316
+}
+SCR_ChimeraCharacter : "{5001076D9995DF43}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/MC/Char_RHS_RF_Modern_MC_Rifle.et" {
+ coords 52.038 0.994 69.153
+}
+GameEntity : "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon.et" {
+ components {
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   Slots {
+    RHS_LoadoutSlotInfo LeftVelcro {
+    }
+   }
+  }
+ }
+ coords 125.596 1.218 54.745
+}
+$grp GameEntity : "{69DD2E7CD6459BFC}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_FG_Recon.et" {
+ {
+  coords 90.73 1.848 65.286
+ }
+ {
+  coords 126.271 1 55.884
+ }
+}
+Projectile : "{6DEC9F287271AB24}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_AP_M2.et" {
+ coords 63.989 1 65.062
+}
+GenericEntity : "{727F2DBEF43A6B5B}Prefabs/Weapons/Attachments/Camouflage/Camouflage_Orsis.et" {
+ coords 61.329 1 66.097
+}
+$grp GenericEntity : "{7A2CEB0D5FDC5E5D}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_Cobra.et" {
+ {
+  coords 55.862 1 65.748
+ }
+ {
+  coords 56.309 1 66.316
+ }
+ {
+  coords 54.548 1 66.906
+ }
+}
+Projectile : "{7AACC4387795D5C1}Prefabs/Weapons/Ammo/Ammo_762x51_Ball_L2A2_GreenSpot.et" {
+ coords 63.774 1 65.472
+}
+$grp GenericEntity : "{87E6B71805332FCA}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_Forest.et" {
+ {
+  coords 56.921 1 65.841
+ }
+ {
+  coords 54.971 1 67.193
+ }
+}
+GenericEntity : "{8865D6AEE1413CB5}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_base.et" {
+ coords 56.705 1 66.088
+}
+GenericEntity : "{89B49CDEBBEC973A}Prefabs/Weapons/Magazines/M107A1/Magazine_127x99_M107A1_10rnd_M2.et" {
+ coords 62.344 1 70.22
+}
+GenericEntity : "{8B8210DB335DCF84}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1P87_SD.et" {
+ coords 73.274 1 74.609
+}
+$grp GenericEntity : "{90AB0049530065CF}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_Sneak.et" {
+ {
+  coords 57.857 1 65.887
+ }
+ {
+  coords 55.12 1 67.239
+ }
+}
+GenericEntity : "{929094A12532234A}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum).et" {
+ coords 62.342 1 65.722
+}
+Projectile : "{98AA3AA1887F1ACA}Prefabs/Weapons/Ammo/338LM_SC-152BZ_Ammo.et" {
+ coords 63.61 1 65.26
+}
+GenericEntity : "{9A2AA760B16BCDBE}Prefabs/Weapons/Rifles/M40/Rifle_M40A5.et" {
+ coords 65.107 1 66.237
+}
+GenericEntity : "{A004065E3624160D}Prefabs/Weapons/Rifles/PM/Rifle_AI_PM_SF_PM6x42_M61.et" {
+ coords 57.98 1 69.584
+}
+$grp Projectile : "{A4E070505C87AD42}Prefabs/Weapons/Ammo/SmallArms/Ammo_127x99_Ball_M33.et" {
+ {
+  coords 63.005 1 72.63
+ }
+ {
+  coords 63.841 1 65.028
+ }
+}
+GenericEntity : "{AE26AC1278EB4B4C}Prefabs/Weapons/Attachments/Suppressor_T5000_camo.et" {
+ coords 60.773 1 66.18
+}
+$grp GenericEntity : "{B67367CFFED60A79}Prefabs/Weapons/Rifles/ORSIS/Rifle_ORSIS_T5000_Tan.et" {
+ {
+  coords 58.733 1 65.968
+ }
+ {
+  coords 57.32 1 66.089
+ }
+}
+GameEntity : "{BACD6B71016DE117}Prefabs/Characters/Vests/Chestrig/Variants/ChestrigATACSAU.et" {
+ coords 54.183 1 65.268
+}
+SCR_ChimeraCharacter : "{BC984D5A83CCFF81}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Sharpshooter_TEST.et" {
+ coords 53.471 1 71.806
+}
+Projectile : "{BCEFA311044D3A16}Prefabs/Weapons/Ammo/338LM_SC-152BP_Ammo.et" {
+ coords 63.631 1 64.996
+}
+GenericEntity : "{D87F9CD3863BF6E5}Prefabs/Weapons/Rifles/PM/Rifle_AI_PMSD_PM6x42_M61.et" {
+ coords 57.593 1 70.477
+}
+GenericEntity : "{E256C0CC945E18A5}Prefabs/Weapons/Magazines/Magazine_8,6x70_mm_(.338 Lapua Magnum)_BP.et" {
+ coords 63.062 1 65.612
+}
+GenericEntity : "{EFD4D5A1F6304A02}Prefabs/Weapons/Attachments/Suppressor_T5000_BRT.et" {
+ coords 60.191 1 66.236
+}
+GenericEntity : "{F527D4B2C74C5E6A}Prefabs/Weapons/Attachments/Camouflage/Camouflage_Orsis_V2.et" {
+ coords 61.94 1 66.041
+}

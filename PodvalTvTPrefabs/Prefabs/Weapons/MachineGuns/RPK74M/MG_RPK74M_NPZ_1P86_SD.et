@@ -1,0 +1,27 @@
+GenericEntity : "{8B8210DB335DCF84}Prefabs/Weapons/MachineGuns/RPK74M/MG_RPK74M_NPZ_1P87_SD.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    AttachmentSlotComponent "{5E9087C1DD34883E}" {
+     AttachmentSlot RHS_SlidingInventoryStorageSlot RIS {
+      Prefab "{F727A9D4939E89EE}Prefabs/Weapons/Attachments/Optics/1p86/Optic_1p86-1.et"
+     }
+    }
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     components {
+      AttachmentSlotComponent "{69349C29AE8C989E}" {
+       AttachmentSlot InventoryStorageSlot "{69349C2991C4FAE3}" {
+       }
+      }
+      SCR_MuzzleEffectComponent "{C9B3271BB22CDB68}" {
+       ResetOnFire 0
+       OverrideByAttachment 1
+      }
+     }
+    }
+   }
+  }
+ }
+ coords 88.137 1.276 108.131
+}

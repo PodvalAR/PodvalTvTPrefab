@@ -1,0 +1,19 @@
+MetaFileClass {
+ Name "{6A755120CEB61FBA}Prefabs/Groups/BLUFOR/RHS_USAF/Regular/MarpatWD/Group_RHS_USMC_Recon_Recon_Attack.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+  EntityTemplateResourceClass Xbox : PC {
+  }
+ }
+}

@@ -1,0 +1,35 @@
+SCR_ChimeraCharacter : "{A7D5A6D5E9FBEDB2}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Char_RHS_RF_Modern_FG_Sharpshooter.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{FBB7E60937300171}UI/Icons/sso_icon_256.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{9F00FD1D667EAD90}Prefabs/Weapons/Rifles/SVDM/Rifle_SVDM_ts30a2_SUB.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFB7}" {
+   WeaponTemplate "{E0010C5E27F9FDB4}Prefabs/Weapons/Rifles/SR3M/Rifle_SR3M_wd_rails.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{57ED73B437192611}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_S_FG_Recon.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{689F3578D5D3EE94}" {
+    }
+    ItemsInitConfigurationItem "{68FB187793378679}" {
+     PrefabsToSpawn + {
+      "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et" "{9F9D2A11F3D39866}Prefabs/Weapons/Magazines/sr3m_magazine_30rnd/Magazine_9x39_SR3M_30rnd_SP6_base.et"
+     }
+    }
+   }
+  }
+ }
+ coords 72.51 1 94.107
+}

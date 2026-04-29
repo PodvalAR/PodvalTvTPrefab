@@ -126,6 +126,12 @@ Vehicle : "{B120CDDBEF8DB007}Prefabs/Vehicles/Wheeled/M998/M1025_armed_base.et" 
      }
      NumSlots 2
     }
+    MultiSlotConfiguration "{6923125FE9E4B4CA}" {
+     SlotTemplate InventoryStorageSlot ATmine {
+      Prefab "{B1798B0F1258B765}Prefabs/Items/Equipment/Navigation/DAGR/DAGR.et"
+     }
+     NumSlots 1
+    }
    }
   }
   VehicleWheeledSimulation "{731B26FCA2F19855}" {

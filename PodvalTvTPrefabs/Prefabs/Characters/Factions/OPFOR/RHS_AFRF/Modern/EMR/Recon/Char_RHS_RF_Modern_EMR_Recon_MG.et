@@ -1,0 +1,29 @@
+SCR_ChimeraCharacter : "{A21DAD0A87B90D8C}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/EMR/Char_RHS_RF_Modern_EMR_MG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Icon "{FBB7E60937300171}UI/Icons/sso_icon_256.edds"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{227553D6AC64F016}Prefabs/Weapons/MachineGuns/PKM/MG_PKM_7N14.et"
+  }
+  SCR_CharacterIdentityComponent "{5584CBC63E092DBC}" {
+   Override 1
+   Identity Identity "{5584CBC6363C648B}" {
+    VisualIdentity VisualIdentity "{56E6D9456009D1C4}" {
+     Head "{DAEA2176AC082B5E}Prefabs/Characters/Heads/Head_White_08_Camo.et"
+    }
+   }
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Hat {
+     Prefab "{F0FD1AE1829BFE91}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_EMR_Recon.et"
+    }
+   }
+  }
+ }
+ coords 71.592 1 58.094
+}

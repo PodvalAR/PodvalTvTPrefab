@@ -1,0 +1,6 @@
+SCR_AIGroup : "{45EE09346B6C33AE}Prefabs/Groups/BLUFOR/RHS_USAF/RandomSpawn/Defend/Group_RHS_USAF_Regular_Sniper_Defend.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{C52FBCAC6D08ED69}Prefabs/Characters/Factions/BLUFOR/RHS_USAF/Regular/MARSOC/dim_Role_Character_USMC_M82man.et" "{DD0FB453D60AFC0F}Worlds/Vanya/ChernarusMinus/TVT_SHTURM_V2_chernarus/dim_USMC_Sniper.et"
+ }
+}

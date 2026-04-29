@@ -247,6 +247,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
   TurretComponent "{68C545CD9B0FE642}" {
    components {
     RHS_2DSightsComponentV2 "{68C545CD9B0FE645}" {
+     Enabled 1
      SightsPosition PointInfo "{68C545CD9B0FE647}" {
       PivotID "v_Gun_01"
       Offset -0.4716 0.3135 -0.4084
@@ -296,6 +297,7 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
      m_sRHSLayoutOverlayResource "{A2A51437F905A458}UI/layouts/Sights/Optic_Widgets_K17_Berezhok.layout"
     }
     RHS_VehicleNightVisionComponent "{68C545CD9B0FE7B2}" {
+     Enabled 0
      m_sNVGGooglesHDRMatrial "{4FCD073BE66BFE09}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_HDR.emat"
      m_sNVGGooglesFilmGrainMaterial "{184629CB26E4C8ED}Assets/Vehicles/SharedMaterials/Vehicle_Thermal_FilmGrain.emat"
      m_aBlemSet {
@@ -373,33 +375,19 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    }
    WeaponTemplate "{50441A9C9DA65037}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42.et"
   }
-  WeaponSlotComponent "{68C545CD9B0FE7AB}" {
-   SignalsSourceAccess SignalsSourceAccessClass "{68C545CD9B0FE7AD}" {
+  WeaponSlotComponent "{68C545CD9B0FE78D}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{68C545CD9B0FE78F}" {
     signalsSuffix "Turret"
    }
    useAimingType MainTurret
    shouldHandleObstruction 0
-   AttachType InventoryStorageSlot rock {
-    PivotID "v_MissileRack"
-    Offset 0 0 0.2997
+   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
+    PivotID "v_2A42"
+    Offset 0 -0.0335 0.2301
     MergePhysics 1
    }
-   WeaponTemplate ""
-   WeaponSlotIndex 4
-  }
-  WeaponSlotComponent "{68C545CD9B0FE7AF}" {
-   SignalsSourceAccess SignalsSourceAccessClass "{68C545CD9B0FE791}" {
-    signalsSuffix "Turret"
-   }
-   useAimingType MainTurret
-   shouldHandleObstruction 0
-   AttachType InventoryStorageSlot GMG {
-    PivotID "v_AGS"
-    Offset 0.0211 -0.057 0.3966
-    MergePhysics 1
-   }
-   WeaponTemplate ""
-   WeaponSlotIndex 3
+   WeaponTemplate "{E6C710B3D6043754}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_HE.et"
+   WeaponSlotIndex 1
   }
   WeaponSlotComponent "{68C545CD9B0FE793}" {
    Enabled 1
@@ -434,19 +422,33 @@ Turret : "{4AD877DEA242E512}Prefabs/Weapons/Core/Turret_Base.et" {
    WeaponTemplate "{7131777969C5C6D6}Prefabs/Weapons/MachineGuns/PKM/MG_PKMT_recoiless.et"
    WeaponSlotIndex 2
   }
-  WeaponSlotComponent "{68C545CD9B0FE78D}" {
-   SignalsSourceAccess SignalsSourceAccessClass "{68C545CD9B0FE78F}" {
+  WeaponSlotComponent "{68C545CD9B0FE7AB}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{68C545CD9B0FE7AD}" {
     signalsSuffix "Turret"
    }
    useAimingType MainTurret
    shouldHandleObstruction 0
-   AttachType InventoryStorageSlot "{0AACE7470E421D82}" {
-    PivotID "v_2A42"
-    Offset 0 -0.0335 0.2301
+   AttachType InventoryStorageSlot rock {
+    PivotID "v_MissileRack"
+    Offset 0 0 0.2997
     MergePhysics 1
    }
-   WeaponTemplate "{E6C710B3D6043754}Prefabs/Weapons/HeavyWeapons/2A42/Weapon_2A42_HE.et"
-   WeaponSlotIndex 1
+   WeaponTemplate ""
+   WeaponSlotIndex 4
+  }
+  WeaponSlotComponent "{68C545CD9B0FE7AF}" {
+   SignalsSourceAccess SignalsSourceAccessClass "{68C545CD9B0FE791}" {
+    signalsSuffix "Turret"
+   }
+   useAimingType MainTurret
+   shouldHandleObstruction 0
+   AttachType InventoryStorageSlot GMG {
+    PivotID "v_AGS"
+    Offset 0.0211 -0.057 0.3966
+    MergePhysics 1
+   }
+   WeaponTemplate ""
+   WeaponSlotIndex 3
   }
   SCR_TurretInventoryStorageManagerComponent "{68C545CD9B0FE7F2}" {
    Enabled 0

@@ -1,0 +1,45 @@
+Vehicle : "{34178E3A92776DA6}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_repair_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5D18B847C89935F9}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{86C0F62FDED7BA56}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_TKA.emat"
+    }
+    MaterialAssignClass "{5D18B847C89935C0}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{402A0ED342929F03}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_Ses_TKA.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{5E36A389AED7950B}" {
+   Enabled 0
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{1F4657C3FBD882F1}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_repair_Ses_TKA.edds"
+    m_sFaction "Ses_TKA"
+    m_aAutoLabels {
+     FACTION_Ses_TKA SIZE_M VEHICLE_TRUCK
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo RepairBox {
+     Prefab "{AE484B5A31458418}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ses_TKA/Ural4320_Ses_TKA_repair_box.et"
+    }
+   }
+  }
+ }
+}

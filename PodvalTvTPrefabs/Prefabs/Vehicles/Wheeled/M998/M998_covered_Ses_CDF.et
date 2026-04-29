@@ -1,0 +1,38 @@
+Vehicle : "{AF0578D66D51946B}Prefabs/Vehicles/Wheeled/M998/M998_covered_MERDC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{555CC37434E838A0}" {
+     SourceMaterial "Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body"
+     AssignedMaterial "{A75A74DD5C9AB00F}Assets/Vehicles/Wheeled/M998/Data/HMMWV_Body_Ses_CDF.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_Image "{528F48D6572B994E}UI/Textures/EditorPreviews/Vehicles/Wheeled/M998/M998_covered_Ses_CDF.edds"
+    m_sFaction "Ses_CDF"
+    m_aAutoLabels {
+     FACTION_Ses_CDF SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_CDF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Tailgate {
+     Prefab "{0058A034E8A67106}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_tailgate_CDF.et"
+    }
+    RegisteringComponentSlotInfo Brushguard {
+     Prefab "{BCA73B5B3A98A850}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_brushguard_Ses_CDF.et"
+    }
+    RegisteringComponentSlotInfo Canvas {
+     Prefab "{1295A7BDE6F5805D}Prefabs/Vehicles/Wheeled/M998/VehParts/M998_canvas_short_Ses_CDF.et"
+    }
+   }
+  }
+ }
+}
