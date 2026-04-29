@@ -17,6 +17,8 @@ SCR_ChimeraCharacter : "{5CF77DD8CE1F97BA}Prefabs/Characters/Factions/INDFOR/Drg
       "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et" "{063F3ABA03A63721}Prefabs/Weapons/Magazines/BC_Magazine_30-06_BAR_20rnd_M2_AP.et"
      }
     }
+    ItemsInitConfigurationItem "{693AB88C116BA030}" {
+    }
    }
   }
  }
