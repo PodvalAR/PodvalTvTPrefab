@@ -982,6 +982,30 @@ StringTable {
    Author "Biryuk"
    LastChanged "Biryuk"
   }
+  CustomStringTableItem "{693B458D2209DEC4}" {
+   Id "Pdvl_Vehicle_BTR72a"
+   Target_en_us "BTR-72a"
+   Target_ru_ru "БТР-72а"
+   Modified 1765494391
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{693B458FD1AEB337}" {
+   Id "Pdvl_Vehicle_k17_arbalet_AGS"
+   Target_en_us "K17 AGS Arbalet"
+   Target_ru_ru "К17 АГС Арбалет"
+   Modified 1765495142
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{693B458C260CF457}" {
+   Id "Pdvl_Vehicle_k17_arbalet_kord"
+   Target_en_us "K17 Kord Arbalet"
+   Target_ru_ru "К17 Корд Арбалет"
+   Modified 1765495120
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
   CustomStringTableItem "{68F8CBA907B841C6}" {
    Id "Pdvl_Vehicle_UAZ469_AGS"
    Target_en_us "UAZ 469 AGS"
