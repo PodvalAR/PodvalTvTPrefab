@@ -1,6 +1,11 @@
 Vehicle : "{1D55B99B07DFD011}Prefabs/Vehicles/Wheeled/K17/APC_K17_base_arbalet.et" {
  ID "BBCBA43A9778AE21"
  components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#Pdvl_Vehicle_k17_arbalet_AGS"
+   }
+  }
   SCR_UniversalInventoryStorageComponent "{693A736A17CAC848}" {
    MultiSlots {
     MultiSlotConfiguration "{693A921C032A7764}" {

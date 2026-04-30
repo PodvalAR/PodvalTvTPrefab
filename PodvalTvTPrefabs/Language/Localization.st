@@ -173,19 +173,19 @@ StringTable {
   }
   CustomStringTableItem "{61B66D47D30DA77D}" {
    Id "DRG-Role_Recon_Medic"
-   Target_en_us "Scout Medic"
+   Target_en_us "Medic"
    Target_fr_fr "Infirmier eclaireur"
-   Target_it_it "Medico esploratore"
-   Target_de_de "Sanitater Aufklarer"
-   Target_es_es "Medico explorador"
+   Target_it_it "Medico"
+   Target_de_de "Sanitater"
+   Target_es_es "Medico"
    Target_cs_cz "Zdravotnik pruzkumnik"
-   Target_pl_pl "Medyk zwiadowca"
-   Target_ru_ru "Разведчик-санитар"
+   Target_pl_pl "Medyk"
+   Target_ru_ru "Санитар"
    Target_ja_jp "偵察衛生兵"
    Target_ko_kr "정찰 의무병"
    Target_pt_br "Medico batedor"
    Target_zh_cn "侦察医护兵"
-   Target_uk_ua "Розвідник-санітар"
+   Target_uk_ua "Санітар"
    Modified 1639353787
    Author "hasta"
    LastChanged "hasta"
@@ -1675,6 +1675,30 @@ StringTable {
    Target_en_us "Weapon Squad"
    Target_ru_ru "Отделение вооружения"
    Modified 1762334407
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{693B458D2209DEC4}" {
+   Id "Pdvl_Vehicle_BTR72a"
+   Target_en_us "BTR-72a"
+   Target_ru_ru "БТР-72а"
+   Modified 1765494391
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{693B458FD1AEB337}" {
+   Id "Pdvl_Vehicle_k17_arbalet_AGS"
+   Target_en_us "K17 AGS Arbalet"
+   Target_ru_ru "К17 АГС Арбалет"
+   Modified 1765495142
+   Author "Biryuk"
+   LastChanged "Biryuk"
+  }
+  CustomStringTableItem "{693B458C260CF457}" {
+   Id "Pdvl_Vehicle_k17_arbalet_kord"
+   Target_en_us "K17 Kord Arbalet"
+   Target_ru_ru "К17 Корд Арбалет"
+   Modified 1765495120
    Author "Biryuk"
    LastChanged "Biryuk"
   }
