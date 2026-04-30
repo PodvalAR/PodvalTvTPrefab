@@ -1,6 +1,11 @@
 SCR_ChimeraCharacter : "{19FE53AE73F42294}Prefabs/Characters/Factions/OPFOR/RHS_AFRF/Modern/FG/Recon/Char_RHS_RF_Modern_FG_Recon_SR.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#PDVL_Role_SL"
+   }
+  }
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Back {
@@ -9,5 +14,5 @@ SCR_ChimeraCharacter : "{19FE53AE73F42294}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 84.365 1 71.434
+ coords 2479.661 82.67 6111.435
 }

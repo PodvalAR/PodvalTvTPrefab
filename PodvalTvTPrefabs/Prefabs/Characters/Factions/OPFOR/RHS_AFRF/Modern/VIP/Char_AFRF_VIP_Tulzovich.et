@@ -53,37 +53,37 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
     ItemsInitConfigurationItem "{693CE320C42AA621}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch1/Pouch_Taktika_magpouch_open_BLK.et"
      PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{693CE320C42AA667}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch2/Pouch_Taktika_magpouch_open_BLK.et"
      PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{693CE320C42AA661}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch3/Pouch_Taktika_magpouch_open_BLK.et"
      PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{693CE320C42AD3CE}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouch4/Pouch_Taktika_magpouch_open_BLK.et"
      PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{693CE320C42AD3CC}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouchvest/Pouch_Taktika_magpouch_open_BLK.et"
      PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{693CE320C42AD3C3}" {
      TargetStorage "Vest/Vest_Taktika_preset_black1.et/pouchvest2/Pouch_Taktika_magpouch_open_BLK.et"
      PrefabsToSpawn {
-      "{1F6DC70B4798A3B4}Prefabs/Weapons/Magazines/6l23_plastic/Magazine_545x39_plastic_AK_30rnd_Ball.et"
+      "{5E6181A57FFEC39E}Prefabs/Weapons/Magazines/Magazine_545x39_AK200_30rnd_7N10.et"
      }
     }
     ItemsInitConfigurationItem "{693CE320C42AD3C2}" {
@@ -112,6 +112,28 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
     }
    }
   }
+  ActionsManagerComponent "{520EA1D2F659CE02}" {
+   additionalActions {
+    DRG_DeathConfirmAction "{693D0B08B258056E}" {
+     ParentContextList {
+      "LowerTorso"
+     }
+     UIInfo UIInfo "{685EA7C38E96F29B}" {
+      Name "Подтвердить смерть"
+     }
+     ActionTitle "#drg_ConfirmDeathAction"
+     Duration 3
+     m_sEventMessage "Тулзович мертв! Победа Атаки"
+     m_aObjectivesToDone {
+      "KILL_VIP"
+     }
+     m_aObjectivesToFail {
+      "DEF_VIP"
+     }
+     m_vFactionKey "RHS_USAF"
+    }
+   }
+  }
  }
- coords 235.013 1 239.486
+ coords 1373.594 61.125 1989.426
 }
