@@ -20,9 +20,6 @@ SCR_ChimeraCharacter : "{E991B0C76B6BDCD7}Prefabs/Characters/Factions/INDFOR/Drg
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{65D68EE3434281D5}" {
-     PrefabsToSpawn + {
-      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
-     }
     }
     ItemsInitConfigurationItem "{65D68EE3DC040E80}" {
      TargetStorage "Vest/drg_Vest_Type56_TKA.et"
@@ -39,7 +36,7 @@ SCR_ChimeraCharacter : "{E991B0C76B6BDCD7}Prefabs/Characters/Factions/INDFOR/Drg
     ItemsInitConfigurationItem "{693AB88CA3915703}" {
      TargetStorage "Jacket/Jacket_M88_vietnam.et"
      PrefabsToSpawn {
-      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et" "Stashed" "changes"
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
      }
     }
    }
