@@ -55,7 +55,7 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68C52BCF25DE67E0}" {
-     TargetStorage "Pants/crye_pants_marpat.et"
+     TargetStorage "Pants/Pants_FROG_Trousers.et"
      PrefabsToSpawn {
       "{6E35D94130954509}Prefabs/Items/Equipment/Accessories/ETool_ALICE/ETool_ALICE_FreeRoamBuilding_Gadget.et" "{F088066F5F807748}Prefabs/Weapons/Attachments/Bayonets/Bayonet_OKC3S.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
      }
@@ -82,5 +82,5 @@ SCR_ChimeraCharacter : "{FDAEA6C9F2673B02}Prefabs/Characters/Factions/BLUFOR/RHS
    }
   }
  }
- coords 4558.276 19.8 2119.395
+ coords 143.277 1 53.559
 }
