@@ -1,0 +1,17 @@
+GenericEntity : "{CBE5088A16FB4D63}Prefabs/Weapons/HeavyWeapons/AGS17/GMG_AGS17.et" {
+ ID "CFBAA4B725411E45"
+ components {
+  WeaponComponent "{CFBAA4B706BA66E8}" {
+   components {
+    MuzzleComponent "{50F64C4591CD7AA6}" {
+     MagazinePosition InventoryStorageSlot "{B80A64F4C834E9CB}" {
+      Offset 0.4213 -0.3372 0.6081
+      Angles 0 -90 -11.7823
+     }
+    }
+   }
+  }
+ }
+ coords 171.76 3.789 116.422
+ angles 0 0 0
+}

@@ -95,6 +95,25 @@ StringTable {
    Author "hasta"
    LastChanged "hasta"
   }
+  CustomStringTableItem "{65113370643057FD}" {
+   Id "DRG-Role-MortarSpotter"
+   Target_en_us "Mortar Spotter"
+   Target_fr_fr "Observateur pour mortier"
+   Target_it_it "Osservatore per mortaio"
+   Target_de_de "Beobachter (Morser)"
+   Target_es_es "Observador de mortero"
+   Target_cs_cz "Pozorovatel minometu"
+   Target_pl_pl "Obserwator mozdzierza"
+   Target_ru_ru "Арт.коррективщик"
+   Target_ja_jp "迫撃砲 観測手"
+   Target_ko_kr "박격포 관측수"
+   Target_pt_br "Observador de morteiro"
+   Target_zh_cn "迫击炮观测手"
+   Target_uk_ua "Арт. коригувальник"
+   Modified 1697851757
+   Author "hasta"
+   LastChanged "rezni"
+  }
   CustomStringTableItem "{65D6B185041076C6}" {
    Id "DRG-Role-SubmachineGunner"
    Target_en_us "Submachine Gunner"
