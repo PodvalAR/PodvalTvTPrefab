@@ -8,5 +8,11 @@ SCR_ChimeraCharacter : "{30848A84E27BFA64}Prefabs/Characters/Factions/INDFOR/Drg
     }
    }
   }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{693AB88C116BA030}" {
+    }
+   }
+  }
  }
 }

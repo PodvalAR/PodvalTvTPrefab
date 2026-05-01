@@ -16,13 +16,25 @@ SCR_ChimeraCharacter : "{AFD656F1D9ACD98F}Prefabs/Characters/Factions/INDFOR/Drg
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
+    ItemsInitConfigurationItem "{65D68EE3434281D5}" {
+     PrefabsToSpawn + {
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
+     }
+    }
     ItemsInitConfigurationItem "{65D68EE3DC8A11DC}" {
      TargetStorage "Back/Backpack_RPG_Assistant.et"
      PrefabsToSpawn {
       "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
      }
     }
+    ItemsInitConfigurationItem "{693AB88D2FBA8F20}" {
+     TargetStorage "Jacket/Jacket_M88_vietnam.et"
+     PrefabsToSpawn {
+      "{1767D6A5BAFCB460}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_rprv.et"
+     }
+    }
    }
   }
  }
+ coords 0 0 0
 }

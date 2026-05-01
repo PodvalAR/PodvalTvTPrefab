@@ -1,0 +1,52 @@
+Vehicle : "{E6AEC014D162D686}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_FIA_command.et" {
+ ID "5206D4E7C4A16F13"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{5C7AFE77B5E4D6D1}" {
+     SourceMaterial "Ural_Body"
+     AssignedMaterial "{86C0F62FDED7BA56}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Body_Ses_TKA.emat"
+    }
+    MaterialAssignClass "{5C7AFE77B5E4D6FB}" {
+     SourceMaterial "Ural_Details"
+     AssignedMaterial "{402A0ED342929F03}Assets/Vehicles/Wheeled/Ural4320/Data/Ural_4320_Details_Ses_TKA.emat"
+    }
+   }
+  }
+  RHS_GroupMaterialController "{5E36A389AED7950B}" {
+   Enabled 0
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    Name "#AR-Vehicle_Ural4320_Comms_Name FIA"
+    m_Image "{7AFA6A3221774116}UI/Textures/EditorPreviews/Vehicles/Wheeled/Ural4320/Ses_TKA/Ural4320_Ses_TKA_command.edds"
+    m_sFaction "Ses_TKA"
+    m_aAutoLabels {
+     FACTION_Ses_TKA SIZE_M VEHICLE_TRUCK
+    }
+   }
+  }
+  SCR_VehicleDamageManagerComponent "{141326E9FD94FE40}" {
+   m_fVehicleDestroyDamage 11360.7
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo Label_L {
+     Enabled 0
+    }
+    EntitySlotInfo Label_R {
+     Enabled 0
+    }
+    RegisteringComponentSlotInfo Radio {
+     Prefab "{257C9D6A0A3A5211}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/Ses_TKA/Ural4320_Ses_TKA_combox.et"
+    }
+    RegisteringComponentSlotInfo FIA_CoatOfArms_decal {
+     Prefab "{5593C6FEC45037AB}Prefabs/Vehicles/Wheeled/Ural4320/VehParts/CoatOfArms/Ural4320_TKA_CoatOfArms_decal.et"
+    }
+   }
+  }
+ }
+}

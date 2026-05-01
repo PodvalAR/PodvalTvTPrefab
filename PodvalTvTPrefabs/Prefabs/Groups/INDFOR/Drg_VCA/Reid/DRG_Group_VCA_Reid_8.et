@@ -1,0 +1,17 @@
+SCR_AIGroup : "{E3545CFEDD312D54}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad_p.et" {
+ ID "0000000000000001"
+ components {
+  AIFormationComponent "{507E9DC12F541FE6}" {
+   DefaultFormation " "
+  }
+  PS_GroupCallsignAssigner "{693958D3C3E1C8FF}" {
+  }
+ }
+ coords 2655.186 3.125 1574.881
+ m_faction "Drg_VCA"
+ m_aUnitPrefabSlots {
+  "{A0353AA0B2D21DE6}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_SL.et" "{FB58F7BCB77923CD}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_AR_v5.et" "{1EC4BB45BB9CB4A6}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_AR_v4.et" "{D53F05C17E3E8FFF}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_MG_v3.et" "{970CC35C0BBDACE3}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_AR_v6.et" "{D326721FAE344DF4}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_AT_v2.et" "{970CC35C0BBDACE3}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_AR_v6.et" "{CA7D9EBD3FD06399}Prefabs/Characters/Factions/INDFOR/Drg_VCA/Recon/drg_Character_VCA_Recon_Sniper_v2.et"
+ }
+ m_bDeleteWhenEmpty 0
+ m_sCustomNameSet "#DRG_Sqd_RaidGroup"
+}

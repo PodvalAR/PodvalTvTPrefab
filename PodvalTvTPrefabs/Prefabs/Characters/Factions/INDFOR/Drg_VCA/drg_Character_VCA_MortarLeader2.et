@@ -11,7 +11,13 @@ SCR_ChimeraCharacter : "{8085D2DE2CC67C8E}Prefabs/Characters/Factions/INDFOR/Drg
     ItemsInitConfigurationItem "{65DE93DE98DD817F}" {
      TargetStorage "Jacket/Jacket_M88_vietnam.et"
      PrefabsToSpawn {
-      "{B41607EAB58A4252}Prefabs/Items/Equipment/BalisticTable/BalisticTable_USSR.et"
+      "{B41607EAB58A4252}Prefabs/Items/Equipment/BallisticTable/BallisticTable_USSR.et"
+     }
+    }
+    ItemsInitConfigurationItem "{693AB88CE51681E9}" {
+     TargetStorage "Jacket/Jacket_M88_vietnam.et"
+     PrefabsToSpawn {
+      "{E07B25D9851B3AAA}Prefabs/Items/Equipment/Radios/drg_VCA_Radio_R148_SL.et"
      }
     }
    }

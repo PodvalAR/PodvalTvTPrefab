@@ -1,26 +1,61 @@
-SCR_ChimeraCharacter : "{4B19E30E5FBE6920}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_BaseLoadout.et" {
+SCR_ChimeraCharacter : "{D913D017BF6FA548}Prefabs/Characters/Factions/INDFOR/NAPA/Character_NAPA_BaseLoadout.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-Role_Sharpshooter"
+    Icon "{0A78405E73C36477}UI/Textures/Editor/EditableEntities/Characters/EditableEntity_Character_Sharpshooter.edds"
+    m_Image "{4087731F10B57E4F}UI/Textures/EditorPreviews/Characters/INDFOR/NAPA/Character_NAPA_Sharpshooter.edds"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     SIZE_M ROLE_SHARPSHOOTER
+    }
+   }
+  }
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   WeaponTemplate "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
+  }
+  CharacterGrenadeSlotComponent "{5A6CDA0CCF43068E}" {
+   WeaponTemplate "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et"
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{6415B7923DE28C1B}Prefabs/Weapons/Rifles/SVD/Rifle_SVD_PSO.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo Pants {
+     Prefab "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{ED5574EA7F63B457}Prefabs/Characters/Vests/Vest_Type56/Vest_Type56.et"
+    }
+    LoadoutSlotInfo HandWear {
+     Prefab "{8266820FFDE17477}Prefabs/Characters/Handwear/Gloves_Wool_01/Gloves_Wool_01.et"
+    }
+   }
+  }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{604D1A6C3872EC54}" {
-     PrefabsToSpawn {
-      "{7CEF68E2BC68CE71}Prefabs/Items/Equipment/Compass/Compass_Adrianov.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{C3F1FA1E2EC2B345}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_USSR_01.et" "{F849217AB3BA88BE}Prefabs/Items/Equipment/Maps/Map_Paper_01/PaperMap_01_folded_USSR.et"
-     }
+     TargetStorage "Pants/Pants_US_BDU.et"
     }
-    ItemsInitConfigurationItem "{60AD38E90694E1AB}" {
-     PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{19600CCA33279D20}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_7BZ3API.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
-     }
+    ItemsInitConfigurationItem "{604D1A6C8D4A855C}" {
+     TargetStorage "Vest/Vest_Type56.et"
     }
-    ItemsInitConfigurationItem "{66E8AA77AA9CB996}" {
-     TargetStorage "Jacket/Jacket_US_BDU.et"
+    ItemsInitConfigurationItem "{60FB76D813CB65B0}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{6532D64B43470EBA}" {
+     TargetStorage "Pants/Pants_US_BDU.et"
+    }
+    ItemsInitConfigurationItem "{693B044CC7BC5470}" {
+     TargetStorage "Vest/Vest_Type56.et"
      PrefabsToSpawn {
-      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{80E75A71C29190DB}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_USSR_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et" "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{9CCB46C6EE632C1A}Prefabs/Weapons/Magazines/Magazine_762x54_SVD_10rnd_Sniper.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{77EAE5E07DC4678A}Prefabs/Weapons/Grenades/Smoke_RDG2.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
    }
   }
  }
- coords 865.703 39.012 2664.738
 }

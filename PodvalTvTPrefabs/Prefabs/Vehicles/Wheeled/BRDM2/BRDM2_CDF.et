@@ -1,0 +1,56 @@
+Vehicle : "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62F69DB81D2263BD}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{5CA69B2D4E965C4B}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_Ses_CDF.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    IconSetName ""
+    m_sFaction "Ses_CDF"
+    m_aAutoLabels {
+     FACTION_Ses_CDF SIZE_M
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F87BCEFF8E2997}" {
+     SlotTemplate InventoryStorageSlot sa58ammo {
+      Prefab "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_CDF"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{2E19F274E754DBE2}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_Ses_CDF.et"
+    }
+    RegisteringComponentSlotInfo CommanderTurret {
+     Prefab "{25F5D35A6A1912F9}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_commander_Ses_CDF.et"
+    }
+    RegisteringComponentSlotInfo Coat_of_arms_R {
+     PivotID "v_body"
+     Offset -0.7866 1.7181 1.1339
+     Angles -60.6594 -89.91911 126.5998
+     Prefab "{839609E39613F829}Prefabs/Vehicles/Shared/decal_vehicle_Ses_CDF_logo.et"
+    }
+    RegisteringComponentSlotInfo Coat_of_arms_L {
+     PivotID "v_body"
+     Offset 0.7866 1.7181 1.1339
+     Angles 60.6594 -89.91911 126.5998
+     Prefab "{839609E39613F829}Prefabs/Vehicles/Shared/decal_vehicle_Ses_CDF_logo.et"
+    }
+   }
+  }
+ }
+}

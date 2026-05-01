@@ -25,7 +25,15 @@ SCR_ChimeraCharacter : "{30848A84E27BFA64}Prefabs/Characters/Factions/INDFOR/Drg
       "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et" "{32E12D322E107F1C}Prefabs/Weapons/Ammo/Ammo_Rocket_PG7VM.et"
      }
     }
+    ItemsInitConfigurationItem "{693AB88CA3915703}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{693AB88C116BA030}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_vietnam_blk.et"
+    }
    }
   }
  }
+ coords -0.456 -1.244 -2.071
 }

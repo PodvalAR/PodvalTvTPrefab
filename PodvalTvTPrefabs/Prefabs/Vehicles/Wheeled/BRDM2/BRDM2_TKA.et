@@ -1,0 +1,63 @@
+Vehicle : "{442939C9617DF228}Prefabs/Vehicles/Wheeled/BRDM2/BRDM2_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62F69DB81D2263BD}" {
+     SourceMaterial "BRDM2_body_exterior_1"
+     AssignedMaterial "{835953C7B4522098}Assets/Vehicles/Wheeled/BRDM2/Data/BRDM2_body_exterior_1_TKA.emat"
+    }
+   }
+  }
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    IconSetName ""
+    m_sFaction "Ses_TKA"
+    m_aAutoLabels {
+     FACTION_Ses_TKA SIZE_M
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{607E9AA3D83AA29D}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62F87BCEFF8E2997}" {
+     SlotTemplate InventoryStorageSlot sa58ammo {
+      Prefab "{C92CFABF80BBCF50}Prefabs/Weapons/Magazines/AKM/Magazine_AK_762x39_Steel_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 4
+    }
+    MultiSlotConfiguration "{69391434BCD14DB8}" {
+     SlotTemplate InventoryStorageSlot sa58ammo {
+      Prefab "{DFEBDFD73BFD9501}Prefabs/Weapons/Magazines/6l23_plum/Magazine_545x39_plum_AK_30rnd_Last_5Tracer.et"
+     }
+     NumSlots 4
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "Ses_TKA"
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{C5F10FEEED871CF4}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_TKA.et"
+    }
+    RegisteringComponentSlotInfo CommanderTurret {
+     Prefab "{755C8E2461339CC6}Prefabs/Vehicles/Wheeled/BRDM2/VehParts/Turrets/BRDM2_turret_commander_Ses_TKA.et"
+    }
+    RegisteringComponentSlotInfo Coat_of_arms_R {
+     PivotID "v_body"
+     Offset -1.1314 0 0.67
+     Angles -90 0 0
+     Prefab "{0AFA6334F2E5599B}Prefabs/Vehicles/Shared/decal_vehicle_Ses_TKA_logo.et"
+    }
+    RegisteringComponentSlotInfo Coat_of_arms_L {
+     PivotID "v_body"
+     Offset 1.1314 0 0.67
+     Angles 90 0 -180
+     Prefab "{0AFA6334F2E5599B}Prefabs/Vehicles/Shared/decal_vehicle_Ses_TKA_logo.et"
+    }
+   }
+  }
+ }
+}

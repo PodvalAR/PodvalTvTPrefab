@@ -1,0 +1,20 @@
+Vehicle : "{F0EC3EFF70B174B0}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_ambulance_FIA.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{62E4EB5D4A269112}" {
+     SourceMaterial "uaz452_body"
+     AssignedMaterial "{47DA6E142537FD5F}Assets/Vehicles/Wheeled/UAZ452/Data/uaz452_body_Ses_CDF.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    EntitySlotInfo FIA_CoatOfArms_decal {
+     Prefab "{9EE28D8BCE8AE3AA}Prefabs/Vehicles/Wheeled/UAZ452/VehParts/UAZ452_CDF_CoatOfArms_decal.et"
+    }
+   }
+  }
+ }
+}

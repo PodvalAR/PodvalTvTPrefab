@@ -23,6 +23,13 @@ SCR_ChimeraCharacter : "{30848A84E27BFA64}Prefabs/Characters/Factions/INDFOR/Drg
       "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{4198718E0E2A3A83}Prefabs/Weapons/Magazines/PPSH41/BC_Magazine_71rd_PPSH41.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et" "{645C73791ECA1698}Prefabs/Weapons/Grenades/Grenade_RGD5.et"
      }
     }
+    ItemsInitConfigurationItem "{693AB88CA3915703}" {
+     PrefabsToSpawn {
+     }
+    }
+    ItemsInitConfigurationItem "{693AB88C116BA030}" {
+     TargetStorage "Jacket/Jacket_M88_rolledup_vietnam_blk.et"
+    }
    }
   }
  }
