@@ -26,8 +26,8 @@ GenericEntity : "{5E07E121D9688C2F}Prefabs/Characters/Vests/Vest_TV110/Variants/
     }
     LoadoutSlotInfo radio {
      PivotID "Spine5"
-     Offset 0.1885 0.0506 -0.1736
-     Angles 0 121.4701 0
+     Offset -0.2049 0.0684 -0.1611
+     Angles 4.3756 -128.21831 2.0387
      Prefab "{B949AD0954715B54}Prefabs/Characters/Vests/Vest_TV110_Pouches/Pouch_UP111_radioClosed_FG.et"
     }
     LoadoutSlotInfo holster {
@@ -143,11 +143,7 @@ GenericEntity : "{5E07E121D9688C2F}Prefabs/Characters/Vests/Vest_TV110/Variants/
    }
    DebugWornModel 0
    OffsetShoulderRight 0.1
-   BlockedSlots {
-    LoadoutBackpackArea "{68FB2ABEB75407BB}" {
-    }
-   }
   }
  }
- coords 22.708 1.56 115.954
+ coords 100.807 1.797 131.977
 }
