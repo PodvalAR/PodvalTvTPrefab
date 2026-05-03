@@ -14,8 +14,8 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
   }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
-    Name "Сотрудник ФСБ"
-    Icon "{E002329C6306409E}UI/Icons/dim/FSB_Alpha.edds"
+    Name "Генерал Тулзович"
+    Icon "{B0B3E06A17B8AC6D}UI/Icons/officer.edds"
    }
   }
   CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
@@ -30,6 +30,7 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
+     Prefab "{3523CB7D5961246B}Prefabs/Characters/HeadGear/Hat_PeakedCap_USSR_01/Hat_PeakedCap_USSR_01.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{3EE5D06F1BB8F48F}Prefabs/Characters/Vests/Vest_Taktika/Vest_Taktika_black.et"
@@ -125,15 +126,15 @@ SCR_ChimeraCharacter : "{9954A4CEF597176B}Prefabs/Characters/Factions/OPFOR/RHS_
      Duration 3
      m_sEventMessage "Тулзович мертв! Победа Атаки"
      m_aObjectivesToDone {
-      "KILL_VIP"
+      "KILL_LEADER"
      }
      m_aObjectivesToFail {
-      "DEF_VIP"
+      "SAVE_LEADER"
      }
      m_vFactionKey "RHS_USAF"
     }
    }
   }
  }
- coords 1373.594 61.125 1989.426
+ coords 1370.255 61.125 1997.089
 }
