@@ -98,7 +98,7 @@ GenericEntity : "{9C86BA57C1B1BE03}Prefabs/Characters/Vests/Vest_Taktika/Variant
    OffsetShoulderLeft -0.1
    OffsetShoulderRight 0.1
    BlockedSlots {
-    LoadoutBackpackArea "{68FB2ABFE1789A57}" {
+    LoadoutVestArea "{6945269A3F433E25}" {
     }
    }
   }
