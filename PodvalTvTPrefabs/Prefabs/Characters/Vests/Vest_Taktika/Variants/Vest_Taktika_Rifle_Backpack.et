@@ -10,7 +10,11 @@ GenericEntity : "{74ECCBEF1B03406A}Prefabs/Characters/Vests/Vest_Taktika/Variant
      Prefab "{34A562D30B1CFFEB}Prefabs/Characters/Vests/Vest_TV110_Pouches/Minimap_ArsArma_GMR_FG.et"
     }
    }
+   BlockedSlots {
+    LoadoutBackpackArea "{6945269BC7621623}" {
+    }
+   }
   }
  }
- coords 26.443 1 117.608
+ coords 99.935 1.523 131.546
 }

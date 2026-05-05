@@ -15,39 +15,36 @@ SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_
     LoadoutSlotInfo Hat {
      Prefab "{0EAFD872E28EF5B8}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_FG_v1.et"
     }
+    LoadoutSlotInfo Back {
+     Prefab "{72DB97161FBA7AF0}Prefabs/Items/Equipment/Backpacks/backpack_Wartech_BB102/Backpack_Wartech_BB102_FG.et"
+    }
     LoadoutSlotInfo Vest {
-     Prefab "{FB139CFAE4C13B9B}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_Rifle_Backpack.et"
+     Prefab "{74ECCBEF1B03406A}Prefabs/Characters/Vests/Vest_Taktika/Variants/Vest_Taktika_Rifle.et"
     }
    }
   }
   SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
    InitialInventoryItems {
     ItemsInitConfigurationItem "{68EB4026F2988744}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/ak1/Pouch_Taktika_magpouch_base.et"
     }
     ItemsInitConfigurationItem "{68EB4026E3B62518}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/ak2/Pouch_Taktika_magpouch_base.et"
     }
     ItemsInitConfigurationItem "{68EB4026D0DE31AE}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/ak3/Pouch_Taktika_magpouch_base.et"
     }
     ItemsInitConfigurationItem "{68EB4026D0FA6568}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/ak4/Pouch_Taktika_magpouch_base.et"
     }
     ItemsInitConfigurationItem "{68EB4026D0E43F5F}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/ak_dabl_1/Pouch_ArsArma_magouch_morphed_ATACS.et"
     }
     ItemsInitConfigurationItem "{68EB4026D30D054A}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/ak_dabl_2/Pouch_ArsArma_magouch_morphed_ATACS.et"
     }
     ItemsInitConfigurationItem "{68FD35E75FD65BD9}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/drop/Pouch_UP113_DropPouch_FG.et"
     }
     ItemsInitConfigurationItem "{68FD35E75E085997}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/arsbelt_up105_bigutil/Pouch_UP105_utilbig_FG.et"
+    }
+    ItemsInitConfigurationItem "{6934E1DF935B9AAD}" {
     }
     ItemsInitConfigurationItem "{68EB402E9A65F5BA}" {
-     TargetStorage "Vest/Vest_Taktika_Rifle_Backpack.et/backpack/Minimap_ArsArma_GMR_FG.et"
+     TargetStorage "Back/Backpack_Wartech_BB102_FG.et"
      PrefabsToSpawn {
       "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{262F0D09C4130826}Prefabs/Weapons/Ammo/Ammo_Grenade_HE_VOG25.et" "{906F07BD0366E08F}Prefabs/Weapons/Ammo/Ammo_Flare_40mm_VG40OP_White.et"
      }
@@ -55,5 +52,5 @@ SCR_ChimeraCharacter : "{4B85B7B6B584AEB0}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 90.486 1 36.815
+ coords 104.614 1 137.361
 }

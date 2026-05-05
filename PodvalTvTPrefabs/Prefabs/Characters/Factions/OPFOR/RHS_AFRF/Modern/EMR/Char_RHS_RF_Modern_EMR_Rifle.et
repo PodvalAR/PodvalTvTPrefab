@@ -19,7 +19,7 @@ SCR_ChimeraCharacter : "{C69BB442784B8AAC}Prefabs/Characters/Factions/OPFOR/RHS_
   BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
    Slots {
     LoadoutSlotInfo Hat {
-     Prefab "{566F1E8DF18B149C}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_EMR_Random.et"
+     Prefab "{C11A1802356E1E54}Prefabs/Characters/HeadGear/Helmet_TOR/Helmet_TOR_L_EMR.et"
     }
     LoadoutSlotInfo ArmoredVest {
      Prefab "{1231AE80902911B0}Prefabs/Characters/Vests/Vest_TV102/Vest_TV102_OD.et"
@@ -101,5 +101,5 @@ SCR_ChimeraCharacter : "{C69BB442784B8AAC}Prefabs/Characters/Factions/OPFOR/RHS_
    }
   }
  }
- coords 73.153 1 55.937
+ coords 1371.915 61.125 1992.705
 }

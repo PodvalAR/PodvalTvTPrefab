@@ -1,0 +1,21 @@
+Vehicle : "{AFA5940761CFDDF8}Prefabs/Vehicles/Wheeled/BTR70/BTR72a.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  MeshObject "{51DAA09FEFBFC0E7}" {
+   Materials {
+    MaterialAssignClass "{693D45A7EBC1D0C5}" {
+     SourceMaterial "BTR_70_base_exterior_Body"
+     AssignedMaterial "{8F3AED6E888AE4A9}Assets/Vehicles/Wheeled/BTR70/Data/BTR_70_base_exterior_Body_AFRF.emat"
+    }
+   }
+  }
+  SlotManagerComponent "{55BCE45E438E4CFF}" {
+   Slots {
+    RegisteringComponentSlotInfo Turret {
+     Prefab "{0452882BA9D15FEC}Prefabs/Vehicles/Wheeled/BTR70/VehParts/Turret/BTR70_Turret_2a42_camo.et"
+    }
+   }
+  }
+ }
+ coords 765.379 114.063 2917.644
+}
